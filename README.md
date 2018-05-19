@@ -4,19 +4,31 @@
 
 ## Build Setup
 
-``` bash
-# install dependencies
-$ npm install # Or yarn install
-
-# serve with hot reload at localhost:3000
+```bash
+$ git clone https://github.com/rakuishi/rakuishi.com.git
+$ git clone https://github.com/rakuishi/rakuishi.nuxtjs.git
+$ cd rakuishi.nuxtjs
+$ npm install
+$ ln -s ../rakuishi.com/content content
+$ npm run processmd
 $ npm run dev
-
-# build for production and launch server
-$ npm run build
-$ npm start
-
-# generate static project
-$ npm run generate
 ```
 
-For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
+## Extensions
+
+* Chrome
+  * [Vue.js devtools](https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
+* Visual Studio Code
+  * ESLint
+  * Prettier
+  * Vetur
+
+settings.json
+
+```json
+{
+  "editor.formatOnSave": true,
+  "eslint.autoFixOnSave": true,
+  "prettier.eslintIntegration": true
+}
+```
