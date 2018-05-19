@@ -1,0 +1,16 @@
+{
+  "categories": [
+    "Mac"
+  ],
+  "date": "2013-04-14T11:22:06.000Z",
+  "draft": false,
+  "slug": 5680,
+  "title": "[Mac] ターミナルで ssh 接続（公開鍵認証）をする",
+  "bodyContent": "ターミナルで ssh（Secure Shell）接続して、サーバーにリモート接続する方法を紹介します。ssh 接続には、公開鍵認証を利用します。リモートにパスワード認証で接続する方法は、[こちらの記事](http://rakuishi.com/archives/5679/)を参考にしてください。\n\n## 公開鍵と秘密鍵を作る\n\nローカルでの作業です。ユーザフォルダの下にある .ssh フォルダで、公開鍵と秘密鍵を作成します。パスフレーズを設定しますが、ここは何も入力せずに Enter で OK です。\n\n```\n$ cd ~/.ssh\n$ ssh-keygen -t rsa\n\nGenerating public/private rsa key pair.\nEnter passphrase (empty for no passphrase): \nEnter same passphrase again: \n```\n\n生成される id_rsa が秘密鍵で、id_rsa.pub が公開鍵です。\n\n```\n$ls\nid_rsa\t\tid_rsa.pub\tknown_hosts\n```\n\n## 公開鍵をリモートに置く\n\n上記で作成した公開鍵（id_rsa.pub）をサーバーに送ります。サーバーに送るには、scp コマンドを利用します。\n\n```\n$ scp id_rsa.pub ユーザ名@ホスト名:~\nユーザ名@ホスト名's password: \nid_rsa.pub                                    100%  408     0.4KB/s   00:00\n```\n\nリモートに接続します。\n\n```\n$ ssh ユーザ名@ホスト名\nユーザ名@ホスト名's password:\n```\n\n.ssh ファイルに id_rsa.pub を移動します。そして、authorized_keys という名前で保存（追記）し、パーミッション 600 を設定し、authorized_keys を .ssh 以下に置きます。\n\n```\n$ mv ~/id_rsa.pub ~/.ssh\n$ cat ~/.ssh/id_rsa.pub >> authorized_keys\n$ chmod 600 authorized_keys \n$ mv ~/authorized_keys  ~/.ssh/authorized_keys\n```\n\n以上で、公開鍵認証による ssh 接続ができるようになります。\n\n## 公開鍵認証で ssh 接続\n\n以下のコマンドを入力するとパスワードの入力なしに、リモート接続できます。\n\n```\n$ ssh ホスト名\n```\n\n参考：[sshで公開鍵認証（パスフレーズ無し）のメモ - toyosystem](http://www.jamboree.jp/cms/archives/238)",
+  "bodyHtml": "<p>ターミナルで ssh（Secure Shell）接続して、サーバーにリモート接続する方法を紹介します。ssh 接続には、公開鍵認証を利用します。リモートにパスワード認証で接続する方法は、<a href=\"http://rakuishi.com/archives/5679/\">こちらの記事</a>を参考にしてください。</p>\n<h2>公開鍵と秘密鍵を作る</h2>\n<p>ローカルでの作業です。ユーザフォルダの下にある .ssh フォルダで、公開鍵と秘密鍵を作成します。パスフレーズを設定しますが、ここは何も入力せずに Enter で OK です。</p>\n<pre><code>$ cd ~/.ssh\n$ ssh-keygen -t rsa\n\nGenerating public/private rsa key pair.\nEnter passphrase (empty for no passphrase): \nEnter same passphrase again: \n</code></pre>\n<p>生成される id_rsa が秘密鍵で、id_rsa.pub が公開鍵です。</p>\n<pre><code>$ls\nid_rsa\t\tid_rsa.pub\tknown_hosts\n</code></pre>\n<h2>公開鍵をリモートに置く</h2>\n<p>上記で作成した公開鍵（id_rsa.pub）をサーバーに送ります。サーバーに送るには、scp コマンドを利用します。</p>\n<pre><code>$ scp id_rsa.pub ユーザ名@ホスト名:~\nユーザ名@ホスト名's password: \nid_rsa.pub                                    100%  408     0.4KB/s   00:00\n</code></pre>\n<p>リモートに接続します。</p>\n<pre><code>$ ssh ユーザ名@ホスト名\nユーザ名@ホスト名's password:\n</code></pre>\n<p>.ssh ファイルに id_rsa.pub を移動します。そして、authorized_keys という名前で保存（追記）し、パーミッション 600 を設定し、authorized_keys を .ssh 以下に置きます。</p>\n<pre><code>$ mv ~/id_rsa.pub ~/.ssh\n$ cat ~/.ssh/id_rsa.pub &gt;&gt; authorized_keys\n$ chmod 600 authorized_keys \n$ mv ~/authorized_keys  ~/.ssh/authorized_keys\n</code></pre>\n<p>以上で、公開鍵認証による ssh 接続ができるようになります。</p>\n<h2>公開鍵認証で ssh 接続</h2>\n<p>以下のコマンドを入力するとパスワードの入力なしに、リモート接続できます。</p>\n<pre><code>$ ssh ホスト名\n</code></pre>\n<p>参考：<a href=\"http://www.jamboree.jp/cms/archives/238\">sshで公開鍵認証（パスフレーズ無し）のメモ - toyosystem</a></p>\n",
+  "dir": "static/content/archives",
+  "base": "2013-04-14-5680.json",
+  "ext": ".json",
+  "sourceBase": "2013-04-14-5680.md",
+  "sourceExt": ".md"
+}

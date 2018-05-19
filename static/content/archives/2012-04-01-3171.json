@@ -1,0 +1,16 @@
+{
+  "categories": [
+    "iOS"
+  ],
+  "date": "2012-03-31T23:15:44.000Z",
+  "draft": false,
+  "slug": 3171,
+  "title": "検索から iPhone が加速するアプリ「Quicka」が少しだけ便利になるコツ",
+  "bodyContent": "どもっ！ラクイシ（@rakuishi07）です。\n\n昨日という良き日に、検索から iPhone が加速するアプリ「Quicka」をリリースしました。\n\n{{<app id=\"511606108\" title=\"Quicka 1.0（￥85）\" src=\"http://a3.mzstatic.com/us/r30/Purple/v4/c5/e7/f3/c5e7f362-6f60-53a8-dbe0-dbec33f240ee/ibjG3fNt4Phm08ZnZUjx0g-temp-upload.cqnwvlfj.100x100-75.png\">}}\n\n早速、[アプリ紹介動画](http://souzou.fuzimoto.info/2012/03/iphone-quicka.html)を作ってもらったり、[男子ハック](http://www.danshihack.com/2012/04/01/junp/iphoneapp_quicka.html)様もエントリーを書かれるなど、全身で喜び悶え震えております。昨日は、興奮しすぎてなかなか寝付けませんでした。\n\nこの記事では、Quicka がちょっぴり便利になるコツをお伝えしようと思います。\n\n誰か「Quicka で iPhone がますます加速する URL スキームまとめ」というエントリーを誰か書いてくれないかな？\n\n## 絵文字で視認性をあげると吉\n\nQuicka は、テーブルビューに各自登録した URL スキームを実行することが出来ます。\n\nトップ画面の「＋」ボタンをタップすると、カスタムURLの追加画面に移るので、そこで Title と URL を設定します。ちなみに、Title に何も入力しなかった場合、URL のテキストがテーブルビューに表示されます。\n\n![](/images/2012/03/3171_1.png)\n\nしかし、タイトルで設定した文字だけでは、視認性は良いとは言えないです。\n\nTwitter のタイムラインもユーザ名ではなくて、アイコン画像で追いかけるのがこれを証明しています。\n\nですので、こんな感じに、絵文字を先頭に登録しておくと視認しやすくて、なかなか便利になります。\n\n![](/images/2012/04/3171_2.png)\n\n絵文字専用のキーボードは、「設定」アプリ→「一般」→「キーボード」→「各国のキーボード」→「新しいキーボードを追加...」→「絵文字」で、有効にすることができます。\n\nまた、絵文字を見つけるには、以下のサイトが便利です。\n\n* [iPhone 絵文字変換キーワード一覧](http://www.studio-rose.com/emoji/emoji01.html)\n\n以上、ステマじゃなくて自作自演のラクイシ（@rakuishi07）でした！",
+  "bodyHtml": "<p>どもっ！ラクイシ（@rakuishi07）です。</p>\n<p>昨日という良き日に、検索から iPhone が加速するアプリ「Quicka」をリリースしました。</p>\n<p>{{&lt;app id=&quot;511606108&quot; title=&quot;Quicka 1.0（￥85）&quot; src=&quot;http://a3.mzstatic.com/us/r30/Purple/v4/c5/e7/f3/c5e7f362-6f60-53a8-dbe0-dbec33f240ee/ibjG3fNt4Phm08ZnZUjx0g-temp-upload.cqnwvlfj.100x100-75.png&quot;&gt;}}</p>\n<p>早速、<a href=\"http://souzou.fuzimoto.info/2012/03/iphone-quicka.html\">アプリ紹介動画</a>を作ってもらったり、<a href=\"http://www.danshihack.com/2012/04/01/junp/iphoneapp_quicka.html\">男子ハック</a>様もエントリーを書かれるなど、全身で喜び悶え震えております。昨日は、興奮しすぎてなかなか寝付けませんでした。</p>\n<p>この記事では、Quicka がちょっぴり便利になるコツをお伝えしようと思います。</p>\n<p>誰か「Quicka で iPhone がますます加速する URL スキームまとめ」というエントリーを誰か書いてくれないかな？</p>\n<h2>絵文字で視認性をあげると吉</h2>\n<p>Quicka は、テーブルビューに各自登録した URL スキームを実行することが出来ます。</p>\n<p>トップ画面の「＋」ボタンをタップすると、カスタムURLの追加画面に移るので、そこで Title と URL を設定します。ちなみに、Title に何も入力しなかった場合、URL のテキストがテーブルビューに表示されます。</p>\n<p><img src=\"/images/2012/03/3171_1.png\" alt=\"\"></p>\n<p>しかし、タイトルで設定した文字だけでは、視認性は良いとは言えないです。</p>\n<p>Twitter のタイムラインもユーザ名ではなくて、アイコン画像で追いかけるのがこれを証明しています。</p>\n<p>ですので、こんな感じに、絵文字を先頭に登録しておくと視認しやすくて、なかなか便利になります。</p>\n<p><img src=\"/images/2012/04/3171_2.png\" alt=\"\"></p>\n<p>絵文字専用のキーボードは、「設定」アプリ→「一般」→「キーボード」→「各国のキーボード」→「新しいキーボードを追加...」→「絵文字」で、有効にすることができます。</p>\n<p>また、絵文字を見つけるには、以下のサイトが便利です。</p>\n<ul>\n<li><a href=\"http://www.studio-rose.com/emoji/emoji01.html\">iPhone 絵文字変換キーワード一覧</a></li>\n</ul>\n<p>以上、ステマじゃなくて自作自演のラクイシ（@rakuishi07）でした！</p>\n",
+  "dir": "static/content/archives",
+  "base": "2012-04-01-3171.json",
+  "ext": ".json",
+  "sourceBase": "2012-04-01-3171.md",
+  "sourceExt": ".md"
+}

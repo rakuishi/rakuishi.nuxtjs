@@ -1,0 +1,16 @@
+{
+  "categories": [
+    "Android"
+  ],
+  "date": "2013-08-17T08:41:23.000Z",
+  "draft": false,
+  "slug": 5851,
+  "title": "[Android Studio] build.gradle が存在しない場合に、.jar ファイルをインポートする方法",
+  "bodyContent": "前に、[ .jar ファイルをインポートする](http://rakuishi.com/archives/5768/)という記事を書きました。そこでは、追加した .jar ファイルを build.gradle に記述するのですが、Android Studio をバージョンアップしたせいか、build.gradle が失踪してしまいました。\n\nその場合に、.jar ファイルをインポートする方法を紹介します。\n\n## .jar ファイルをインポートする方法\n\n上のツールバーにある [Project Structure…] を選択します。\n\n![](/images/2013/08/5851_1.png)\n\n開いた Project Structure ウィンドウ → Libraries → libs → Add を選択します。そこから、libs ファイルに置いたライブラリを参照させる。\n\n![](/images/2013/08/5851_2.png)\n\nこれで .jar ファイルをインポートすることができます。",
+  "bodyHtml": "<p>前に、<a href=\"http://rakuishi.com/archives/5768/\"> .jar ファイルをインポートする</a>という記事を書きました。そこでは、追加した .jar ファイルを build.gradle に記述するのですが、Android Studio をバージョンアップしたせいか、build.gradle が失踪してしまいました。</p>\n<p>その場合に、.jar ファイルをインポートする方法を紹介します。</p>\n<h2>.jar ファイルをインポートする方法</h2>\n<p>上のツールバーにある [Project Structure…] を選択します。</p>\n<p><img src=\"/images/2013/08/5851_1.png\" alt=\"\"></p>\n<p>開いた Project Structure ウィンドウ → Libraries → libs → Add を選択します。そこから、libs ファイルに置いたライブラリを参照させる。</p>\n<p><img src=\"/images/2013/08/5851_2.png\" alt=\"\"></p>\n<p>これで .jar ファイルをインポートすることができます。</p>\n",
+  "dir": "static/content/archives",
+  "base": "2013-08-17-5851.json",
+  "ext": ".json",
+  "sourceBase": "2013-08-17-5851.md",
+  "sourceExt": ".md"
+}

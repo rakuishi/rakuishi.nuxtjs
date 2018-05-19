@@ -1,0 +1,16 @@
+{
+  "categories": [
+    "Android"
+  ],
+  "date": "2014-04-12T09:19:25.000Z",
+  "draft": false,
+  "slug": 6550,
+  "title": "[Android] アプリが存在していればアプリを起動し、アプリが存在しなければマーケットを開くリンク",
+  "bodyContent": "Android でアプリが存在していればアプリを起動し、アプリが存在しなければそのマーケットを開くリンクの作り方です。\n\n前提として、起動したいアプリの AndroidManifest.xml の `intent-filter` に、以下の内容が記述されている必要があります。これで iOS アプリのように、URL scheme による起動に対応できます。\n\n```\n<intent-filter>\n    <action android:name=\"android.intent.action.VIEW\"/>\n    <category android:name=\"android.intent.category.DEFAULT\"/>\n    <category android:name=\"android.intent.category.BROWSABLE\"/>\n    <data android:scheme=\"myapp\" android:path=\"/\" />\n</intent-filter>\n```\n\nそして、リンクが以下となります。スキーム（myapp）が存在していればアプリを起動し、なければマーケット（パッケージ名：com.rakuishi.myapp）を開きます。\n\n```\n<a href=\"intent://#Intent;scheme=myapp;package=com.rakuishi.myapp;end\">Open myapp</a>\n```\n\n## 参考\n\n[Android Intents with Chrome - Google Chrome](https://developer.chrome.com/multidevice/android/intents)",
+  "bodyHtml": "<p>Android でアプリが存在していればアプリを起動し、アプリが存在しなければそのマーケットを開くリンクの作り方です。</p>\n<p>前提として、起動したいアプリの AndroidManifest.xml の <code>intent-filter</code> に、以下の内容が記述されている必要があります。これで iOS アプリのように、URL scheme による起動に対応できます。</p>\n<pre><code>&lt;intent-filter&gt;\n    &lt;action android:name=&quot;android.intent.action.VIEW&quot;/&gt;\n    &lt;category android:name=&quot;android.intent.category.DEFAULT&quot;/&gt;\n    &lt;category android:name=&quot;android.intent.category.BROWSABLE&quot;/&gt;\n    &lt;data android:scheme=&quot;myapp&quot; android:path=&quot;/&quot; /&gt;\n&lt;/intent-filter&gt;\n</code></pre>\n<p>そして、リンクが以下となります。スキーム（myapp）が存在していればアプリを起動し、なければマーケット（パッケージ名：com.rakuishi.myapp）を開きます。</p>\n<pre><code>&lt;a href=&quot;intent://#Intent;scheme=myapp;package=com.rakuishi.myapp;end&quot;&gt;Open myapp&lt;/a&gt;\n</code></pre>\n<h2>参考</h2>\n<p><a href=\"https://developer.chrome.com/multidevice/android/intents\">Android Intents with Chrome - Google Chrome</a></p>\n",
+  "dir": "static/content/archives",
+  "base": "2014-04-12-6550.json",
+  "ext": ".json",
+  "sourceBase": "2014-04-12-6550.md",
+  "sourceExt": ".md"
+}

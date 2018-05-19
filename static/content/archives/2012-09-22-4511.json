@@ -1,0 +1,16 @@
+{
+  "categories": [
+    "iOS"
+  ],
+  "date": "2012-09-22T11:11:28.000Z",
+  "draft": false,
+  "slug": 4511,
+  "title": "[iOS6] [Safari] ウェブサイトでアプリの宣伝を行える Smart App Banner",
+  "bodyContent": "iOS6 から、Smart App Banner という、ウェブサイトでアプリが宣伝できる機能が使えるようになりました。\n\n例えば、このブログを iPhone（iOS6, Safari）から見た場合、このように表示されます。\n\n![](/images/2012/09/4511_1.png)\n\n既にアプリをダウンロードしている場合は、そのアプリに飛び、ダウンロードしていない場合は、AppStore に飛びます。\n\n## Smart App Banner を表示させる方法\n\n表示させたいウェブページのヘッダータグ（&lt;header>）内に、以下のメタタグを記述するだけです。\n\n```\n<meta name=\"apple-itunes-app\" content=\"app-id=511606108\">\n```\n\napp-id は、iTunes Connect のアプリ管理画面（Manage Your Apps）から、個別アプリに飛び、Identifiers の Apple ID から確認出来ます。（Google でアプリを検索して、リンクから app-id を抜き出すのが早いです）\n\nWordPress だとテーマ編集の header.php に記述します。スマートフォン用のテーマファイルを用意している場合は、そちらに記述。\n\nこのバナー左上にある閉じるボタンを押すと、リロードしてもそのページでは表示されないようになります。クッキーで管理しているようです。再度、表示させたい場合は、「設定」→「Safari」→「Cookieとデータを消去」。\n\nウェブサイトを持っている開発者は、表示させて損はないですね。\n\n## 参考\n\n* [【iOS6】ページ上部にアプリが開けるバナーを表示！ Smart App Bannerについて : Excite Smartphone Engineer's Blog](http://blog.excite.co.jp/spdev/18870453/)\n* [Safari Web Content Guide: Promoting Apps with Smart App Banners](https://developer.apple.com/library/safari/#documentation/AppleApplications/Reference/SafariWebContent/PromotingAppswithAppBanners/PromotingAppswithAppBanners.html)",
+  "bodyHtml": "<p>iOS6 から、Smart App Banner という、ウェブサイトでアプリが宣伝できる機能が使えるようになりました。</p>\n<p>例えば、このブログを iPhone（iOS6, Safari）から見た場合、このように表示されます。</p>\n<p><img src=\"/images/2012/09/4511_1.png\" alt=\"\"></p>\n<p>既にアプリをダウンロードしている場合は、そのアプリに飛び、ダウンロードしていない場合は、AppStore に飛びます。</p>\n<h2>Smart App Banner を表示させる方法</h2>\n<p>表示させたいウェブページのヘッダータグ（&lt;header&gt;）内に、以下のメタタグを記述するだけです。</p>\n<pre><code>&lt;meta name=&quot;apple-itunes-app&quot; content=&quot;app-id=511606108&quot;&gt;\n</code></pre>\n<p>app-id は、iTunes Connect のアプリ管理画面（Manage Your Apps）から、個別アプリに飛び、Identifiers の Apple ID から確認出来ます。（Google でアプリを検索して、リンクから app-id を抜き出すのが早いです）</p>\n<p>WordPress だとテーマ編集の header.php に記述します。スマートフォン用のテーマファイルを用意している場合は、そちらに記述。</p>\n<p>このバナー左上にある閉じるボタンを押すと、リロードしてもそのページでは表示されないようになります。クッキーで管理しているようです。再度、表示させたい場合は、「設定」→「Safari」→「Cookieとデータを消去」。</p>\n<p>ウェブサイトを持っている開発者は、表示させて損はないですね。</p>\n<h2>参考</h2>\n<ul>\n<li><a href=\"http://blog.excite.co.jp/spdev/18870453/\">【iOS6】ページ上部にアプリが開けるバナーを表示！ Smart App Bannerについて : Excite Smartphone Engineer's Blog</a></li>\n<li><a href=\"https://developer.apple.com/library/safari/#documentation/AppleApplications/Reference/SafariWebContent/PromotingAppswithAppBanners/PromotingAppswithAppBanners.html\">Safari Web Content Guide: Promoting Apps with Smart App Banners</a></li>\n</ul>\n",
+  "dir": "static/content/archives",
+  "base": "2012-09-22-4511.json",
+  "ext": ".json",
+  "sourceBase": "2012-09-22-4511.md",
+  "sourceExt": ".md"
+}

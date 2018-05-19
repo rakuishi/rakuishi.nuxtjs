@@ -1,0 +1,16 @@
+{
+  "categories": [
+    "WordPress"
+  ],
+  "date": "2011-10-30T22:26:08.000Z",
+  "draft": false,
+  "slug": 1075,
+  "title": "[WP Plugins] 「WP-PostViews」で、サイドバーの人気の記事に「PV数」と「はてなブックマーク数」を表示する",
+  "bodyContent": "人気のある記事の一覽をサイドバーに置いておくと、新規訪問者さんに「私のブログはこんなのが読まれてますよ」というひっそりアピールになります。\n\n今回は、ページビュー数の多い記事を表示する「WP-PostViews」に、はてなブックマーク数を表示させてみます。\n\n完成予想図はこんな感じです。青のリンクに赤のはてブが映える！（昨日も同じことを言いました）\n\n![](/images/2011/10/1075_1.jpg)\n\n## 「WP-PostViews」設定手順\n\n最近の記事をサイドバーに表示する「WP-PostViews」というプラグインを導入します。\n\n[http://wordpress.org/extend/plugins/wp-postviews/](http://wordpress.org/extend/plugins/wp-postviews/)\n\nWordPress公式サイトからzipファイルをダウンロードして展開後、FTPアプリで「/wp-content/plugins」にアップロードし、「WordPress管理画面」→「プラグイン」→「インストール済みプラグイン」で「有効化」する。\n\nもしくは、「WordPress管理画面」→「プラグイン」→「新規追加」で「WP-PostViews」を検索し、「いますぐインストール」→「プラグインを有効化」する。\n\n有効化した後、「WordPress管理画面」→「外観」→「ウィジェット」に移動します。\n\n「利用できるウィジェット」に「Views」というのがあるので、それをドラッグアンドドロップでサイドバーに追加します。\n\n![](/images/2011/10/1075_2.jpg)\n\nここからは「WordPress管理画面」→「設定」→「PostViews」にて作業を行います。\n\n![](/images/2011/10/1075_3.jpg)\n\nここの「Most Viewed Template」を下記のように書き換えます。\n\n```\n<li>\n    <a href=\"%POST_URL%\"  title=\"%POST_TITLE%\">%POST_TITLE%</a>  %VIEW_COUNT% views \n    <a href=\"http://b.hatena.ne.jp/entry/%POST_URL%\" target=\"_blank\">\n        <img border=\"0\" src=\"http://b.hatena.ne.jp/entry/image/%POST_URL%\" alt=\"\" />\n    </a>\n</li>\n```\n\n書き換えた後、下にある「Save Changes」をクリックします。\n\n以上で設定はお終いです。\n\nブログを確認してみましょう。",
+  "bodyHtml": "<p>人気のある記事の一覽をサイドバーに置いておくと、新規訪問者さんに「私のブログはこんなのが読まれてますよ」というひっそりアピールになります。</p>\n<p>今回は、ページビュー数の多い記事を表示する「WP-PostViews」に、はてなブックマーク数を表示させてみます。</p>\n<p>完成予想図はこんな感じです。青のリンクに赤のはてブが映える！（昨日も同じことを言いました）</p>\n<p><img src=\"/images/2011/10/1075_1.jpg\" alt=\"\"></p>\n<h2>「WP-PostViews」設定手順</h2>\n<p>最近の記事をサイドバーに表示する「WP-PostViews」というプラグインを導入します。</p>\n<p><a href=\"http://wordpress.org/extend/plugins/wp-postviews/\">http://wordpress.org/extend/plugins/wp-postviews/</a></p>\n<p>WordPress公式サイトからzipファイルをダウンロードして展開後、FTPアプリで「/wp-content/plugins」にアップロードし、「WordPress管理画面」→「プラグイン」→「インストール済みプラグイン」で「有効化」する。</p>\n<p>もしくは、「WordPress管理画面」→「プラグイン」→「新規追加」で「WP-PostViews」を検索し、「いますぐインストール」→「プラグインを有効化」する。</p>\n<p>有効化した後、「WordPress管理画面」→「外観」→「ウィジェット」に移動します。</p>\n<p>「利用できるウィジェット」に「Views」というのがあるので、それをドラッグアンドドロップでサイドバーに追加します。</p>\n<p><img src=\"/images/2011/10/1075_2.jpg\" alt=\"\"></p>\n<p>ここからは「WordPress管理画面」→「設定」→「PostViews」にて作業を行います。</p>\n<p><img src=\"/images/2011/10/1075_3.jpg\" alt=\"\"></p>\n<p>ここの「Most Viewed Template」を下記のように書き換えます。</p>\n<pre><code>&lt;li&gt;\n    &lt;a href=&quot;%POST_URL%&quot;  title=&quot;%POST_TITLE%&quot;&gt;%POST_TITLE%&lt;/a&gt;  %VIEW_COUNT% views \n    &lt;a href=&quot;http://b.hatena.ne.jp/entry/%POST_URL%&quot; target=&quot;_blank&quot;&gt;\n        &lt;img border=&quot;0&quot; src=&quot;http://b.hatena.ne.jp/entry/image/%POST_URL%&quot; alt=&quot;&quot; /&gt;\n    &lt;/a&gt;\n&lt;/li&gt;\n</code></pre>\n<p>書き換えた後、下にある「Save Changes」をクリックします。</p>\n<p>以上で設定はお終いです。</p>\n<p>ブログを確認してみましょう。</p>\n",
+  "dir": "static/content/archives",
+  "base": "2011-10-31-1075.json",
+  "ext": ".json",
+  "sourceBase": "2011-10-31-1075.md",
+  "sourceExt": ".md"
+}

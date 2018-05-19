@@ -1,0 +1,16 @@
+{
+  "categories": [
+    "OS X"
+  ],
+  "date": "2013-02-09T23:53:20.000Z",
+  "draft": false,
+  "slug": 5541,
+  "title": "マウスカーソルの座標をリアルタイムに取得する",
+  "bodyContent": "OS X でマウスカーソルの現在位置の座標をリアルタイムに取得する方法を紹介します。\n\n## マウスの座標をリアルタイムに取得する\n\n他のアプリケーションがアクティブな時にイベントを処理できる Global Monitor と、自アプリケーションがアクティブな時にイベントが処理できる Local monitor を組み合わせて取得できます。\n\n```\n- (void)applicationDidFinishLaunching:(NSNotification *)aNotification\n{\n    // Insert code here to initialize your application\n    // マウスの座標をリアルタイムに取得する\n    // 他のアプリケーションに対して送られたイベントを処理する\n    [NSEvent addGlobalMonitorForEventsMatchingMask:NSMouseMovedMask\n                                           handler:^(NSEvent *event)\n    {\n        NSPoint point = [event locationInWindow];\n        NSLog(@\"global:(%lf, %lf)\", point.x, point.y);\n    }];\n    \n    // このアプリケーションに対して送られたイベントを処理する\n    [NSEvent addLocalMonitorForEventsMatchingMask:NSMouseMovedMask\n                                          handler:^(NSEvent *event)\n    {\n        NSPoint point = [event locationInWindow];\n        NSLog(@\"local:(%lf, %lf)\", point.x, point.y);\n        return event;\n    }];\n}\n```\n\nBlocks で記述できて、NSEvent 型で値が返ってきます。NSEvent からウィンドウの座標を取得するには、 locationInWindow メソッドを使っています。\n\nOS X では、ウィンドウの左下が原点になるようですね。\n\n参考：[NSEvent Class Reference](http://developer.apple.com/library/mac/#documentation/Cocoa/Reference/ApplicationKit/Classes/NSEvent_Class/Reference/Reference.html#//apple_ref/doc/uid/20000016-SW16)",
+  "bodyHtml": "<p>OS X でマウスカーソルの現在位置の座標をリアルタイムに取得する方法を紹介します。</p>\n<h2>マウスの座標をリアルタイムに取得する</h2>\n<p>他のアプリケーションがアクティブな時にイベントを処理できる Global Monitor と、自アプリケーションがアクティブな時にイベントが処理できる Local monitor を組み合わせて取得できます。</p>\n<pre><code>- (void)applicationDidFinishLaunching:(NSNotification *)aNotification\n{\n    // Insert code here to initialize your application\n    // マウスの座標をリアルタイムに取得する\n    // 他のアプリケーションに対して送られたイベントを処理する\n    [NSEvent addGlobalMonitorForEventsMatchingMask:NSMouseMovedMask\n                                           handler:^(NSEvent *event)\n    {\n        NSPoint point = [event locationInWindow];\n        NSLog(@&quot;global:(%lf, %lf)&quot;, point.x, point.y);\n    }];\n    \n    // このアプリケーションに対して送られたイベントを処理する\n    [NSEvent addLocalMonitorForEventsMatchingMask:NSMouseMovedMask\n                                          handler:^(NSEvent *event)\n    {\n        NSPoint point = [event locationInWindow];\n        NSLog(@&quot;local:(%lf, %lf)&quot;, point.x, point.y);\n        return event;\n    }];\n}\n</code></pre>\n<p>Blocks で記述できて、NSEvent 型で値が返ってきます。NSEvent からウィンドウの座標を取得するには、 locationInWindow メソッドを使っています。</p>\n<p>OS X では、ウィンドウの左下が原点になるようですね。</p>\n<p>参考：<a href=\"http://developer.apple.com/library/mac/#documentation/Cocoa/Reference/ApplicationKit/Classes/NSEvent_Class/Reference/Reference.html#//apple_ref/doc/uid/20000016-SW16\">NSEvent Class Reference</a></p>\n",
+  "dir": "static/content/archives",
+  "base": "2013-02-10-5541.json",
+  "ext": ".json",
+  "sourceBase": "2013-02-10-5541.md",
+  "sourceExt": ".md"
+}

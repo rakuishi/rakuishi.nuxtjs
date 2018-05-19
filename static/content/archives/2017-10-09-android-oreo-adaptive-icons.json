@@ -1,0 +1,16 @@
+{
+  "categories": [
+    "Android"
+  ],
+  "date": "2017-10-09T02:14:17.000Z",
+  "draft": false,
+  "slug": "android-oreo-adaptive-icons",
+  "title": "Android Oreo: アダプティブアイコン実装ガイド",
+  "bodyContent": "Android Oreo では、端末メーカーが選択したマスクに応じてアイコンが自動生成される、アダプティブアイコンを利用できます。開発者は、背景色（もしくは画像）とフォアグラウンド画像を用意すれば、それぞれの Android 端末に沿う、いい感じのアイコンがホーム（ランチャー）、ショートカット、設定、共有ダイアログ、オーバービュー画面に並ぶことになります。\n\nこの記事ではその実装を見ていきます。\n\n## 必要な素材\n\n以下のふたつの素材を用意します。背景色が一色の場合は、画像を用意する必要はありません。108px は mdpi 時なので、各解像度ごとの mdpi (1x), hdpi (1.5x), xhdpi (2x), xxhdpi (3x), xxxhdpi (4x) を用意します。\n\n- 背景（background）：背景色もしくは、背景画像（108x108）を用意する\n- アイコン（foreground）：108x108 の透過画像の中心に 48x48 のアイコンを配置する\n\nGoogle 純正アプリから読み取れる隠れ仕様として、背景を白以外の濃い色 + アイコンが白色の場合は、そのアイコンに斜めのロングシャドウを置くのがお決まりのようです。\n\n## 実装\n\ncompileSdkVersion, targetSdkVersion を API Level 26 にし、`res/mipmap-anydpi-v26/ic_launcher.xml` を設置します。\n\n```\nres/\n├── mipmap-anydpi-v26/\n│   └── ic_launcher.xml\n└── mipmap-mdpi/\n    └── ic_foreground.png\n```\n\n`ic_launcher.xml` では `<adaptive-icon>` の中に、背景と前景の drawable を指定します。\n\n```\n<adaptive-icon xmlns:android=\"http://schemas.android.com/apk/res/android\">\n    <background android:drawable=\"@color/ic_background\" />\n    <foreground android:drawable=\"@mipmap/ic_foreground\" />\n</adaptive-icon>\n```\n\n手元の Android Studio 2.3.3 では、`<adaptive-icon>` に警告が表示されていますが、これで問題なくビルドできます。\n\n## 参考\n\n- [Adaptive Icons | Android Developers](https://developer.android.com/guide/practices/ui_guidelines/icon_design_adaptive.html)",
+  "bodyHtml": "<p>Android Oreo では、端末メーカーが選択したマスクに応じてアイコンが自動生成される、アダプティブアイコンを利用できます。開発者は、背景色（もしくは画像）とフォアグラウンド画像を用意すれば、それぞれの Android 端末に沿う、いい感じのアイコンがホーム（ランチャー）、ショートカット、設定、共有ダイアログ、オーバービュー画面に並ぶことになります。</p>\n<p>この記事ではその実装を見ていきます。</p>\n<h2>必要な素材</h2>\n<p>以下のふたつの素材を用意します。背景色が一色の場合は、画像を用意する必要はありません。108px は mdpi 時なので、各解像度ごとの mdpi (1x), hdpi (1.5x), xhdpi (2x), xxhdpi (3x), xxxhdpi (4x) を用意します。</p>\n<ul>\n<li>背景（background）：背景色もしくは、背景画像（108x108）を用意する</li>\n<li>アイコン（foreground）：108x108 の透過画像の中心に 48x48 のアイコンを配置する</li>\n</ul>\n<p>Google 純正アプリから読み取れる隠れ仕様として、背景を白以外の濃い色 + アイコンが白色の場合は、そのアイコンに斜めのロングシャドウを置くのがお決まりのようです。</p>\n<h2>実装</h2>\n<p>compileSdkVersion, targetSdkVersion を API Level 26 にし、<code>res/mipmap-anydpi-v26/ic_launcher.xml</code> を設置します。</p>\n<pre><code>res/\n├── mipmap-anydpi-v26/\n│   └── ic_launcher.xml\n└── mipmap-mdpi/\n    └── ic_foreground.png\n</code></pre>\n<p><code>ic_launcher.xml</code> では <code>&lt;adaptive-icon&gt;</code> の中に、背景と前景の drawable を指定します。</p>\n<pre><code>&lt;adaptive-icon xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;&gt;\n    &lt;background android:drawable=&quot;@color/ic_background&quot; /&gt;\n    &lt;foreground android:drawable=&quot;@mipmap/ic_foreground&quot; /&gt;\n&lt;/adaptive-icon&gt;\n</code></pre>\n<p>手元の Android Studio 2.3.3 では、<code>&lt;adaptive-icon&gt;</code> に警告が表示されていますが、これで問題なくビルドできます。</p>\n<h2>参考</h2>\n<ul>\n<li><a href=\"https://developer.android.com/guide/practices/ui_guidelines/icon_design_adaptive.html\">Adaptive Icons | Android Developers</a></li>\n</ul>\n",
+  "dir": "static/content/archives",
+  "base": "2017-10-09-android-oreo-adaptive-icons.json",
+  "ext": ".json",
+  "sourceBase": "2017-10-09-android-oreo-adaptive-icons.md",
+  "sourceExt": ".md"
+}

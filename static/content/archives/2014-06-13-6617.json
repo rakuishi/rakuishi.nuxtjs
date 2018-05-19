@@ -1,0 +1,16 @@
+{
+  "categories": [
+    "Android"
+  ],
+  "date": "2014-06-13T12:40:30.000Z",
+  "draft": false,
+  "slug": 6617,
+  "title": "標準 Android エミュレータよりも動作が軽い Genymotion を導入する",
+  "bodyContent": "Android Studio 付属の Android エミュレータが重くて使えず、代わりに Genymotion という VirtualBox 上で動く高速 Android エミュレータを試してみました。\n\n## Genymotion を導入するまで\n\n[Download VirtualBox](https://www.virtualbox.org/wiki/Downloads) から VirtualBox 4.3.12 for OS X hosts をダウンロードする。.dmg ファイルを開いて .pkg ファイルをインストールします。\n\n[Genymotion](http://www.genymotion.com/) でユーザ登録を行います。メール認証後、[ダウンロードページ](https://shop.genymotion.com/index.php?controller=order-opc)下部の「Free」から Mac OS X 64 bits をダウンロードします（執筆時 v2.2.2）。.dmg ファイルを開いて、Genymotion と Genymotion Shell をアプリケーションフォルダに突っ込みます（Shell は必要なのかよく分かりません）。\n\n![](/images/2014/06/6617_1.jpg)\n\nGenymotion を起動後、ユーザー認証などを済ませた後に、Add からデバイスを登録できます。試しに Google Nexus 5 を登録してみました。登録後、左上の「Play」からエミュレータを起動できます。\n\n![](/images/2014/06/6617_2.jpg)\n\nエミュレータを起動後（起動までの時間も標準 Android エミュレータよりも早い）、Android Studio でサンプルプロジェクトをビルドしてみました。iOS シミュレータと同じぐらいの時間でビルドできたような気がします。この動作の軽さなら実機なしでも開発が進められそうです。\n\n![](/images/2014/06/6617_3.jpg)",
+  "bodyHtml": "<p>Android Studio 付属の Android エミュレータが重くて使えず、代わりに Genymotion という VirtualBox 上で動く高速 Android エミュレータを試してみました。</p>\n<h2>Genymotion を導入するまで</h2>\n<p><a href=\"https://www.virtualbox.org/wiki/Downloads\">Download VirtualBox</a> から VirtualBox 4.3.12 for OS X hosts をダウンロードする。.dmg ファイルを開いて .pkg ファイルをインストールします。</p>\n<p><a href=\"http://www.genymotion.com/\">Genymotion</a> でユーザ登録を行います。メール認証後、<a href=\"https://shop.genymotion.com/index.php?controller=order-opc\">ダウンロードページ</a>下部の「Free」から Mac OS X 64 bits をダウンロードします（執筆時 v2.2.2）。.dmg ファイルを開いて、Genymotion と Genymotion Shell をアプリケーションフォルダに突っ込みます（Shell は必要なのかよく分かりません）。</p>\n<p><img src=\"/images/2014/06/6617_1.jpg\" alt=\"\"></p>\n<p>Genymotion を起動後、ユーザー認証などを済ませた後に、Add からデバイスを登録できます。試しに Google Nexus 5 を登録してみました。登録後、左上の「Play」からエミュレータを起動できます。</p>\n<p><img src=\"/images/2014/06/6617_2.jpg\" alt=\"\"></p>\n<p>エミュレータを起動後（起動までの時間も標準 Android エミュレータよりも早い）、Android Studio でサンプルプロジェクトをビルドしてみました。iOS シミュレータと同じぐらいの時間でビルドできたような気がします。この動作の軽さなら実機なしでも開発が進められそうです。</p>\n<p><img src=\"/images/2014/06/6617_3.jpg\" alt=\"\"></p>\n",
+  "dir": "static/content/archives",
+  "base": "2014-06-13-6617.json",
+  "ext": ".json",
+  "sourceBase": "2014-06-13-6617.md",
+  "sourceExt": ".md"
+}

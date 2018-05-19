@@ -1,0 +1,16 @@
+{
+  "categories": [
+    "iOS"
+  ],
+  "date": "2012-04-13T11:15:17.000Z",
+  "draft": false,
+  "slug": 3298,
+  "title": "iTunes ライブラリ App における iOS 5 以降のアイコン光沢の取り扱いについて",
+  "bodyContent": "![](/images/2012/04/3298_1.png)\n\niOS アプリのアイコン画像には、標準で独特の光沢が付けられます。\n\n僕が先日リリースした「Quicka」のアプリアイコンには、光沢を最初から付けていたので、設定ファイルから変更して消したのですが、何故か iTunes のライブラリ App では、光沢が反映されてしまいました（上図、左）。\n\n一方、App Store 内の画像は、光沢なしで表示されていたので、何が駄目なんだろうと疑問に思っていました。\n\n設定ファイル周りを変更してアプリをアップデートした後、これを改善できたのでその時の話をメモします。\n\n## iOS 5 以降におけるアイコン光沢の消し方は、2種類ある\n\nアイコン光沢を変更する際は、Xcode → プロジェクトファイル名 → TARGETS → ファイル名 → info から編集できる sample-info.plist を編集します。\n\nここで光沢の消し方が2種類あるのですが、一つは以前からの方法で、もう一つは iOS 5 になってからの方法です。\n\n1. Icon already includes gloss effect → YES\n\n![](/images/2012/04/3298_2.png)\n\n2. Icon files (iOS 5) > Primary Icon > Icon already includes gloss effect → YES\n\n![](/images/2012/04/3298_3.png)\n\n最初はアプリを後者の方法でリリースしたのですが、iTunes ライブラリ App にならんだアプリに光沢が付いてしまって、若干気持ちの悪い見た目になってしまいました。\n\nですが、前者の方法でアップデートすると光沢が消えました。\n\n## おわりに\n\nということで、アイコン光沢を消す場合は、Icon files (iOS 5) に書かずに、「Icon already includes gloss effect → YES」とするのが良いと思います。",
+  "bodyHtml": "<p><img src=\"/images/2012/04/3298_1.png\" alt=\"\"></p>\n<p>iOS アプリのアイコン画像には、標準で独特の光沢が付けられます。</p>\n<p>僕が先日リリースした「Quicka」のアプリアイコンには、光沢を最初から付けていたので、設定ファイルから変更して消したのですが、何故か iTunes のライブラリ App では、光沢が反映されてしまいました（上図、左）。</p>\n<p>一方、App Store 内の画像は、光沢なしで表示されていたので、何が駄目なんだろうと疑問に思っていました。</p>\n<p>設定ファイル周りを変更してアプリをアップデートした後、これを改善できたのでその時の話をメモします。</p>\n<h2>iOS 5 以降におけるアイコン光沢の消し方は、2種類ある</h2>\n<p>アイコン光沢を変更する際は、Xcode → プロジェクトファイル名 → TARGETS → ファイル名 → info から編集できる sample-info.plist を編集します。</p>\n<p>ここで光沢の消し方が2種類あるのですが、一つは以前からの方法で、もう一つは iOS 5 になってからの方法です。</p>\n<ol>\n<li>Icon already includes gloss effect → YES</li>\n</ol>\n<p><img src=\"/images/2012/04/3298_2.png\" alt=\"\"></p>\n<ol start=\"2\">\n<li>Icon files (iOS 5) &gt; Primary Icon &gt; Icon already includes gloss effect → YES</li>\n</ol>\n<p><img src=\"/images/2012/04/3298_3.png\" alt=\"\"></p>\n<p>最初はアプリを後者の方法でリリースしたのですが、iTunes ライブラリ App にならんだアプリに光沢が付いてしまって、若干気持ちの悪い見た目になってしまいました。</p>\n<p>ですが、前者の方法でアップデートすると光沢が消えました。</p>\n<h2>おわりに</h2>\n<p>ということで、アイコン光沢を消す場合は、Icon files (iOS 5) に書かずに、「Icon already includes gloss effect → YES」とするのが良いと思います。</p>\n",
+  "dir": "static/content/archives",
+  "base": "2012-04-13-3298.json",
+  "ext": ".json",
+  "sourceBase": "2012-04-13-3298.md",
+  "sourceExt": ".md"
+}

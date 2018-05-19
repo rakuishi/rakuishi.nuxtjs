@@ -1,0 +1,16 @@
+{
+  "categories": [
+    "WordPress"
+  ],
+  "date": "2013-01-06T03:26:13.000Z",
+  "draft": false,
+  "slug": 5375,
+  "title": "[WordPress] タグクラウドをドロップダウン＆タグの使用件数を表示",
+  "bodyContent": "WordPress のウィジェットでは、タグをドロップダウン形式にすることはできません。そこでアーカイブやカテゴリーと同じように、タグをドロップダウン表示してみます。\n\n## タグクラウドをドロップダウン＆タグの使用件数を表示\n\nsidebar.php などの任意の場所に、以下のコードを記述します。\n\n```\n<?php $tags = get_tags(); if ( $tags ) : ?>\n  <select onchange=\"document.location.href=this.options[this.selectedIndex].value;\">\n    <option value=\"\" selected=\"selected\">タグを選択</option>\n    <?php foreach ( $tags as $tag ): ?>\n      <option value=\"<?php echo clean_url( get_tag_link( $tag->term_id ) ); ?>\"><?php echo wp_specialchars( $tag->name ); ?> (<?php echo $tag->count; ?>)</option>\n    <?php endforeach; ?>\n  </select>\n<?php endif; ?>\n```\n\n正しく動作すれば、下図のように表示されます。\n\n![](/images/2013/01/5375_1.png)\n\n参考：[WordPress › フォーラム » タグクラウドをドロップダウンメニュー化したい](http://ja.forums.wordpress.org/topic/1764)",
+  "bodyHtml": "<p>WordPress のウィジェットでは、タグをドロップダウン形式にすることはできません。そこでアーカイブやカテゴリーと同じように、タグをドロップダウン表示してみます。</p>\n<h2>タグクラウドをドロップダウン＆タグの使用件数を表示</h2>\n<p>sidebar.php などの任意の場所に、以下のコードを記述します。</p>\n<pre><code>&lt;?php $tags = get_tags(); if ( $tags ) : ?&gt;\n  &lt;select onchange=&quot;document.location.href=this.options[this.selectedIndex].value;&quot;&gt;\n    &lt;option value=&quot;&quot; selected=&quot;selected&quot;&gt;タグを選択&lt;/option&gt;\n    &lt;?php foreach ( $tags as $tag ): ?&gt;\n      &lt;option value=&quot;&lt;?php echo clean_url( get_tag_link( $tag-&gt;term_id ) ); ?&gt;&quot;&gt;&lt;?php echo wp_specialchars( $tag-&gt;name ); ?&gt; (&lt;?php echo $tag-&gt;count; ?&gt;)&lt;/option&gt;\n    &lt;?php endforeach; ?&gt;\n  &lt;/select&gt;\n&lt;?php endif; ?&gt;\n</code></pre>\n<p>正しく動作すれば、下図のように表示されます。</p>\n<p><img src=\"/images/2013/01/5375_1.png\" alt=\"\"></p>\n<p>参考：<a href=\"http://ja.forums.wordpress.org/topic/1764\">WordPress › フォーラム » タグクラウドをドロップダウンメニュー化したい</a></p>\n",
+  "dir": "static/content/archives",
+  "base": "2013-01-06-5375.json",
+  "ext": ".json",
+  "sourceBase": "2013-01-06-5375.md",
+  "sourceExt": ".md"
+}

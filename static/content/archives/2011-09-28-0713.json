@@ -1,0 +1,16 @@
+{
+  "categories": [
+    "Mac"
+  ],
+  "date": "2011-09-27T22:13:25.000Z",
+  "draft": false,
+  "slug": 713,
+  "title": "i.softbank.jpアカウントに出来た\"Apple Mail To Do\"とか\"Notes\"とかを削除する方法",
+  "bodyContent": "Mac OS X標準のMail.appで「@i.softbank.jp」アカウントを設定している。\n\nPCで作業中にiPhoneが着信を知らせたら、iPhoneを手に取らずに、PCのMail.appを立ち上げてメール返信をしている。物理キーボードのほうが優れた入力手段だから、こっちのほうがラクだ。\n\nしかし、困ったことが起きた。iPhoneのMailで「@i.softbank.jp」を開くと、\"Notes\"というわけのわからないフォルダが作成されてしまったのだ。昨日からとても気になっていて、削除したくなってきた。\n\nなんやかんややってて、躓いてしまったのでここに記録する。\n\n## 1. Terminal.appの起動\n\nアプリケーションのユーティリティにある。\n\n## 2. ユーザ名とパスワードの確認\n\n* ユーザ名: ***@i.softbank.jpの@より前の文字列\n* パスワード: iPhoneを購入した時の書類に書いてある半角英数の文字列\n\n## 3. コマンドの実行\n\n最後に、Terminal.appにコマンドを打ち込む。\n\nここで注意してもらいたいのは、コマンドの先頭にある数字（1, 2, 3, 4）も打ち込むことだ。僕は、ずっと行番号だと思い込んでいた。\n\nDELETEのところの\"\"内の文字を任意のフォルダ名にすることで、削除するフォルダを変更できる。間違っても、\"INBOX\"などを消さないように。\n\n[bash]telnet imap.softbank.jp 143\n1 LOGIN ユーザー名 パスワード\n2 LIST &quot;&quot; *\n3 DELETE &quot;Apple Mail To Do&quot;\n4 LOGOUT[/bash]\n\n実際の動作風景はこんな感じだ。\n\n![](/images/2011/09/0713_1.jpg)\n\nこの記事を書くにあたって以下のブログを参考にした。多謝。\n\n参考：[i.softbank.jpアカウントと\"Apple Mail To Do\"フォルダの話 - jitsu102の日記](http://d.hatena.ne.jp/jitsu102/20090521/1242914617)",
+  "bodyHtml": "<p>Mac OS X標準のMail.appで「@i.softbank.jp」アカウントを設定している。</p>\n<p>PCで作業中にiPhoneが着信を知らせたら、iPhoneを手に取らずに、PCのMail.appを立ち上げてメール返信をしている。物理キーボードのほうが優れた入力手段だから、こっちのほうがラクだ。</p>\n<p>しかし、困ったことが起きた。iPhoneのMailで「@i.softbank.jp」を開くと、&quot;Notes&quot;というわけのわからないフォルダが作成されてしまったのだ。昨日からとても気になっていて、削除したくなってきた。</p>\n<p>なんやかんややってて、躓いてしまったのでここに記録する。</p>\n<h2>1. Terminal.appの起動</h2>\n<p>アプリケーションのユーティリティにある。</p>\n<h2>2. ユーザ名とパスワードの確認</h2>\n<ul>\n<li>ユーザ名: ***@i.softbank.jpの@より前の文字列</li>\n<li>パスワード: iPhoneを購入した時の書類に書いてある半角英数の文字列</li>\n</ul>\n<h2>3. コマンドの実行</h2>\n<p>最後に、Terminal.appにコマンドを打ち込む。</p>\n<p>ここで注意してもらいたいのは、コマンドの先頭にある数字（1, 2, 3, 4）も打ち込むことだ。僕は、ずっと行番号だと思い込んでいた。</p>\n<p>DELETEのところの&quot;&quot;内の文字を任意のフォルダ名にすることで、削除するフォルダを変更できる。間違っても、&quot;INBOX&quot;などを消さないように。</p>\n<p>[bash]telnet imap.softbank.jp 143\n1 LOGIN ユーザー名 パスワード\n2 LIST &quot;&quot; *\n3 DELETE &quot;Apple Mail To Do&quot;\n4 LOGOUT[/bash]</p>\n<p>実際の動作風景はこんな感じだ。</p>\n<p><img src=\"/images/2011/09/0713_1.jpg\" alt=\"\"></p>\n<p>この記事を書くにあたって以下のブログを参考にした。多謝。</p>\n<p>参考：<a href=\"http://d.hatena.ne.jp/jitsu102/20090521/1242914617\">i.softbank.jpアカウントと&quot;Apple Mail To Do&quot;フォルダの話 - jitsu102の日記</a></p>\n",
+  "dir": "static/content/archives",
+  "base": "2011-09-28-0713.json",
+  "ext": ".json",
+  "sourceBase": "2011-09-28-0713.md",
+  "sourceExt": ".md"
+}

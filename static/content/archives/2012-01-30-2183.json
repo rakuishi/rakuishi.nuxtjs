@@ -1,0 +1,16 @@
+{
+  "categories": [
+    "iOS"
+  ],
+  "date": "2012-01-29T22:01:21.000Z",
+  "draft": false,
+  "slug": 2183,
+  "title": "Pastebot は、Wi-Fi 環境がないと同期できないと諦めてませんか？ iPhone と Mac をアドホックモードで繋げれば、同期できます！",
+  "bodyContent": "iPhone, Mac 間でコピーしたテキスト・画像を簡単にやりとりすることが出来る Pastebot。双方向同期させるためには、Wi-Fi 環境がないと出来ないんでしょと諦めていませんか？\n\nMac で「ネットワークを作成」すれば、同期できますよ。\n\n▼ iPhone App\n\n{{<app id=\"344614116\" title=\"Pastebot  1.4.1（￥350）\" src=\"http://a1.mzstatic.com/us/r1000/028/Purple/5e/28/d1/mzi.fkztngzy.100x100-75.png\">}}\n\n▼ Mac App\n\nDownload » [Pastebot Sync — Tapbots](http://tapbots.com/software/pastebot/#sync)\n\n## Wi-Fi 環境がなくても「Pastebot Sync」する方法\n\n## Mac での設定\n\nメニューバーの Wi-Fi を「入」にして、「ネットワークを作成…」を選択します。\n\nメニューバーに Wi-Fi が表示されていない方は、「システム環境設定」→「ネットワーク」→「Wi-Fi」から「メニューバーに Wi-Fi の状況を表示」という項目がありますので、オンにします。\n\n![](/images/2012/01/2183_1.png)\n\n「ネットワークを作成…」すると以下のウィンドウが表示されます。\n\n![](/images/2012/01/2183_2.png)\n\n「ネットワーク名」「チャンネル」は、テキトーに埋めます。「セキュリティ」では、なるべくパスワードを設定します。\n\n「40 ビット WEP」もしくは「128 ビット WEP」から選択できます。入力するパスワードに文字数制限があるので注意します。\n\nネットワークを「作成」すると、メニューバーの Wi-Fi アイコンが変化していることを確認します。\n\n![](/images/2012/01/2183_3.png)\n\n後は、Wi-Fi 環境で使っているように、「Pastebot Sync を開始」します。\n\n![](/images/2012/01/2183_4.png)\n\n## iPhone での設定\n\n後は、簡単です。「設定」アプリから「Wi-Fi」を選択します。そして、先ほど作ったネットワークを選択します。パスワードが要求されるので、先ほど設定したパスワードを入力して、接続します。\n\n![](/images/2012/01/2183_5.png)\n\niPhoneアプリ「Pastebot」でも、共有されていることを確認しました。ここでは、初期同期時に行うパスコードの入力を省いています。\n\n![](/images/2012/01/2183_6.png)\n\nこれで、Wi-Fi 環境下と同様に使えています。\n\n## おわりに\n\nWi-Fi 環境がない時、あるいは自宅に Wi-Fi 環境がなくて、使用を諦めていた方は、是非お試しあれ。",
+  "bodyHtml": "<p>iPhone, Mac 間でコピーしたテキスト・画像を簡単にやりとりすることが出来る Pastebot。双方向同期させるためには、Wi-Fi 環境がないと出来ないんでしょと諦めていませんか？</p>\n<p>Mac で「ネットワークを作成」すれば、同期できますよ。</p>\n<p>▼ iPhone App</p>\n<p>{{&lt;app id=&quot;344614116&quot; title=&quot;Pastebot  1.4.1（￥350）&quot; src=&quot;http://a1.mzstatic.com/us/r1000/028/Purple/5e/28/d1/mzi.fkztngzy.100x100-75.png&quot;&gt;}}</p>\n<p>▼ Mac App</p>\n<p>Download » <a href=\"http://tapbots.com/software/pastebot/#sync\">Pastebot Sync — Tapbots</a></p>\n<h2>Wi-Fi 環境がなくても「Pastebot Sync」する方法</h2>\n<h2>Mac での設定</h2>\n<p>メニューバーの Wi-Fi を「入」にして、「ネットワークを作成…」を選択します。</p>\n<p>メニューバーに Wi-Fi が表示されていない方は、「システム環境設定」→「ネットワーク」→「Wi-Fi」から「メニューバーに Wi-Fi の状況を表示」という項目がありますので、オンにします。</p>\n<p><img src=\"/images/2012/01/2183_1.png\" alt=\"\"></p>\n<p>「ネットワークを作成…」すると以下のウィンドウが表示されます。</p>\n<p><img src=\"/images/2012/01/2183_2.png\" alt=\"\"></p>\n<p>「ネットワーク名」「チャンネル」は、テキトーに埋めます。「セキュリティ」では、なるべくパスワードを設定します。</p>\n<p>「40 ビット WEP」もしくは「128 ビット WEP」から選択できます。入力するパスワードに文字数制限があるので注意します。</p>\n<p>ネットワークを「作成」すると、メニューバーの Wi-Fi アイコンが変化していることを確認します。</p>\n<p><img src=\"/images/2012/01/2183_3.png\" alt=\"\"></p>\n<p>後は、Wi-Fi 環境で使っているように、「Pastebot Sync を開始」します。</p>\n<p><img src=\"/images/2012/01/2183_4.png\" alt=\"\"></p>\n<h2>iPhone での設定</h2>\n<p>後は、簡単です。「設定」アプリから「Wi-Fi」を選択します。そして、先ほど作ったネットワークを選択します。パスワードが要求されるので、先ほど設定したパスワードを入力して、接続します。</p>\n<p><img src=\"/images/2012/01/2183_5.png\" alt=\"\"></p>\n<p>iPhoneアプリ「Pastebot」でも、共有されていることを確認しました。ここでは、初期同期時に行うパスコードの入力を省いています。</p>\n<p><img src=\"/images/2012/01/2183_6.png\" alt=\"\"></p>\n<p>これで、Wi-Fi 環境下と同様に使えています。</p>\n<h2>おわりに</h2>\n<p>Wi-Fi 環境がない時、あるいは自宅に Wi-Fi 環境がなくて、使用を諦めていた方は、是非お試しあれ。</p>\n",
+  "dir": "static/content/archives",
+  "base": "2012-01-30-2183.json",
+  "ext": ".json",
+  "sourceBase": "2012-01-30-2183.md",
+  "sourceExt": ".md"
+}

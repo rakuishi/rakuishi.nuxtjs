@@ -1,0 +1,16 @@
+{
+  "categories": [
+    "iOS"
+  ],
+  "date": "2012-06-17T01:49:46.000Z",
+  "draft": false,
+  "slug": 4072,
+  "title": "[iOS SDK] アプリのバージョン情報を取得する方法",
+  "bodyContent": "毎日、Objective-C と格闘しています、ラクイシ（@rakuishi07）です。\n\n今日は、アプリのバージョン情報を動的に取得する方法を紹介します。\n\n手作業でバージョン情報をアプリ内に書いてもいいのですが、そうするとどうしても抜けが発生してしまいます。\n\n動的に取得するには、次のように記述します。\n\n```\n    NSString *version = [[[NSBundle mainBundle] infoDictionary] objectForKey:@\"CFBundleVersion\"];\n    NSLog(@\"%@\", version);\n    // 1.0\n```\n\nこれは、Info.plist ファイルに、書いてる内容から自動的に取得しています。例えば、Info.plist ファイルには次のように書いています。\n\n```\n\t<key>CFBundleVersion</key>\n\t<string>1.0</string>\n```\n\nKey に当たる部分を変えてあげれば、Info.plist 内の他の情報も引っ張ってくることが出来ます。",
+  "bodyHtml": "<p>毎日、Objective-C と格闘しています、ラクイシ（@rakuishi07）です。</p>\n<p>今日は、アプリのバージョン情報を動的に取得する方法を紹介します。</p>\n<p>手作業でバージョン情報をアプリ内に書いてもいいのですが、そうするとどうしても抜けが発生してしまいます。</p>\n<p>動的に取得するには、次のように記述します。</p>\n<pre><code>    NSString *version = [[[NSBundle mainBundle] infoDictionary] objectForKey:@&quot;CFBundleVersion&quot;];\n    NSLog(@&quot;%@&quot;, version);\n    // 1.0\n</code></pre>\n<p>これは、Info.plist ファイルに、書いてる内容から自動的に取得しています。例えば、Info.plist ファイルには次のように書いています。</p>\n<pre><code>\t&lt;key&gt;CFBundleVersion&lt;/key&gt;\n\t&lt;string&gt;1.0&lt;/string&gt;\n</code></pre>\n<p>Key に当たる部分を変えてあげれば、Info.plist 内の他の情報も引っ張ってくることが出来ます。</p>\n",
+  "dir": "static/content/archives",
+  "base": "2012-06-17-4072.json",
+  "ext": ".json",
+  "sourceBase": "2012-06-17-4072.md",
+  "sourceExt": ".md"
+}

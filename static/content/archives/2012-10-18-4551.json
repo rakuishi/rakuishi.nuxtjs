@@ -1,0 +1,16 @@
+{
+  "categories": [
+    "iOS"
+  ],
+  "date": "2012-10-18T13:45:27.000Z",
+  "draft": false,
+  "slug": 4551,
+  "title": "[iOS SDK] 通信中を示すインジケータをステータスバーに表示する方法",
+  "bodyContent": "頻繁に使うのですが、これまで何回もコードを忘れて検索しているので、コピペ用としてブログに書いておきます。\n\n**インジケータを表示する**\n```\n[UIApplication sharedApplication].networkActivityIndicatorVisible = YES;\n```\n\n**インジケータを非表示にする**\n```\n[UIApplication sharedApplication].networkActivityIndicatorVisible = NO;\n```",
+  "bodyHtml": "<p>頻繁に使うのですが、これまで何回もコードを忘れて検索しているので、コピペ用としてブログに書いておきます。</p>\n<p><strong>インジケータを表示する</strong></p>\n<pre><code>[UIApplication sharedApplication].networkActivityIndicatorVisible = YES;\n</code></pre>\n<p><strong>インジケータを非表示にする</strong></p>\n<pre><code>[UIApplication sharedApplication].networkActivityIndicatorVisible = NO;\n</code></pre>\n",
+  "dir": "static/content/archives",
+  "base": "2012-10-18-4551.json",
+  "ext": ".json",
+  "sourceBase": "2012-10-18-4551.md",
+  "sourceExt": ".md"
+}

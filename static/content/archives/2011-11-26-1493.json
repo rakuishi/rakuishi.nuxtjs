@@ -1,0 +1,16 @@
+{
+  "categories": [
+    "Web Service"
+  ],
+  "date": "2011-11-26T04:58:17.000Z",
+  "draft": false,
+  "slug": 1493,
+  "title": "おまえは今まで登録したWebサービスをおぼえているか？",
+  "bodyContent": "使っているWebサービスを把握できてますか？\n\n僕は把握できてませんでした。\n\n自分が使っているWebサービスを把握できないのは気持ち悪いので、使用中のWebサービスの確認とアカウントの断捨離を行いました。\n\n## 基本方針\n\n* 一年以上使用していないアカウントは削除\n* Twitter・Facebook・Evernoteの連携サービスの見直し\n* 使用しているWebサービスをEvernoteに箇条書き\n\n## Webサービスの断捨離結果\n\n計25個のWebサービスを使っていることが判明。多すぎですかね？\n\n![](/images/2011/11/1493_1.png)\n\n使用中のWebサービスは、だいたいこんな感じでした。\n\n* メールアカウント（Gmail, Yahoo! Mail）\n* アップロードサービス（Evernote, Dropbox）\n* SNS（Twitter, Facebook, Foursquare, Hatena）\n* ブログ（WordPress）\n* 買物（Apple ID, Amazon, 無印）\n* 銀行アカウント（郵貯, 楽天）\n\nアカウントの断捨離を終えた後は、すっきりしました。やっぱり、自分が把握できているという感覚が、とても健康に良い気がします。",
+  "bodyHtml": "<p>使っているWebサービスを把握できてますか？</p>\n<p>僕は把握できてませんでした。</p>\n<p>自分が使っているWebサービスを把握できないのは気持ち悪いので、使用中のWebサービスの確認とアカウントの断捨離を行いました。</p>\n<h2>基本方針</h2>\n<ul>\n<li>一年以上使用していないアカウントは削除</li>\n<li>Twitter・Facebook・Evernoteの連携サービスの見直し</li>\n<li>使用しているWebサービスをEvernoteに箇条書き</li>\n</ul>\n<h2>Webサービスの断捨離結果</h2>\n<p>計25個のWebサービスを使っていることが判明。多すぎですかね？</p>\n<p><img src=\"/images/2011/11/1493_1.png\" alt=\"\"></p>\n<p>使用中のWebサービスは、だいたいこんな感じでした。</p>\n<ul>\n<li>メールアカウント（Gmail, Yahoo! Mail）</li>\n<li>アップロードサービス（Evernote, Dropbox）</li>\n<li>SNS（Twitter, Facebook, Foursquare, Hatena）</li>\n<li>ブログ（WordPress）</li>\n<li>買物（Apple ID, Amazon, 無印）</li>\n<li>銀行アカウント（郵貯, 楽天）</li>\n</ul>\n<p>アカウントの断捨離を終えた後は、すっきりしました。やっぱり、自分が把握できているという感覚が、とても健康に良い気がします。</p>\n",
+  "dir": "static/content/archives",
+  "base": "2011-11-26-1493.json",
+  "ext": ".json",
+  "sourceBase": "2011-11-26-1493.md",
+  "sourceExt": ".md"
+}

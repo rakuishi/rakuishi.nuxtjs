@@ -1,0 +1,16 @@
+{
+  "categories": [
+    "Web Service"
+  ],
+  "date": "2012-11-25T23:00:41.000Z",
+  "draft": false,
+  "slug": 5073,
+  "title": "Kindle で読まなくなったクラウドのライブラリを削除する方法",
+  "bodyContent": "Kindle ストアで電子書籍をよく買うようになりました。まだまだ品揃えが弱いのですが、この1ヶ月ぐらい買った本はすべて Kindle 経由です。\n\n{{<app id=\"302584613\" title=\"Kindle 3.4（無料）\" src=\"http://a1853.phobos.apple.com/us/r1000/069/Purple/v4/78/fd/37/78fd3798-e2fc-940b-f4ce-38c3b2400e23/mzl.pmwdwuqg.100x100-75.png\">}}\n\nで、無料本も（北大路魯山人を中心に）落としているのですが、クラウドのライブラリがもう読まなくなった無料本に埋まってしまいました。\n\nこの記事では、もう読まなくなったクラウドのライブラリを削除する方法を紹介します。\n\n![](/images/2012/11/5073_1.png)\n\n## Kindle のクラウド上のライブラリを削除する方法\n\n以下のページにアクセスします。\n\n[Amazon.co.jp : Kindle Store : My Kindle](https://www.amazon.co.jp/gp/digital/fiona/manage?ie=UTF8&ref_=ya___myk&#All)\n\nKindle ライブラリが表示されるので、消したいライブラリの「アクション」ボタンをクリックします。\n\n![](/images/2012/11/5073_2.png)\n\nそして、表示されるポップアップメニューから「ライブラリを削除」をクリックします。\n\n![](/images/2012/11/5073_3.png)\n\n「この商品を完全に削除してもよろしいですか？削除すると、この商品はお客様のアカウントから永久に削除され、再度読みたい場合は改めて購入いただく必要があります。」と表示されます。\n\n削除してもいい場合は、「はい」をクリックします。\n\n![](/images/2012/11/5073_4.png)\n\nこれで、クラウド上のライブラリを削除することができます。\n\nすっきりですね。",
+  "bodyHtml": "<p>Kindle ストアで電子書籍をよく買うようになりました。まだまだ品揃えが弱いのですが、この1ヶ月ぐらい買った本はすべて Kindle 経由です。</p>\n<p>{{&lt;app id=&quot;302584613&quot; title=&quot;Kindle 3.4（無料）&quot; src=&quot;http://a1853.phobos.apple.com/us/r1000/069/Purple/v4/78/fd/37/78fd3798-e2fc-940b-f4ce-38c3b2400e23/mzl.pmwdwuqg.100x100-75.png&quot;&gt;}}</p>\n<p>で、無料本も（北大路魯山人を中心に）落としているのですが、クラウドのライブラリがもう読まなくなった無料本に埋まってしまいました。</p>\n<p>この記事では、もう読まなくなったクラウドのライブラリを削除する方法を紹介します。</p>\n<p><img src=\"/images/2012/11/5073_1.png\" alt=\"\"></p>\n<h2>Kindle のクラウド上のライブラリを削除する方法</h2>\n<p>以下のページにアクセスします。</p>\n<p><a href=\"https://www.amazon.co.jp/gp/digital/fiona/manage?ie=UTF8&amp;ref_=ya___myk&amp;#All\">Amazon.co.jp : Kindle Store : My Kindle</a></p>\n<p>Kindle ライブラリが表示されるので、消したいライブラリの「アクション」ボタンをクリックします。</p>\n<p><img src=\"/images/2012/11/5073_2.png\" alt=\"\"></p>\n<p>そして、表示されるポップアップメニューから「ライブラリを削除」をクリックします。</p>\n<p><img src=\"/images/2012/11/5073_3.png\" alt=\"\"></p>\n<p>「この商品を完全に削除してもよろしいですか？削除すると、この商品はお客様のアカウントから永久に削除され、再度読みたい場合は改めて購入いただく必要があります。」と表示されます。</p>\n<p>削除してもいい場合は、「はい」をクリックします。</p>\n<p><img src=\"/images/2012/11/5073_4.png\" alt=\"\"></p>\n<p>これで、クラウド上のライブラリを削除することができます。</p>\n<p>すっきりですね。</p>\n",
+  "dir": "static/content/archives",
+  "base": "2012-11-26-5073.json",
+  "ext": ".json",
+  "sourceBase": "2012-11-26-5073.md",
+  "sourceExt": ".md"
+}

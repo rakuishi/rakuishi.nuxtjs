@@ -1,0 +1,16 @@
+{
+  "categories": [
+    "Objective-C"
+  ],
+  "date": "2013-01-26T12:53:06.000Z",
+  "draft": false,
+  "slug": 5463,
+  "title": "[Objective-C] 配列データを文字列に置き換える",
+  "bodyContent": "配列データを文字列に置き換える時に、componentsJoinedByString を使うと結構綺麗に書けます。\n\n```\nNSMutableArray *array = [[NSMutableArray alloc] init];\n[array addObject:@\"あいう\"];\n[array addObject:@\"えおか\"];\nNSString *str = [array componentsJoinedByString:nil];\n\nNSLog(@\"%@\", str);\n// あいうえおか\n```\n\n配列の要素を改行区切りするには、次のように記述します。\n\n```\nNSMutableArray *array = [[NSMutableArray alloc] init];\n[array addObject:@\"あいう\"];\n[array addObject:@\"えおか\"];\nNSString *str = [array componentsJoinedByString:@\"\\n\"];\n\nNSLog(@\"%@\", str);\n// あいう\n// えおか\n```",
+  "bodyHtml": "<p>配列データを文字列に置き換える時に、componentsJoinedByString を使うと結構綺麗に書けます。</p>\n<pre><code>NSMutableArray *array = [[NSMutableArray alloc] init];\n[array addObject:@&quot;あいう&quot;];\n[array addObject:@&quot;えおか&quot;];\nNSString *str = [array componentsJoinedByString:nil];\n\nNSLog(@&quot;%@&quot;, str);\n// あいうえおか\n</code></pre>\n<p>配列の要素を改行区切りするには、次のように記述します。</p>\n<pre><code>NSMutableArray *array = [[NSMutableArray alloc] init];\n[array addObject:@&quot;あいう&quot;];\n[array addObject:@&quot;えおか&quot;];\nNSString *str = [array componentsJoinedByString:@&quot;\\n&quot;];\n\nNSLog(@&quot;%@&quot;, str);\n// あいう\n// えおか\n</code></pre>\n",
+  "dir": "static/content/archives",
+  "base": "2013-01-26-5463.json",
+  "ext": ".json",
+  "sourceBase": "2013-01-26-5463.md",
+  "sourceExt": ".md"
+}

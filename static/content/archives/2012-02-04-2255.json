@@ -1,0 +1,16 @@
+{
+  "categories": [
+    "Mac"
+  ],
+  "date": "2012-02-04T00:52:06.000Z",
+  "draft": false,
+  "slug": 2255,
+  "title": "[Mac] Alfred に Powerpack を導入して、複数台の Mac でカスタム検索やホットキーなどの同期を行う方法",
+  "bodyContent": "![](/images/2012/02/2255_1.jpg)\n\nPowerpack を導入した Alfred は、複数台のMacで Dropbox や iDisk を通じて、カスタム検索やホットキーの同期を行うことが出来ます。\n\nちなみに、Alfred で Powerpack を使う場合は、AppStore からではなく、Alfred 公式サイトからダウンロードした Alfred を使用します。\n\n{{<app id=\"405843582\" title=\"Alfred 1.0（無料）\" src=\"http://a3.mzstatic.com/us/r1000/097/Purple/e1/d8/82/mzi.njcalvnn.100x100-75.png\">}}\n\n公式サイト » [Alfred App](http://www.alfredapp.com/)\n\n## Dropbox による Alfred 同期\n\nここでは、Dropbox による同期を紹介します。\n\nAlfred の環境設定（Alfred 起動 → [ command + ,] で移動できる）から、「Advanced」→「Syncing」に移動します。\n\n![](/images/2012/02/2255_2.png)\n\n「Browse」から Dropbox 内の任意のフォルダを選択します。選択するとフォルダが作成され共有が開始されます。\n\n複数のフォルダが作られるので、Alfred というフォルダを作成し、そこを共有フォルダにするのがいいと思います。\n\n![](/images/2012/02/2255_3.png)\n\nそして、2台目も同じように先ほどのフォルダを選択するだけで共有を行うことが出来ます。\n\nこれでかちゃかちゃ Alfred を使いこなしましょう。",
+  "bodyHtml": "<p><img src=\"/images/2012/02/2255_1.jpg\" alt=\"\"></p>\n<p>Powerpack を導入した Alfred は、複数台のMacで Dropbox や iDisk を通じて、カスタム検索やホットキーの同期を行うことが出来ます。</p>\n<p>ちなみに、Alfred で Powerpack を使う場合は、AppStore からではなく、Alfred 公式サイトからダウンロードした Alfred を使用します。</p>\n<p>{{&lt;app id=&quot;405843582&quot; title=&quot;Alfred 1.0（無料）&quot; src=&quot;http://a3.mzstatic.com/us/r1000/097/Purple/e1/d8/82/mzi.njcalvnn.100x100-75.png&quot;&gt;}}</p>\n<p>公式サイト » <a href=\"http://www.alfredapp.com/\">Alfred App</a></p>\n<h2>Dropbox による Alfred 同期</h2>\n<p>ここでは、Dropbox による同期を紹介します。</p>\n<p>Alfred の環境設定（Alfred 起動 → [ command + ,] で移動できる）から、「Advanced」→「Syncing」に移動します。</p>\n<p><img src=\"/images/2012/02/2255_2.png\" alt=\"\"></p>\n<p>「Browse」から Dropbox 内の任意のフォルダを選択します。選択するとフォルダが作成され共有が開始されます。</p>\n<p>複数のフォルダが作られるので、Alfred というフォルダを作成し、そこを共有フォルダにするのがいいと思います。</p>\n<p><img src=\"/images/2012/02/2255_3.png\" alt=\"\"></p>\n<p>そして、2台目も同じように先ほどのフォルダを選択するだけで共有を行うことが出来ます。</p>\n<p>これでかちゃかちゃ Alfred を使いこなしましょう。</p>\n",
+  "dir": "static/content/archives",
+  "base": "2012-02-04-2255.json",
+  "ext": ".json",
+  "sourceBase": "2012-02-04-2255.md",
+  "sourceExt": ".md"
+}

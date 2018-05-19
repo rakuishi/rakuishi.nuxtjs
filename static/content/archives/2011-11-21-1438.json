@@ -1,0 +1,16 @@
+{
+  "categories": [
+    "iOS"
+  ],
+  "date": "2011-11-20T23:24:29.000Z",
+  "draft": false,
+  "slug": 1438,
+  "title": "[iPhone] カメラアプリをドック中央に置くと安定して写真が撮れる気がする",
+  "bodyContent": "最近、INStan Pocketで写真を撮るのにはまってる@rakuishi07です。\n\n今までは、標準カメラの初期配置にならって、カメラアプリを画面の最右列に置いていたのですが、最近はドックの中央に置くのがいい気がしてきました。\n\n## 指の移動が少なくなるので安定して写真が撮れる\n\nドックの中央にあるOneCamを起動します。黒い影は、親指と思ってください。ちなみに、右利きを想定してます。\n\n![](/images/2011/11/1438_1.png)\n\nで、起動したらその指の位置のままカメラ撮影に入ることができます。\n\n![](/images/2011/11/1438_2.png)\n\nそうなのです！ホーム画面におけるアイコンの位置と、シャッターボタンの位置がだいたい一致してるので、指の移動が少なくなるのです。\n\nそうするとカメラが起動したら素早く撮れるし、起動する前からiPhoneを構えた状態になるので撮影した画像がブレにくく、安定して写真が撮れる。\n\n何を当たり前のことをと思うかたもいるかも知れませんが、これは僕にとって大発見。\n\nちなみに、InStan Pocketは、右下にシャッターボタンがあるので、最右列でOKです。\n\n![](/images/2011/11/1438_3.png)\n\nなんか画像がブレるなと思ってるかたは、試してみてください！\n\n{{<app id=\"422845617\" title=\"OneCam[連写,静音,ジオタグ] 2.5.0（￥170）\" src=\"http://a3.mzstatic.com/us/r1000/101/Purple/fc/61/5d/mzl.iuqudcfx.100x100-75.png\">}}\n\n{{<app id=\"445365765\" title=\"INStan Pocket - Toy Digital Camera 1.3.1（￥85）\" src=\"http://a4.mzstatic.com/us/r1000/097/Purple/e4/56/33/mzl.zhyhxyjr.100x100-75.png\">}}",
+  "bodyHtml": "<p>最近、INStan Pocketで写真を撮るのにはまってる@rakuishi07です。</p>\n<p>今までは、標準カメラの初期配置にならって、カメラアプリを画面の最右列に置いていたのですが、最近はドックの中央に置くのがいい気がしてきました。</p>\n<h2>指の移動が少なくなるので安定して写真が撮れる</h2>\n<p>ドックの中央にあるOneCamを起動します。黒い影は、親指と思ってください。ちなみに、右利きを想定してます。</p>\n<p><img src=\"/images/2011/11/1438_1.png\" alt=\"\"></p>\n<p>で、起動したらその指の位置のままカメラ撮影に入ることができます。</p>\n<p><img src=\"/images/2011/11/1438_2.png\" alt=\"\"></p>\n<p>そうなのです！ホーム画面におけるアイコンの位置と、シャッターボタンの位置がだいたい一致してるので、指の移動が少なくなるのです。</p>\n<p>そうするとカメラが起動したら素早く撮れるし、起動する前からiPhoneを構えた状態になるので撮影した画像がブレにくく、安定して写真が撮れる。</p>\n<p>何を当たり前のことをと思うかたもいるかも知れませんが、これは僕にとって大発見。</p>\n<p>ちなみに、InStan Pocketは、右下にシャッターボタンがあるので、最右列でOKです。</p>\n<p><img src=\"/images/2011/11/1438_3.png\" alt=\"\"></p>\n<p>なんか画像がブレるなと思ってるかたは、試してみてください！</p>\n<p>{{&lt;app id=&quot;422845617&quot; title=&quot;OneCam[連写,静音,ジオタグ] 2.5.0（￥170）&quot; src=&quot;http://a3.mzstatic.com/us/r1000/101/Purple/fc/61/5d/mzl.iuqudcfx.100x100-75.png&quot;&gt;}}</p>\n<p>{{&lt;app id=&quot;445365765&quot; title=&quot;INStan Pocket - Toy Digital Camera 1.3.1（￥85）&quot; src=&quot;http://a4.mzstatic.com/us/r1000/097/Purple/e4/56/33/mzl.zhyhxyjr.100x100-75.png&quot;&gt;}}</p>\n",
+  "dir": "static/content/archives",
+  "base": "2011-11-21-1438.json",
+  "ext": ".json",
+  "sourceBase": "2011-11-21-1438.md",
+  "sourceExt": ".md"
+}

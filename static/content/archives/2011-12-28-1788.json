@@ -1,0 +1,16 @@
+{
+  "categories": [
+    "Mac"
+  ],
+  "date": "2011-12-27T23:23:50.000Z",
+  "draft": false,
+  "slug": 1788,
+  "title": "[Xcode] エディタのフォントサイズを一括で変更する方法",
+  "bodyContent": "Xcodeでエディタのフォントサイズを変更するのに戸惑ったので、忘備録がてらシェアします。\n\n「Xcode」→「Preferences…」→「Fonts & Colors」で希望するテーマを選択します。僕は「Sunset」がお気に入りです。\n\n![](/images/2011/12/1788_1.png)\n\n「Source Editor」内を全選択して、右下のフォント変更ボタンをクリックします。\n\n![](/images/2011/12/1788_2.png)\n\nそしてフォントサイズを変更すると、一括して変更することが出来ます。\n\n![](/images/2011/12/1788_3.png)\n\n全選択するのがコツです。",
+  "bodyHtml": "<p>Xcodeでエディタのフォントサイズを変更するのに戸惑ったので、忘備録がてらシェアします。</p>\n<p>「Xcode」→「Preferences…」→「Fonts &amp; Colors」で希望するテーマを選択します。僕は「Sunset」がお気に入りです。</p>\n<p><img src=\"/images/2011/12/1788_1.png\" alt=\"\"></p>\n<p>「Source Editor」内を全選択して、右下のフォント変更ボタンをクリックします。</p>\n<p><img src=\"/images/2011/12/1788_2.png\" alt=\"\"></p>\n<p>そしてフォントサイズを変更すると、一括して変更することが出来ます。</p>\n<p><img src=\"/images/2011/12/1788_3.png\" alt=\"\"></p>\n<p>全選択するのがコツです。</p>\n",
+  "dir": "static/content/archives",
+  "base": "2011-12-28-1788.json",
+  "ext": ".json",
+  "sourceBase": "2011-12-28-1788.md",
+  "sourceExt": ".md"
+}

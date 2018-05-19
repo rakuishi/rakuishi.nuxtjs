@@ -1,0 +1,16 @@
+{
+  "categories": [
+    "Mac"
+  ],
+  "date": "2013-07-03T04:46:23.000Z",
+  "draft": false,
+  "slug": 5782,
+  "title": "[Mac] mp3 を caf ファイルに変換する",
+  "bodyContent": "iPhone アプリでサウンドファイルを扱う場合は、.caf ファイルというファイル形式のものを使用します。今回は、LocalNotification 用に、mp3 形式の音楽ファイルを caf 形式に変換しました。\n\n## mp3 を caf ファイルに変換する\n\nTerminal を起動します。そして、音楽ファイル（mp3）がある場所に、移動して以下のコマンドを実行します。\n\n```\n$ afconvert -f caff -d ima4 bgm.mp3 bgm.caf\n```\n\n実行後、bgm.caf というファイルが同じディレクトリに生成されます。",
+  "bodyHtml": "<p>iPhone アプリでサウンドファイルを扱う場合は、.caf ファイルというファイル形式のものを使用します。今回は、LocalNotification 用に、mp3 形式の音楽ファイルを caf 形式に変換しました。</p>\n<h2>mp3 を caf ファイルに変換する</h2>\n<p>Terminal を起動します。そして、音楽ファイル（mp3）がある場所に、移動して以下のコマンドを実行します。</p>\n<pre><code>$ afconvert -f caff -d ima4 bgm.mp3 bgm.caf\n</code></pre>\n<p>実行後、bgm.caf というファイルが同じディレクトリに生成されます。</p>\n",
+  "dir": "static/content/archives",
+  "base": "2013-07-03-5782.json",
+  "ext": ".json",
+  "sourceBase": "2013-07-03-5782.md",
+  "sourceExt": ".md"
+}

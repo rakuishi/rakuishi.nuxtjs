@@ -1,0 +1,16 @@
+{
+  "categories": [
+    "iOS"
+  ],
+  "date": "2012-03-19T00:29:34.000Z",
+  "draft": false,
+  "slug": 2987,
+  "title": "[iOS SDK][Xcode 4.3] フレームワークをプロジェクトに追加する方法",
+  "bodyContent": "現在、作成しているアプリで Media Player フレームワークを使うために、フレームワークをプロジェクトに追加する必要がありました。\n\nXcode4.3 以前とは、追加方法が異なっていたので、メモします。\n\n## フレームワークをプロジェクトに追加する\n\n以下、フレームワークをプロジェクトに追加する手順です。\n\n![](/images/2012/03/2987_1.png)\n\n1. プロジェクトを選択\n1. \"TARGETS\"を選択\n1. \"Build Phases\"タブを選択\n1. \"LinkBinary With Libraries\"を開く\n1. プラスボタンをクリック\n1. フレームワークを選択\n\n![](/images/2012/03/2987_2.png)\n\nこれでフレームワークが無事追加されました。\n\nフレームワークのヘッダーを忘れずにインポートしておきましょう。\n\n参考：[Add Existing Frameworks in XCode 4.3 | Coding Cluster](http://codingcluster.blogspot.jp/2011/10/add-existing-frameworks-in-xcode-43.html)",
+  "bodyHtml": "<p>現在、作成しているアプリで Media Player フレームワークを使うために、フレームワークをプロジェクトに追加する必要がありました。</p>\n<p>Xcode4.3 以前とは、追加方法が異なっていたので、メモします。</p>\n<h2>フレームワークをプロジェクトに追加する</h2>\n<p>以下、フレームワークをプロジェクトに追加する手順です。</p>\n<p><img src=\"/images/2012/03/2987_1.png\" alt=\"\"></p>\n<ol>\n<li>プロジェクトを選択</li>\n<li>&quot;TARGETS&quot;を選択</li>\n<li>&quot;Build Phases&quot;タブを選択</li>\n<li>&quot;LinkBinary With Libraries&quot;を開く</li>\n<li>プラスボタンをクリック</li>\n<li>フレームワークを選択</li>\n</ol>\n<p><img src=\"/images/2012/03/2987_2.png\" alt=\"\"></p>\n<p>これでフレームワークが無事追加されました。</p>\n<p>フレームワークのヘッダーを忘れずにインポートしておきましょう。</p>\n<p>参考：<a href=\"http://codingcluster.blogspot.jp/2011/10/add-existing-frameworks-in-xcode-43.html\">Add Existing Frameworks in XCode 4.3 | Coding Cluster</a></p>\n",
+  "dir": "static/content/archives",
+  "base": "2012-03-19-2987.json",
+  "ext": ".json",
+  "sourceBase": "2012-03-19-2987.md",
+  "sourceExt": ".md"
+}

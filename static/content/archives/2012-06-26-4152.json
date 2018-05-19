@@ -1,0 +1,16 @@
+{
+  "categories": [
+    "iOS"
+  ],
+  "date": "2012-06-26T06:16:55.000Z",
+  "draft": false,
+  "slug": 4152,
+  "title": "[iOS SDK] NULL と空白文字列を NSPredicate でフィルタする方法",
+  "bodyContent": "NSPredicate は、指定した条件を抽出（フィルタ）することの出来るクラスです。例えば、配列や CoreData などのデータをふるいにかけてくれます。\n\n今回、文字列が「ある」ものを取得したかったのですが、NULL と空白文字列で少し躓いてしまったので紹介します。\n\nNULL と空白文字列を NSPredicate でフィルタするには、次のように記述します。\n\n```\nNSPredicate *predicate;\n// 文字がある & NULL を取得する\npredicate = [NSPredicate predicateWithFormat:@\"memo != nil\"];\n// 文字があるものを取得する = NULL と空白文字列を取得しない\npredicate = [NSPredicate predicateWithFormat:@\"memo.length > 0\"];\n```\n\nここで、memo は僕が扱っているキーパスです。この後ろに、「.length」を付けるとその文字数をカウントしてくれます。\n\nこの predicateWithFormat で使用する条件比較文に、まだ慣れないです。\n\n## 参考\n\n* [objective c - NSPredicate to test for NULL, and blank strings - Stack Overflow](http://stackoverflow.com/questions/7369390/nspredicate-to-test-for-null-and-blank-strings)\n* [Predicate Programming Guide: Predicate Format String Syntax](http://developer.apple.com/library/ios/#documentation/Cocoa/Conceptual/Predicates/Articles/pSyntax.html#//apple_ref/doc/uid/TP40001795)\n* [Predicate Programming Guide: Using Predicates](https://developer.apple.com/library/mac/#documentation/Cocoa/Conceptual/Predicates/Articles/pUsing.html)",
+  "bodyHtml": "<p>NSPredicate は、指定した条件を抽出（フィルタ）することの出来るクラスです。例えば、配列や CoreData などのデータをふるいにかけてくれます。</p>\n<p>今回、文字列が「ある」ものを取得したかったのですが、NULL と空白文字列で少し躓いてしまったので紹介します。</p>\n<p>NULL と空白文字列を NSPredicate でフィルタするには、次のように記述します。</p>\n<pre><code>NSPredicate *predicate;\n// 文字がある &amp; NULL を取得する\npredicate = [NSPredicate predicateWithFormat:@&quot;memo != nil&quot;];\n// 文字があるものを取得する = NULL と空白文字列を取得しない\npredicate = [NSPredicate predicateWithFormat:@&quot;memo.length &gt; 0&quot;];\n</code></pre>\n<p>ここで、memo は僕が扱っているキーパスです。この後ろに、「.length」を付けるとその文字数をカウントしてくれます。</p>\n<p>この predicateWithFormat で使用する条件比較文に、まだ慣れないです。</p>\n<h2>参考</h2>\n<ul>\n<li><a href=\"http://stackoverflow.com/questions/7369390/nspredicate-to-test-for-null-and-blank-strings\">objective c - NSPredicate to test for NULL, and blank strings - Stack Overflow</a></li>\n<li><a href=\"http://developer.apple.com/library/ios/#documentation/Cocoa/Conceptual/Predicates/Articles/pSyntax.html#//apple_ref/doc/uid/TP40001795\">Predicate Programming Guide: Predicate Format String Syntax</a></li>\n<li><a href=\"https://developer.apple.com/library/mac/#documentation/Cocoa/Conceptual/Predicates/Articles/pUsing.html\">Predicate Programming Guide: Using Predicates</a></li>\n</ul>\n",
+  "dir": "static/content/archives",
+  "base": "2012-06-26-4152.json",
+  "ext": ".json",
+  "sourceBase": "2012-06-26-4152.md",
+  "sourceExt": ".md"
+}

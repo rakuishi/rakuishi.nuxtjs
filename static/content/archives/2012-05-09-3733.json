@@ -1,0 +1,16 @@
+{
+  "categories": [
+    "iOS"
+  ],
+  "date": "2012-05-08T21:18:13.000Z",
+  "draft": false,
+  "slug": 3733,
+  "title": "[Xcode 4.3] iPhone アプリを iPad 対応のユニバーサルアプリにする方法",
+  "bodyContent": "今回は、iPhone アプリを iPad 対応のユニバーサルアプリにするための手順を簡単にですが紹介します。\n\n1. 「アプリ名」→「TARGETS」で右クリック →「Depulicate」を選択。\n\n![](/images/2012/05/3733_1.png)\n\n2. 表示されたダイアログで「Duplicate and Transition to iPad」を選択。\n\n![](/images/2012/05/3733_2.png)\n\n3. 「TARGETS」に「アプリ名-iPad」が、左カラムに「Resources-iPad」フォルダが追加されていることを確認。\n\n![](/images/2012/05/3733_3.png)\n\n4. 「TARGETS」のコピー元（-iPad）がない方の「Devices」を「Universal」に変更。\n\n![](/images/2012/05/3733_4.png)\n\nこれで、iPad シミュレータ上で動作します。\n\n![](/images/2012/05/3733_5.png)\n\n後は、iPad 向けに微調整するのみです。\n\niPad 用アイコンの追加方法は、次の記事をご覧下さい。→ [[Xcode 4.3] iPad 対応のユニバーサルアプリにした時の iPad アイコンの追加方法](http://rakuishi.com/archives/3738/)\n\n参考：[Xcode4.2におけるiPhone/iPadユニバーサルアプリ化: iPhoneアプリ開発備忘録](http://iphone-app-developer.seesaa.net/article/235646213.html)",
+  "bodyHtml": "<p>今回は、iPhone アプリを iPad 対応のユニバーサルアプリにするための手順を簡単にですが紹介します。</p>\n<ol>\n<li>「アプリ名」→「TARGETS」で右クリック →「Depulicate」を選択。</li>\n</ol>\n<p><img src=\"/images/2012/05/3733_1.png\" alt=\"\"></p>\n<ol start=\"2\">\n<li>表示されたダイアログで「Duplicate and Transition to iPad」を選択。</li>\n</ol>\n<p><img src=\"/images/2012/05/3733_2.png\" alt=\"\"></p>\n<ol start=\"3\">\n<li>「TARGETS」に「アプリ名-iPad」が、左カラムに「Resources-iPad」フォルダが追加されていることを確認。</li>\n</ol>\n<p><img src=\"/images/2012/05/3733_3.png\" alt=\"\"></p>\n<ol start=\"4\">\n<li>「TARGETS」のコピー元（-iPad）がない方の「Devices」を「Universal」に変更。</li>\n</ol>\n<p><img src=\"/images/2012/05/3733_4.png\" alt=\"\"></p>\n<p>これで、iPad シミュレータ上で動作します。</p>\n<p><img src=\"/images/2012/05/3733_5.png\" alt=\"\"></p>\n<p>後は、iPad 向けに微調整するのみです。</p>\n<p>iPad 用アイコンの追加方法は、次の記事をご覧下さい。→ <a href=\"http://rakuishi.com/archives/3738/\">[Xcode 4.3] iPad 対応のユニバーサルアプリにした時の iPad アイコンの追加方法</a></p>\n<p>参考：<a href=\"http://iphone-app-developer.seesaa.net/article/235646213.html\">Xcode4.2におけるiPhone/iPadユニバーサルアプリ化: iPhoneアプリ開発備忘録</a></p>\n",
+  "dir": "static/content/archives",
+  "base": "2012-05-09-3733.json",
+  "ext": ".json",
+  "sourceBase": "2012-05-09-3733.md",
+  "sourceExt": ".md"
+}

@@ -1,0 +1,16 @@
+{
+  "categories": [
+    "WordPress"
+  ],
+  "date": "2014-06-14T00:10:22.000Z",
+  "draft": false,
+  "slug": 6627,
+  "title": "[WordPress] 標準ソーシャルボタンを使わずに、共有するためのリンク指定",
+  "bodyContent": "各 SNS サイトから入手できるソーシャルボタンは、次の記事の方法を使えば比較的綺麗に並べることができます。&rarr; [最小限の記述でソーシャルボタンを綺麗に並べる · rakuishi.com](http://rakuishi.com/archives/6621)\n\nですが、標準的なソーシャルボタンには以下のデメリットがあります。\n\n* 各サービス間でボタンサイズが異なるため、見た目が統一されない\n* 読み込みに時間がかかるため、ページ読み込み完了までのボトルネックになりやすい\n\n代わりにただのテキストリンクにして同じように共有することができれば、上記の問題は無視できます（が、数字を気にしたい場合には向いていません）。この記事では、Twitter, Facebook, Pocket をテキストリンクから共有・後で読むためのコードを紹介します。\n\n※ 記事のタイトルと URL を取得するため、WordPress の記事ループ中に記述します。具体的には、`&lt;? if (have_posts()): while (have_posts()): the_post(); ?&gt;` から `&lt;? endwhile; endif; ?&gt;` 内に記述します。\n\n## Twitter\n\n```\n<a href=\"http://twitter.com/share?url=<? echo urlencode(get_permalink()); ?>&text=<? echo get_the_title(); ?>\" onclick=\"javascript:window.open(this.href, '', 'menubar=no,toolbar=no,height=300,width=600');return false;\">Twitter</a>\n```\n\n## Facebook\n\n```\n<a href=\"http://www.facebook.com/sharer.php?u=<? echo urlencode(get_permalink()); ?>\" onclick=\"javascript:window.open(this.href, '', 'menubar=no,toolbar=no,height=300,width=600');return false;\">Facebook</a>\n```\n\n## Pocket\n\n```\n<a href=\"http://getpocket.com/edit?url=<? echo urlencode(get_permalink()); ?>&title=<? echo get_the_title(); ?>\" onclick=\"javascript:window.open(this.href, '', 'menubar=no,toolbar=no,scrollbars=yes,height=300,width=600');return false;\">Pocket</a>\n```",
+  "bodyHtml": "<p>各 SNS サイトから入手できるソーシャルボタンは、次の記事の方法を使えば比較的綺麗に並べることができます。→ <a href=\"http://rakuishi.com/archives/6621\">最小限の記述でソーシャルボタンを綺麗に並べる · rakuishi.com</a></p>\n<p>ですが、標準的なソーシャルボタンには以下のデメリットがあります。</p>\n<ul>\n<li>各サービス間でボタンサイズが異なるため、見た目が統一されない</li>\n<li>読み込みに時間がかかるため、ページ読み込み完了までのボトルネックになりやすい</li>\n</ul>\n<p>代わりにただのテキストリンクにして同じように共有することができれば、上記の問題は無視できます（が、数字を気にしたい場合には向いていません）。この記事では、Twitter, Facebook, Pocket をテキストリンクから共有・後で読むためのコードを紹介します。</p>\n<p>※ 記事のタイトルと URL を取得するため、WordPress の記事ループ中に記述します。具体的には、<code>&amp;lt;? if (have_posts()): while (have_posts()): the_post(); ?&amp;gt;</code> から <code>&amp;lt;? endwhile; endif; ?&amp;gt;</code> 内に記述します。</p>\n<h2>Twitter</h2>\n<pre><code>&lt;a href=&quot;http://twitter.com/share?url=&lt;? echo urlencode(get_permalink()); ?&gt;&amp;text=&lt;? echo get_the_title(); ?&gt;&quot; onclick=&quot;javascript:window.open(this.href, '', 'menubar=no,toolbar=no,height=300,width=600');return false;&quot;&gt;Twitter&lt;/a&gt;\n</code></pre>\n<h2>Facebook</h2>\n<pre><code>&lt;a href=&quot;http://www.facebook.com/sharer.php?u=&lt;? echo urlencode(get_permalink()); ?&gt;&quot; onclick=&quot;javascript:window.open(this.href, '', 'menubar=no,toolbar=no,height=300,width=600');return false;&quot;&gt;Facebook&lt;/a&gt;\n</code></pre>\n<h2>Pocket</h2>\n<pre><code>&lt;a href=&quot;http://getpocket.com/edit?url=&lt;? echo urlencode(get_permalink()); ?&gt;&amp;title=&lt;? echo get_the_title(); ?&gt;&quot; onclick=&quot;javascript:window.open(this.href, '', 'menubar=no,toolbar=no,scrollbars=yes,height=300,width=600');return false;&quot;&gt;Pocket&lt;/a&gt;\n</code></pre>\n",
+  "dir": "static/content/archives",
+  "base": "2014-06-14-6627.json",
+  "ext": ".json",
+  "sourceBase": "2014-06-14-6627.md",
+  "sourceExt": ".md"
+}

@@ -1,0 +1,16 @@
+{
+  "categories": [
+    "Mac"
+  ],
+  "date": "2013-04-14T09:39:44.000Z",
+  "draft": false,
+  "slug": 5679,
+  "title": "[Mac] ターミナルで ssh 接続（パスワード認証）をする",
+  "bodyContent": "ターミナルで ssh（Secure Shell）接続して、サーバーにリモート接続する方法を紹介します。ssh 接続には、パスワード認証と公開鍵認証のふたつがあるそうですが、今回はパスワード認証による方法です。\n\nリモートに公開鍵認証で接続する方法は、[こちらの記事](http://rakuishi.com/archives/5680/)を参考にしてください。\n\nターミナルを起動して次のコマンドを打ち込みます。\n\n```\n$ ssh -l ユーザ名 ホスト名\n```\n\nここのユーザ名とホスト名は、実際に FTP 接続で利用しているもので OK です。\n\n初回ログインのみ次のような warning が表示されます。yes と入力します。\n\n```\nThe authenticity of host 'ホスト名 (***.***.***.***)' can't be established. DSA key fingerprint is **:**:**:**:**:**:**:**:**:**:**:**:**:**:**:**. Are you sure you want to continue connecting (yes/no)? yes\n```\n\nそれで、パスワードを入力します。\n\n```\nユーザ名@ホスト名's password: \n```\n\nこれでログイン完了です。\n\n参考：[MacOSXのターミナルでSSH接続 | dicecream:blog](http://blog.dicecream.net/2010/03/macosxssh.php)",
+  "bodyHtml": "<p>ターミナルで ssh（Secure Shell）接続して、サーバーにリモート接続する方法を紹介します。ssh 接続には、パスワード認証と公開鍵認証のふたつがあるそうですが、今回はパスワード認証による方法です。</p>\n<p>リモートに公開鍵認証で接続する方法は、<a href=\"http://rakuishi.com/archives/5680/\">こちらの記事</a>を参考にしてください。</p>\n<p>ターミナルを起動して次のコマンドを打ち込みます。</p>\n<pre><code>$ ssh -l ユーザ名 ホスト名\n</code></pre>\n<p>ここのユーザ名とホスト名は、実際に FTP 接続で利用しているもので OK です。</p>\n<p>初回ログインのみ次のような warning が表示されます。yes と入力します。</p>\n<pre><code>The authenticity of host 'ホスト名 (***.***.***.***)' can't be established. DSA key fingerprint is **:**:**:**:**:**:**:**:**:**:**:**:**:**:**:**. Are you sure you want to continue connecting (yes/no)? yes\n</code></pre>\n<p>それで、パスワードを入力します。</p>\n<pre><code>ユーザ名@ホスト名's password: \n</code></pre>\n<p>これでログイン完了です。</p>\n<p>参考：<a href=\"http://blog.dicecream.net/2010/03/macosxssh.php\">MacOSXのターミナルでSSH接続 | dicecream:blog</a></p>\n",
+  "dir": "static/content/archives",
+  "base": "2013-04-14-5679.json",
+  "ext": ".json",
+  "sourceBase": "2013-04-14-5679.md",
+  "sourceExt": ".md"
+}

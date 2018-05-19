@@ -1,0 +1,16 @@
+{
+  "categories": [
+    "Mac"
+  ],
+  "date": "2012-02-08T12:51:28.000Z",
+  "draft": false,
+  "slug": 2367,
+  "title": "[Alfred][Powerpack] クリップボード履歴とスニペット機能の使い方",
+  "bodyContent": "![](/images/2012/02/2367_1.jpg)\n\n最近、Alfred の Powerpack を購入してから、色々と遊んでいます。\n\nAlfred の Powerpack で使えるようになるクリップボード履歴とスニペット機能について簡単にまとめてみました。\n\n{{<app id=\"405843582\" title=\"Alfred 1.0（無料）\" src=\"http://a3.mzstatic.com/us/r1000/097/Purple/e1/d8/82/mzi.njcalvnn.100x100-75.png\">}}\n\n公式サイト » [Alfred App](http://www.alfredapp.com/)\n\n※ Alfred で Powerpack を使う場合は、AppStore からではなく、Alfred 公式サイトからダウンロードした Alfred を使用します。\n\n## 1. 検索履歴の使い方\n\n「Alfred Preferences」→「Features」→「Clipboard」を選択します。「History」タブから「Clipboard History」にチェックを入れます。\n\nまた、クリップボード履歴を残す期間を決めることが出来ます。\n\n![](/images/2012/02/2367_1.png)\n\nクリップボード履歴は、[ option + command + C ] を押すと呼び出せます。候補を選択して、「return」を押すとクリップボードに格納されます。\n\n![](/images/2012/02/2367_2.png)\n\nまた、「return」を押すと、自動で貼り付けてくれるように設定することも出来ます。\n\n「Advanced」タブから「Auto Paste on return」をオンにすると、直前までアクティブだったアプリに貼り付けてくれます。\n\n![](/images/2012/02/2367_3.png)\n\n## 2. スニペット機能の使い方\n\n「Snippets」タブからスニペットを登録することが出来ます。僕はまだまだ使い始めたばかりなのですが、以下のように設定してみました。\n\n![](/images/2012/02/2367_4.png)\n\nで、Alfred を普通に起動して、「snip \"Keyword\"」で呼び出すことが出来ます。\n\n![](/images/2012/02/2367_5.png)\n\nもしくは、[ option + command + C ] から「View All Snippets」を選択すると、一覧を見ることが出来ます。\n\n![](/images/2012/02/2367_6.png)\n\nここでよく使う定型文を登録しておくと、さくっと貼れるので便利です。研究室署名は、さっそく役立ちましたよ。",
+  "bodyHtml": "<p><img src=\"/images/2012/02/2367_1.jpg\" alt=\"\"></p>\n<p>最近、Alfred の Powerpack を購入してから、色々と遊んでいます。</p>\n<p>Alfred の Powerpack で使えるようになるクリップボード履歴とスニペット機能について簡単にまとめてみました。</p>\n<p>{{&lt;app id=&quot;405843582&quot; title=&quot;Alfred 1.0（無料）&quot; src=&quot;http://a3.mzstatic.com/us/r1000/097/Purple/e1/d8/82/mzi.njcalvnn.100x100-75.png&quot;&gt;}}</p>\n<p>公式サイト » <a href=\"http://www.alfredapp.com/\">Alfred App</a></p>\n<p>※ Alfred で Powerpack を使う場合は、AppStore からではなく、Alfred 公式サイトからダウンロードした Alfred を使用します。</p>\n<h2>1. 検索履歴の使い方</h2>\n<p>「Alfred Preferences」→「Features」→「Clipboard」を選択します。「History」タブから「Clipboard History」にチェックを入れます。</p>\n<p>また、クリップボード履歴を残す期間を決めることが出来ます。</p>\n<p><img src=\"/images/2012/02/2367_1.png\" alt=\"\"></p>\n<p>クリップボード履歴は、[ option + command + C ] を押すと呼び出せます。候補を選択して、「return」を押すとクリップボードに格納されます。</p>\n<p><img src=\"/images/2012/02/2367_2.png\" alt=\"\"></p>\n<p>また、「return」を押すと、自動で貼り付けてくれるように設定することも出来ます。</p>\n<p>「Advanced」タブから「Auto Paste on return」をオンにすると、直前までアクティブだったアプリに貼り付けてくれます。</p>\n<p><img src=\"/images/2012/02/2367_3.png\" alt=\"\"></p>\n<h2>2. スニペット機能の使い方</h2>\n<p>「Snippets」タブからスニペットを登録することが出来ます。僕はまだまだ使い始めたばかりなのですが、以下のように設定してみました。</p>\n<p><img src=\"/images/2012/02/2367_4.png\" alt=\"\"></p>\n<p>で、Alfred を普通に起動して、「snip &quot;Keyword&quot;」で呼び出すことが出来ます。</p>\n<p><img src=\"/images/2012/02/2367_5.png\" alt=\"\"></p>\n<p>もしくは、[ option + command + C ] から「View All Snippets」を選択すると、一覧を見ることが出来ます。</p>\n<p><img src=\"/images/2012/02/2367_6.png\" alt=\"\"></p>\n<p>ここでよく使う定型文を登録しておくと、さくっと貼れるので便利です。研究室署名は、さっそく役立ちましたよ。</p>\n",
+  "dir": "static/content/archives",
+  "base": "2012-02-08-2367.json",
+  "ext": ".json",
+  "sourceBase": "2012-02-08-2367.md",
+  "sourceExt": ".md"
+}

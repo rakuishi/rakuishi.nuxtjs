@@ -1,0 +1,16 @@
+{
+  "categories": [
+    "Hugo"
+  ],
+  "date": "2015-01-29T11:54:27.000Z",
+  "draft": false,
+  "slug": "hugo-zen",
+  "title": "Hugo Zen: これから Hugo を始める人向けのミニマムなテーマを作りました",
+  "bodyContent": "[Hugo Zen](https://github.com/rakuishi/hugo-zen) という、静的サイトジェネレータ [Hugo](http://gohugo.io/) で使えるテーマを作りました。理由は、公開されているテーマ [hugoThemes](https://github.com/spf13/hugoThemes) には、主張が強すぎるものが多く、どれを参考にオリジナルテーマを作ればいいか分からなかったからです。\n\nHugo Zen は、ミニマムに作られています。[Skeleton](http://getskeleton.com/) という素敵な CSS ライブラリと、100行に満たない custom.css から出来ていて、Hugo Zen を元に自分のテーマを作るのに向いています。\n\n![Hugo Zen](/images/2015/01/zen.jpg)\n\n## 導入\n\nHugo プロジェクトから以下のコマンドを打てば、使えるようになります。\n\n\t$ cd themes\n\t$ git clone https://github.com/rakuishi/hugo-zen\n\t$ hugo server --theme=hugo-zen --buildDrafts --watch\n\n## 設定\n\nconfig.toml に以下の内容を記述すれば、テーマに反映してくれます。config ファイルの変更は、`hugo server --watch` では反映されないため、再度コマンドを叩く必要があります。\n\n\tbaseurl = \"http://rakuishi.com/\"\n\tlanguageCode = \"ja\"\n\ttitle = \"rakuishi.com\"\n\tauthor = \"rakuishi\"\n\n\t[params]\n\t  logo      = \"/images/logo.jpg\"\n\t  copyright = \"rakuishi All rights reserved.\"\n\t  twitter   = \"https://twitter.com/rakuishi07\"\n\t  facebook  = \"https://www.facebook.com/ochiishikoichiro\"\n\t  github    = \"https://github.com/rakuishi/\"\n\t  email     = \"rakuishi@gmail.com\"\n\t  analytics = \"UA-12345678-9\"",
+  "bodyHtml": "<p><a href=\"https://github.com/rakuishi/hugo-zen\">Hugo Zen</a> という、静的サイトジェネレータ <a href=\"http://gohugo.io/\">Hugo</a> で使えるテーマを作りました。理由は、公開されているテーマ <a href=\"https://github.com/spf13/hugoThemes\">hugoThemes</a> には、主張が強すぎるものが多く、どれを参考にオリジナルテーマを作ればいいか分からなかったからです。</p>\n<p>Hugo Zen は、ミニマムに作られています。<a href=\"http://getskeleton.com/\">Skeleton</a> という素敵な CSS ライブラリと、100行に満たない custom.css から出来ていて、Hugo Zen を元に自分のテーマを作るのに向いています。</p>\n<p><img src=\"/images/2015/01/zen.jpg\" alt=\"Hugo Zen\"></p>\n<h2>導入</h2>\n<p>Hugo プロジェクトから以下のコマンドを打てば、使えるようになります。</p>\n<pre><code>$ cd themes\n$ git clone https://github.com/rakuishi/hugo-zen\n$ hugo server --theme=hugo-zen --buildDrafts --watch\n</code></pre>\n<h2>設定</h2>\n<p>config.toml に以下の内容を記述すれば、テーマに反映してくれます。config ファイルの変更は、<code>hugo server --watch</code> では反映されないため、再度コマンドを叩く必要があります。</p>\n<pre><code>baseurl = &quot;http://rakuishi.com/&quot;\nlanguageCode = &quot;ja&quot;\ntitle = &quot;rakuishi.com&quot;\nauthor = &quot;rakuishi&quot;\n\n[params]\n  logo      = &quot;/images/logo.jpg&quot;\n  copyright = &quot;rakuishi All rights reserved.&quot;\n  twitter   = &quot;https://twitter.com/rakuishi07&quot;\n  facebook  = &quot;https://www.facebook.com/ochiishikoichiro&quot;\n  github    = &quot;https://github.com/rakuishi/&quot;\n  email     = &quot;rakuishi@gmail.com&quot;\n  analytics = &quot;UA-12345678-9&quot;</code></pre>\n",
+  "dir": "static/content/archives",
+  "base": "2015-01-29-hugo-zen.json",
+  "ext": ".json",
+  "sourceBase": "2015-01-29-hugo-zen.md",
+  "sourceExt": ".md"
+}

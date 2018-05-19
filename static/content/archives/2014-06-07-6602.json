@@ -1,0 +1,16 @@
+{
+  "categories": [
+    "CSS"
+  ],
+  "date": "2014-06-06T23:33:31.000Z",
+  "draft": false,
+  "slug": 6602,
+  "title": "「次に進む/前に戻る」で CSS の記述量が減るテクニック",
+  "bodyContent": "ページネーションでよく使用される下図のような「次に進む/前に戻る」を実装する時に、少し考えこんで手が止まることが多かった。\n\n![](/images/2014/06/6602_1.png)\n\n左右に均等に配置するから `float` を使用する。`width: 50%` で指定するか。`float` を使うからその親要素に `clearfix` しなきゃいけないし、左右に配置された要素の中身をさらに `text-align` して左右に振って…というように、簡単な見た目に反して、実装の手間が結構かかる気がする。\n\nこれを `float` を使わずに、`position` を使うと話が簡単になる。\n\n「次に進む/前に戻る」を囲う親要素を `position: relative` にして、基準位置とする。そして、「次に進む/前に戻る」を `position: absolute` にして、それぞれ左右の始点を `0px` にすれば簡単に実装できる：\n\n```\n<nav class=\"pagenation\">\n  <a class=\"new\" href=\"/page/2\">&larr; 前に戻る</a>\n  <a class=\"old\" href=\"/page/4\">次に進む &rarr;</a>\n</nav>\n```\n\n```\nnav.pagenation {\n  position: relative;\n  .old, .new { position: absolute; }\n  .old { right: 0; }\n  .new { left: 0;  }\n}\n```\n\nこの方法だと `float` 解除を気にする必要がないし、最初の図のようにページ数を中央に配置したい場合は、 `.pagenation` に `text-align: center` を追加して、`a` タグと同じ階層にページ数を突っ込めば完了する。",
+  "bodyHtml": "<p>ページネーションでよく使用される下図のような「次に進む/前に戻る」を実装する時に、少し考えこんで手が止まることが多かった。</p>\n<p><img src=\"/images/2014/06/6602_1.png\" alt=\"\"></p>\n<p>左右に均等に配置するから <code>float</code> を使用する。<code>width: 50%</code> で指定するか。<code>float</code> を使うからその親要素に <code>clearfix</code> しなきゃいけないし、左右に配置された要素の中身をさらに <code>text-align</code> して左右に振って…というように、簡単な見た目に反して、実装の手間が結構かかる気がする。</p>\n<p>これを <code>float</code> を使わずに、<code>position</code> を使うと話が簡単になる。</p>\n<p>「次に進む/前に戻る」を囲う親要素を <code>position: relative</code> にして、基準位置とする。そして、「次に進む/前に戻る」を <code>position: absolute</code> にして、それぞれ左右の始点を <code>0px</code> にすれば簡単に実装できる：</p>\n<pre><code>&lt;nav class=&quot;pagenation&quot;&gt;\n  &lt;a class=&quot;new&quot; href=&quot;/page/2&quot;&gt;&amp;larr; 前に戻る&lt;/a&gt;\n  &lt;a class=&quot;old&quot; href=&quot;/page/4&quot;&gt;次に進む &amp;rarr;&lt;/a&gt;\n&lt;/nav&gt;\n</code></pre>\n<pre><code>nav.pagenation {\n  position: relative;\n  .old, .new { position: absolute; }\n  .old { right: 0; }\n  .new { left: 0;  }\n}\n</code></pre>\n<p>この方法だと <code>float</code> 解除を気にする必要がないし、最初の図のようにページ数を中央に配置したい場合は、 <code>.pagenation</code> に <code>text-align: center</code> を追加して、<code>a</code> タグと同じ階層にページ数を突っ込めば完了する。</p>\n",
+  "dir": "static/content/archives",
+  "base": "2014-06-07-6602.json",
+  "ext": ".json",
+  "sourceBase": "2014-06-07-6602.md",
+  "sourceExt": ".md"
+}

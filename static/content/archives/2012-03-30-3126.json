@@ -1,0 +1,16 @@
+{
+  "categories": [
+    "Mac"
+  ],
+  "date": "2012-03-29T23:25:37.000Z",
+  "draft": false,
+  "slug": 3126,
+  "title": "[Mac] Dashboard の存在を忘れるほど利用してなかったので、ターミナルから無効にしてみた",
+  "bodyContent": "皆さんは、この Dashboard って使用していますか？\n\n![](/images/2012/03/3126_1.png)\n\nMac 購入当初、色んなウィジットを試してみたのですが、あまり数も多くないし開発も下火な印象を受けました。\n\nまた、マカーな方々のブログをたくさん読み漁ってるのですが、Dashboard という単語を見た覚えがないです。もはや絶滅危惧種。\n\nということなので、Terminal からこの機能を無効にしてみました。\n\n## Terminal にコマンドを打ち込みます\n\nユーティリティフォルダにある、ターミナル（Terminal）という、文字を打ち込んで色んなことが操作できるアプリを利用します。\n\nイメージ的には、映画とかで登場してくるハッカーが高速でキーボードを叩いて、セキュリティの固いサーバーにアクセスする感じの、玄人なアプリです。\n\n![](/images/2012/03/3126_2.png)\n\nで、起動させて、以下の文字列を Terminal にタイプするか、コピペします。そして、エンターボタンを押す。\n\n```\ndefaults write com.apple.dashboard mcx-disabled -boolean true\n```\n\n![](/images/2012/03/3126_3.png)\n\n次に、この設定を有効にするために、Dock を再起動させます（パソコンが再起動するわけでないですよ）。\n\n以下の文字列をタイプします。ちなみに、僕は以前まで「きらるる・どっく」と読んでましたが、最近「キルオール・ドック」ということに気付きました。\n\n```\nkillall Dock\n```\n\n![](/images/2012/03/3126_4.png)\n\n実行すると無事に、Dashboard が無効になっているはずです。\n\n逆に Dashboard を有効にする際は、以下の命令を使います。\n\n```\ndefaults delete com.apple.dashboard mcx-disabled\nkillall Dock\n```\n\nMac の動作が軽くなるのかは不明ですが、使わないのなら無効にしておくといいかもですね。\n\n## 参考\n\n* [MacのDashboardを無効にして起動できないように設定する裏技 / Inforati](http://inforati.jp/apple/mac-tips-techniques/system-hints/how-to-disable-the-macos-dashboard-widgets.html)",
+  "bodyHtml": "<p>皆さんは、この Dashboard って使用していますか？</p>\n<p><img src=\"/images/2012/03/3126_1.png\" alt=\"\"></p>\n<p>Mac 購入当初、色んなウィジットを試してみたのですが、あまり数も多くないし開発も下火な印象を受けました。</p>\n<p>また、マカーな方々のブログをたくさん読み漁ってるのですが、Dashboard という単語を見た覚えがないです。もはや絶滅危惧種。</p>\n<p>ということなので、Terminal からこの機能を無効にしてみました。</p>\n<h2>Terminal にコマンドを打ち込みます</h2>\n<p>ユーティリティフォルダにある、ターミナル（Terminal）という、文字を打ち込んで色んなことが操作できるアプリを利用します。</p>\n<p>イメージ的には、映画とかで登場してくるハッカーが高速でキーボードを叩いて、セキュリティの固いサーバーにアクセスする感じの、玄人なアプリです。</p>\n<p><img src=\"/images/2012/03/3126_2.png\" alt=\"\"></p>\n<p>で、起動させて、以下の文字列を Terminal にタイプするか、コピペします。そして、エンターボタンを押す。</p>\n<pre><code>defaults write com.apple.dashboard mcx-disabled -boolean true\n</code></pre>\n<p><img src=\"/images/2012/03/3126_3.png\" alt=\"\"></p>\n<p>次に、この設定を有効にするために、Dock を再起動させます（パソコンが再起動するわけでないですよ）。</p>\n<p>以下の文字列をタイプします。ちなみに、僕は以前まで「きらるる・どっく」と読んでましたが、最近「キルオール・ドック」ということに気付きました。</p>\n<pre><code>killall Dock\n</code></pre>\n<p><img src=\"/images/2012/03/3126_4.png\" alt=\"\"></p>\n<p>実行すると無事に、Dashboard が無効になっているはずです。</p>\n<p>逆に Dashboard を有効にする際は、以下の命令を使います。</p>\n<pre><code>defaults delete com.apple.dashboard mcx-disabled\nkillall Dock\n</code></pre>\n<p>Mac の動作が軽くなるのかは不明ですが、使わないのなら無効にしておくといいかもですね。</p>\n<h2>参考</h2>\n<ul>\n<li><a href=\"http://inforati.jp/apple/mac-tips-techniques/system-hints/how-to-disable-the-macos-dashboard-widgets.html\">MacのDashboardを無効にして起動できないように設定する裏技 / Inforati</a></li>\n</ul>\n",
+  "dir": "static/content/archives",
+  "base": "2012-03-30-3126.json",
+  "ext": ".json",
+  "sourceBase": "2012-03-30-3126.md",
+  "sourceExt": ".md"
+}

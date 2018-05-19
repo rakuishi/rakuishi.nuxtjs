@@ -1,0 +1,16 @@
+{
+  "categories": [
+    "iOS"
+  ],
+  "date": "2012-10-26T13:00:00.000Z",
+  "draft": false,
+  "slug": 4604,
+  "title": "[iOS SDK] UIWebView でタップされたリンクを Safari で開く方法",
+  "bodyContent": "UIWebView では、リンクをロードする度に shouldStartLoadWithRequest メソッドが呼ばれます（UIWebViewDelegate プロトコルを実装する必要有り）。\n\nそのメソッド内で YES を返すと読み込まれ、NO を返すと読み込まれないようにすることができます。このメソッド内で、UIWebView でタップされたリンクを色々と料理することが出来ます。\n\nここでは、タップされたリンクをすべて Safari で開く一例を紹介します。\n\n```\n- (BOOL)webView:(UIWebView *)webView shouldStartLoadWithRequest:(NSURLRequest *)request navigationType:(UIWebViewNavigationType)navigationType\n{\n    if (navigationType == UIWebViewNavigationTypeLinkClicked ) {\n        [[UIApplication sharedApplication] openURL: [request URL]];\n        return NO;\n    }\n        \n    return YES;\n}\n```\n\nNSURLRequest を使えば、リクエストしようとしているリンクに応じて、読み込むかどうかを設定できますね。\n\nユーザーのアクションを表す UIWebViewNavigationType は、こんな感じで定義されているみたいです。\n\n```\n**UIWebViewNavigationType**\n\nenum {\n   UIWebViewNavigationTypeLinkClicked,\n   UIWebViewNavigationTypeFormSubmitted,\n   UIWebViewNavigationTypeBackForward,\n   UIWebViewNavigationTypeReload,\n   UIWebViewNavigationTypeFormResubmitted,\n   UIWebViewNavigationTypeOther\n};\n```",
+  "bodyHtml": "<p>UIWebView では、リンクをロードする度に shouldStartLoadWithRequest メソッドが呼ばれます（UIWebViewDelegate プロトコルを実装する必要有り）。</p>\n<p>そのメソッド内で YES を返すと読み込まれ、NO を返すと読み込まれないようにすることができます。このメソッド内で、UIWebView でタップされたリンクを色々と料理することが出来ます。</p>\n<p>ここでは、タップされたリンクをすべて Safari で開く一例を紹介します。</p>\n<pre><code>- (BOOL)webView:(UIWebView *)webView shouldStartLoadWithRequest:(NSURLRequest *)request navigationType:(UIWebViewNavigationType)navigationType\n{\n    if (navigationType == UIWebViewNavigationTypeLinkClicked ) {\n        [[UIApplication sharedApplication] openURL: [request URL]];\n        return NO;\n    }\n        \n    return YES;\n}\n</code></pre>\n<p>NSURLRequest を使えば、リクエストしようとしているリンクに応じて、読み込むかどうかを設定できますね。</p>\n<p>ユーザーのアクションを表す UIWebViewNavigationType は、こんな感じで定義されているみたいです。</p>\n<pre><code>**UIWebViewNavigationType**\n\nenum {\n   UIWebViewNavigationTypeLinkClicked,\n   UIWebViewNavigationTypeFormSubmitted,\n   UIWebViewNavigationTypeBackForward,\n   UIWebViewNavigationTypeReload,\n   UIWebViewNavigationTypeFormResubmitted,\n   UIWebViewNavigationTypeOther\n};\n</code></pre>\n",
+  "dir": "static/content/archives",
+  "base": "2012-10-26-4604.json",
+  "ext": ".json",
+  "sourceBase": "2012-10-26-4604.md",
+  "sourceExt": ".md"
+}

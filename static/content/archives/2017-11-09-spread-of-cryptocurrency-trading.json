@@ -1,0 +1,17 @@
+{
+  "categories": [
+    "Cryptocurrency"
+  ],
+  "date": "2017-11-09T12:58:43.000Z",
+  "draft": false,
+  "slug": "spread-of-cryptocurrency-trading",
+  "title": "仮想通貨を売り買いするときに注意したい値段の差（スプレッド）",
+  "subtitle": "仮想通貨販売所では、仮想通貨を買うときと売るときでは値段に差があります。頻繁にトレードするときは、その値段の差に気をつけておきましょう。",
+  "bodyContent": "仮想通貨を売り・買いするには、ふたつの方法があります。仮想通貨販売所を使う方法と、トレード画面で売り買いする方法（取引所）です。\n\n今回は、**仮想通貨販売所を使うとき**に注意しておきたいことを説明していきます。\n\n## ビットコインの買いと売りの値段の差（スプレッド）\n\nここで [coincheck](https://coincheck.com/?c=h_3cAbRPgrw) のビットコイン販売所の、同じ時間での買い値と売り値、さらに買い値に対する売り値の比率を調べてみます。\n\n<img src=\"/images/2017/11/spread-of-cryptocurrency-trading-1.png\">\n\n* 買い値：¥836,450 / 1BTC\n* 売り値：¥827,800 / 1BTC\n* 買い値に対する売り値の比率： 約 99 %（827,800 / 836,450 = 0.989）\n\nまた、同時間の [bitFlyer](https://bitflyer.jp/?bf=hus1mkdt) のビットコイン販売所も見ていきましょう。\n\n<img src=\"/images/2017/11/spread-of-cryptocurrency-trading-2.png\">\n\n* 買い値：¥849,684 / 1BTC\n* 売り値：¥816,704 / 1BTC\n* 買い値に対する売り値の比率： 約 96 %（816,704 / 849,684 = 0.961）\n\n販売所によって違いはありますが、**買い値に対して売り値は安くなる**ことがわかります。この差は、仮想通貨販売所の取引手数料のようなものです。\n\nこれからわかることは、仮想通貨のトレードで儲けるには、最低でも、売り値が買い値を超えなければならない、ということです。\n\n頻繁に売り買い（短期トレード）する場合は、この差を気にする必要があります。\n\n## アルトコインの買いと売りの値段の差（スプレッド）\n\n最後に、Ripple（単位は XRP）というアルトコインを見てみます。\n\n<img src=\"/images/2017/11/spread-of-cryptocurrency-trading-3.png\">\n\n* 買い値：¥24.319 / 1XRP\n* 売り値：¥22.862 / 1XRP\n* 買い値に対する売り値の比率： 約 94 %（22.862 / 24.319 = 0.94）\n\nアルトコインは、ビットコインに比べて、流動性が低いため、このスプレッドが広い（値段の差が大きい）ことがわかります。\n\n{{<cryptocurrency>}}",
+  "bodyHtml": "<p>仮想通貨を売り・買いするには、ふたつの方法があります。仮想通貨販売所を使う方法と、トレード画面で売り買いする方法（取引所）です。</p>\n<p>今回は、<strong>仮想通貨販売所を使うとき</strong>に注意しておきたいことを説明していきます。</p>\n<h2>ビットコインの買いと売りの値段の差（スプレッド）</h2>\n<p>ここで <a href=\"https://coincheck.com/?c=h_3cAbRPgrw\">coincheck</a> のビットコイン販売所の、同じ時間での買い値と売り値、さらに買い値に対する売り値の比率を調べてみます。</p>\n<p>&lt;img src=&quot;/images/2017/11/spread-of-cryptocurrency-trading-1.png&quot;&gt;</p>\n<ul>\n<li>買い値：¥836,450 / 1BTC</li>\n<li>売り値：¥827,800 / 1BTC</li>\n<li>買い値に対する売り値の比率： 約 99 %（827,800 / 836,450 = 0.989）</li>\n</ul>\n<p>また、同時間の <a href=\"https://bitflyer.jp/?bf=hus1mkdt\">bitFlyer</a> のビットコイン販売所も見ていきましょう。</p>\n<p>&lt;img src=&quot;/images/2017/11/spread-of-cryptocurrency-trading-2.png&quot;&gt;</p>\n<ul>\n<li>買い値：¥849,684 / 1BTC</li>\n<li>売り値：¥816,704 / 1BTC</li>\n<li>買い値に対する売り値の比率： 約 96 %（816,704 / 849,684 = 0.961）</li>\n</ul>\n<p>販売所によって違いはありますが、<strong>買い値に対して売り値は安くなる</strong>ことがわかります。この差は、仮想通貨販売所の取引手数料のようなものです。</p>\n<p>これからわかることは、仮想通貨のトレードで儲けるには、最低でも、売り値が買い値を超えなければならない、ということです。</p>\n<p>頻繁に売り買い（短期トレード）する場合は、この差を気にする必要があります。</p>\n<h2>アルトコインの買いと売りの値段の差（スプレッド）</h2>\n<p>最後に、Ripple（単位は XRP）というアルトコインを見てみます。</p>\n<p>&lt;img src=&quot;/images/2017/11/spread-of-cryptocurrency-trading-3.png&quot;&gt;</p>\n<ul>\n<li>買い値：¥24.319 / 1XRP</li>\n<li>売り値：¥22.862 / 1XRP</li>\n<li>買い値に対する売り値の比率： 約 94 %（22.862 / 24.319 = 0.94）</li>\n</ul>\n<p>アルトコインは、ビットコインに比べて、流動性が低いため、このスプレッドが広い（値段の差が大きい）ことがわかります。</p>\n<p>{{&lt;cryptocurrency&gt;}}</p>\n",
+  "dir": "static/content/archives",
+  "base": "2017-11-09-spread-of-cryptocurrency-trading.json",
+  "ext": ".json",
+  "sourceBase": "2017-11-09-spread-of-cryptocurrency-trading.md",
+  "sourceExt": ".md"
+}

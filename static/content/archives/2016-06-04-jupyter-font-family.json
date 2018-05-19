@@ -1,0 +1,16 @@
+{
+  "categories": [
+    "Python"
+  ],
+  "date": "2016-06-04T13:50:42.000Z",
+  "draft": false,
+  "slug": "jupyter-font-family",
+  "title": "Jupyter (IPython) Notebook の Output を等幅フォントに変える",
+  "bodyContent": "データサイエンスの勉強のために、Python 3.5 とデータサイエンスのための各種ライブラリが詰まった [Annaconda](https://www.continuum.io/) をダウンロードして、Jupyter (IPython) Notebook を使用しています。\n\nですが、Notebook の Output が等幅フォントでなく見にくかったため、それを等幅フォントに変える方法をメモしておきます。\n\n```\n$ echo '.CodeMirror pre, .output pre { font-family: Monaco, monospace; }' >  ~/.jupyter/custom/custom.css\n```",
+  "bodyHtml": "<p>データサイエンスの勉強のために、Python 3.5 とデータサイエンスのための各種ライブラリが詰まった <a href=\"https://www.continuum.io/\">Annaconda</a> をダウンロードして、Jupyter (IPython) Notebook を使用しています。</p>\n<p>ですが、Notebook の Output が等幅フォントでなく見にくかったため、それを等幅フォントに変える方法をメモしておきます。</p>\n<pre><code>$ echo '.CodeMirror pre, .output pre { font-family: Monaco, monospace; }' &gt;  ~/.jupyter/custom/custom.css\n</code></pre>\n",
+  "dir": "static/content/archives",
+  "base": "2016-06-04-jupyter-font-family.json",
+  "ext": ".json",
+  "sourceBase": "2016-06-04-jupyter-font-family.md",
+  "sourceExt": ".md"
+}

@@ -1,0 +1,16 @@
+{
+  "categories": [
+    "Web Service"
+  ],
+  "date": "2011-11-26T22:34:42.000Z",
+  "draft": false,
+  "slug": 1506,
+  "title": "Twitter・Facebook・Evernoteの連携サービスを解除する方法",
+  "bodyContent": "Webサービスの断捨離を始めました。ラクイシ（@rakuishi07）です。\n\n前回の記事で「Twitter・Facebook・Evernoteの連携サービスの見直し」と書いたのですが、自分でも忘れちゃうのでまとめておきます。\n\nこの機会に是非、見直してみてはいかがでしょうか？\n\n## Twitter : 「許可した連携アプリの一覽」\n\n以下のリンク先に移動します。\n\n[https://twitter.com/settings/applications](https://twitter.com/settings/applications)\n\n削除したいサービスの「許可を取り消す」をクリックして、許可した連携アプリから削除します。\n\n![](/images/2011/11/1506_1.png)\n\n## Facebook : 「アプリ設定」\n\n以下のリンク先に移動します。\n\n[https://www.facebook.com/settings?tab=applications](https://www.facebook.com/settings?tab=applications)\n\n取り消したいサービスの「×」ボタンをクリックします。\n\n![](/images/2011/11/1506_2.png)\n\nポップアップで確認画面が表示されので、「削除」をクリックして、アプリ設定から削除完了です。\n\n![](/images/2011/11/1506_3.png)\n\n## Evernote : 「あなたが許可したサービス」\n\n以下のリンク先に移動します。Evernoteの連携サービス自体まだまだ少ないので、使う機会は少ないと思います。\n\n[https://www.evernote.com/User.action#linkedservices](https://www.evernote.com/User.action#linkedservices)\n\n削除したいサービスにチェックを入れて、「選択した項目を解除する」をクリックして、許可したサービスから削除します。\n\n![](/images/2011/11/1506_4.png)",
+  "bodyHtml": "<p>Webサービスの断捨離を始めました。ラクイシ（@rakuishi07）です。</p>\n<p>前回の記事で「Twitter・Facebook・Evernoteの連携サービスの見直し」と書いたのですが、自分でも忘れちゃうのでまとめておきます。</p>\n<p>この機会に是非、見直してみてはいかがでしょうか？</p>\n<h2>Twitter : 「許可した連携アプリの一覽」</h2>\n<p>以下のリンク先に移動します。</p>\n<p><a href=\"https://twitter.com/settings/applications\">https://twitter.com/settings/applications</a></p>\n<p>削除したいサービスの「許可を取り消す」をクリックして、許可した連携アプリから削除します。</p>\n<p><img src=\"/images/2011/11/1506_1.png\" alt=\"\"></p>\n<h2>Facebook : 「アプリ設定」</h2>\n<p>以下のリンク先に移動します。</p>\n<p><a href=\"https://www.facebook.com/settings?tab=applications\">https://www.facebook.com/settings?tab=applications</a></p>\n<p>取り消したいサービスの「×」ボタンをクリックします。</p>\n<p><img src=\"/images/2011/11/1506_2.png\" alt=\"\"></p>\n<p>ポップアップで確認画面が表示されので、「削除」をクリックして、アプリ設定から削除完了です。</p>\n<p><img src=\"/images/2011/11/1506_3.png\" alt=\"\"></p>\n<h2>Evernote : 「あなたが許可したサービス」</h2>\n<p>以下のリンク先に移動します。Evernoteの連携サービス自体まだまだ少ないので、使う機会は少ないと思います。</p>\n<p><a href=\"https://www.evernote.com/User.action#linkedservices\">https://www.evernote.com/User.action#linkedservices</a></p>\n<p>削除したいサービスにチェックを入れて、「選択した項目を解除する」をクリックして、許可したサービスから削除します。</p>\n<p><img src=\"/images/2011/11/1506_4.png\" alt=\"\"></p>\n",
+  "dir": "static/content/archives",
+  "base": "2011-11-27-1506.json",
+  "ext": ".json",
+  "sourceBase": "2011-11-27-1506.md",
+  "sourceExt": ".md"
+}

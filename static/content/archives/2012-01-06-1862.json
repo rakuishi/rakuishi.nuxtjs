@@ -1,0 +1,16 @@
+{
+  "categories": [
+    "Mac"
+  ],
+  "date": "2012-01-05T22:24:24.000Z",
+  "draft": false,
+  "slug": 1862,
+  "title": "iMac の CD/DVD ドライブを利用して、MacBook Air のリモートディスク機能で CD/DVD を共有する",
+  "bodyContent": "![](/images/2012/01/1862_1.jpg)\n\nMacBook Air に Microsoft Office2011をディスクダウンロードする際に、リモートディスク機能を使ったので、忘備録がてらシェアします。\n\n動作は、iMac（21.5-inch, Late 2009）と MacBook Air（11-inch, Late 2010）で確認してます。\n\n## iMac側での設定\n\nまずは、同じネットワーク上に繋がっていることを確認。\n\n「環境設定」→「共有」で「DVD または CD 共有」にチェックを入れて、共有を開始します。\n\n![](/images/2012/01/1862_2.png)\n\nDVD または CD ディスクを入れて、読み込ませます。\n\n## MacBook Air側での操作\n\nデバイスにリモートディスクが現れるので、通常のディスクと同じように使用します。\n\n![](/images/2012/01/1862_3.png)\n\n階層をたどるとインストーラがあるので、ダブルクリックでインストーラを起動します。\n\n![](/images/2012/01/1862_4.png)",
+  "bodyHtml": "<p><img src=\"/images/2012/01/1862_1.jpg\" alt=\"\"></p>\n<p>MacBook Air に Microsoft Office2011をディスクダウンロードする際に、リモートディスク機能を使ったので、忘備録がてらシェアします。</p>\n<p>動作は、iMac（21.5-inch, Late 2009）と MacBook Air（11-inch, Late 2010）で確認してます。</p>\n<h2>iMac側での設定</h2>\n<p>まずは、同じネットワーク上に繋がっていることを確認。</p>\n<p>「環境設定」→「共有」で「DVD または CD 共有」にチェックを入れて、共有を開始します。</p>\n<p><img src=\"/images/2012/01/1862_2.png\" alt=\"\"></p>\n<p>DVD または CD ディスクを入れて、読み込ませます。</p>\n<h2>MacBook Air側での操作</h2>\n<p>デバイスにリモートディスクが現れるので、通常のディスクと同じように使用します。</p>\n<p><img src=\"/images/2012/01/1862_3.png\" alt=\"\"></p>\n<p>階層をたどるとインストーラがあるので、ダブルクリックでインストーラを起動します。</p>\n<p><img src=\"/images/2012/01/1862_4.png\" alt=\"\"></p>\n",
+  "dir": "static/content/archives",
+  "base": "2012-01-06-1862.json",
+  "ext": ".json",
+  "sourceBase": "2012-01-06-1862.md",
+  "sourceExt": ".md"
+}

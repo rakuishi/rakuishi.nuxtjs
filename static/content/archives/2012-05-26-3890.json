@@ -1,0 +1,16 @@
+{
+  "categories": [
+    "Development"
+  ],
+  "date": "2012-05-26T08:39:01.000Z",
+  "draft": false,
+  "slug": 3890,
+  "title": "Quicka v1.4：以前のバージョンでの不具合を修正しました",
+  "bodyContent": "Quicka が ver 1.4 になりました。\n\nアップデート内容は、以下となっています。今回は、バージョン 1.3 で発生した不具合を改善しました。\n\n* iPad での起動時の画面向きを修正\n* 対応バージョンの変更（iOS 5.1 → 5.0 に戻しました）\n\nアップデートの手探り感が見えますね（汗）。\n\n今は別のアプリを作るのに熱中していて、研究生活も始まり、大学院なのに受ける講義がわりと多かったりと、なかなか Quicka に手が回りませんが、いつかのアップデートでは、iCloud によるデバイス間同期を実現したいと思っています。\n\nこのブログで iCloud に関する記事が載ったら、少しだけ期待して下さい（笑）。\n\nいつもありがとうございます。\n\nこれからもよろしくお願いします。\n\n{{<app id=\"511606108\" title=\"Quicka 1.4（￥85）\" src=\"http://a3.mzstatic.com/us/r1000/065/Purple/v4/64/65/2f/64652ff0-1f14-87be-a19f-99e65ec781aa/ibjG3fNt4Phm08ZnZUjx0g-temp-upload.cqnwvlfj.100x100-75.png\">}}",
+  "bodyHtml": "<p>Quicka が ver 1.4 になりました。</p>\n<p>アップデート内容は、以下となっています。今回は、バージョン 1.3 で発生した不具合を改善しました。</p>\n<ul>\n<li>iPad での起動時の画面向きを修正</li>\n<li>対応バージョンの変更（iOS 5.1 → 5.0 に戻しました）</li>\n</ul>\n<p>アップデートの手探り感が見えますね（汗）。</p>\n<p>今は別のアプリを作るのに熱中していて、研究生活も始まり、大学院なのに受ける講義がわりと多かったりと、なかなか Quicka に手が回りませんが、いつかのアップデートでは、iCloud によるデバイス間同期を実現したいと思っています。</p>\n<p>このブログで iCloud に関する記事が載ったら、少しだけ期待して下さい（笑）。</p>\n<p>いつもありがとうございます。</p>\n<p>これからもよろしくお願いします。</p>\n<p>{{&lt;app id=&quot;511606108&quot; title=&quot;Quicka 1.4（￥85）&quot; src=&quot;http://a3.mzstatic.com/us/r1000/065/Purple/v4/64/65/2f/64652ff0-1f14-87be-a19f-99e65ec781aa/ibjG3fNt4Phm08ZnZUjx0g-temp-upload.cqnwvlfj.100x100-75.png&quot;&gt;}}</p>\n",
+  "dir": "static/content/archives",
+  "base": "2012-05-26-3890.json",
+  "ext": ".json",
+  "sourceBase": "2012-05-26-3890.md",
+  "sourceExt": ".md"
+}

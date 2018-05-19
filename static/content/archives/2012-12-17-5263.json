@@ -1,0 +1,16 @@
+{
+  "categories": [
+    "Mac"
+  ],
+  "date": "2012-12-16T23:00:53.000Z",
+  "draft": false,
+  "slug": 5263,
+  "title": "[Mountain Lion] 通知センターを無効化する方法",
+  "bodyContent": "![](/images/2012/12/5263_1.png)\n\nMountain Lion で「通知センター」が iOS から輸入されたのですが、iPhone と違ってプッシュで知らせてくれる必要性を感じなかったので、無効化しました。\n\n## Terminal にコマンドを打ち込んで通知センターを無効化する\n\nユーティリティフォルダにある、ターミナル（Terminal）という、文字を打ち込んで色んなことが操作できるアプリを利用します。\n\n![](/images/2012/03/5263_2.png)\n\n起動させて、以下の文字列を Terminal にタイプするか、コピペします。そして、エンターボタンを押すと、通知センターが無効化されます。\n\n```\nlaunchctl unload -w /System/Library/LaunchAgents/com.apple.notificationcenterui.plist\n```\n\n## 通知センターを有効化する場合\n\n逆に通知センターを有効にする際は、以下の命令を使います。\n\n```\nlaunchctl load -w /System/Library/LaunchAgents/com.apple.notificationcenterui.plist\n```",
+  "bodyHtml": "<p><img src=\"/images/2012/12/5263_1.png\" alt=\"\"></p>\n<p>Mountain Lion で「通知センター」が iOS から輸入されたのですが、iPhone と違ってプッシュで知らせてくれる必要性を感じなかったので、無効化しました。</p>\n<h2>Terminal にコマンドを打ち込んで通知センターを無効化する</h2>\n<p>ユーティリティフォルダにある、ターミナル（Terminal）という、文字を打ち込んで色んなことが操作できるアプリを利用します。</p>\n<p><img src=\"/images/2012/03/5263_2.png\" alt=\"\"></p>\n<p>起動させて、以下の文字列を Terminal にタイプするか、コピペします。そして、エンターボタンを押すと、通知センターが無効化されます。</p>\n<pre><code>launchctl unload -w /System/Library/LaunchAgents/com.apple.notificationcenterui.plist\n</code></pre>\n<h2>通知センターを有効化する場合</h2>\n<p>逆に通知センターを有効にする際は、以下の命令を使います。</p>\n<pre><code>launchctl load -w /System/Library/LaunchAgents/com.apple.notificationcenterui.plist\n</code></pre>\n",
+  "dir": "static/content/archives",
+  "base": "2012-12-17-5263.json",
+  "ext": ".json",
+  "sourceBase": "2012-12-17-5263.md",
+  "sourceExt": ".md"
+}

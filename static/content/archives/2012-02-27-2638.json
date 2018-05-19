@@ -1,0 +1,16 @@
+{
+  "categories": [
+    "WordPress"
+  ],
+  "date": "2012-02-26T22:57:10.000Z",
+  "draft": false,
+  "slug": 2638,
+  "title": "[WordPress] SlideShare がプレビューで表示されない時の対処法",
+  "bodyContent": "先日、「なでしこ」講座の記事で、 Pawerpoint や keynote などのスライドを共有できる SlideShare を初めて利用してみました。\n\n![](/images/2012/02/2638_1.png)\n\nしかし、SlideShare で取得したタグを WordPress のエディタにぺたりと貼り付けても、プレビューで表示することができず、あるはずの領域に広がる一面の銀世界。\n\n改めてタグを見てみると、iframe タグが使われてるのが怪しかったので、調べてみるとどうやら、WordPress は標準で iframe タグを消してしまう親切というか有難迷惑な設計らしいのです（iframe ウイルスというのがあるらしいので、たぶん親切です）。\n\n二通りの表示方法があるみたいなので、紹介します。\n\n## 1. プラグインで表示する\n\n簡単な方法は、プラグインを導入することです。探せばなんでもあるのが、WordPress の素晴らしい点ですよね。\n\nDownload » [WordPress › TSL iframe unfilter « WordPress Plugins](http://wordpress.org/extend/plugins/tsl-iframe-unfilter/)\n\n## 2. テーマのための関数をいじる\n\nお使いのテーマの関数 function.php の &lt;?php 〜 ?&gt; 内に、以下のコードを貼り付けます。\n\n```\nfunction extended_enable_elements($init) {\n  $init['extended_valid_elements']=\"iframe[src|width|height|name|align|style|scrolling|marginwidth|marginheight|frameborder]\";\n  return $init;\n}\n```\n\n参考：[wordpressでiframeタグが使えない　－　解決方法 | トミリュウ・コム](http://www.tomiryu.com/wordpress/wordpress%E3%81%A7iframe%E3%82%BF%E3%82%B0%E3%81%8C%E4%BD%BF%E3%81%88%E3%81%AA%E3%81%84%E3%80%80%EF%BC%8D%E3%80%80%E8%A7%A3%E6%B1%BA%E7%AD%96/)\n\nこれで、SlideShare がうまく表示されるはずです。",
+  "bodyHtml": "<p>先日、「なでしこ」講座の記事で、 Pawerpoint や keynote などのスライドを共有できる SlideShare を初めて利用してみました。</p>\n<p><img src=\"/images/2012/02/2638_1.png\" alt=\"\"></p>\n<p>しかし、SlideShare で取得したタグを WordPress のエディタにぺたりと貼り付けても、プレビューで表示することができず、あるはずの領域に広がる一面の銀世界。</p>\n<p>改めてタグを見てみると、iframe タグが使われてるのが怪しかったので、調べてみるとどうやら、WordPress は標準で iframe タグを消してしまう親切というか有難迷惑な設計らしいのです（iframe ウイルスというのがあるらしいので、たぶん親切です）。</p>\n<p>二通りの表示方法があるみたいなので、紹介します。</p>\n<h2>1. プラグインで表示する</h2>\n<p>簡単な方法は、プラグインを導入することです。探せばなんでもあるのが、WordPress の素晴らしい点ですよね。</p>\n<p>Download » <a href=\"http://wordpress.org/extend/plugins/tsl-iframe-unfilter/\">WordPress › TSL iframe unfilter « WordPress Plugins</a></p>\n<h2>2. テーマのための関数をいじる</h2>\n<p>お使いのテーマの関数 function.php の &lt;?php 〜 ?&gt; 内に、以下のコードを貼り付けます。</p>\n<pre><code>function extended_enable_elements($init) {\n  $init['extended_valid_elements']=&quot;iframe[src|width|height|name|align|style|scrolling|marginwidth|marginheight|frameborder]&quot;;\n  return $init;\n}\n</code></pre>\n<p>参考：<a href=\"http://www.tomiryu.com/wordpress/wordpress%E3%81%A7iframe%E3%82%BF%E3%82%B0%E3%81%8C%E4%BD%BF%E3%81%88%E3%81%AA%E3%81%84%E3%80%80%EF%BC%8D%E3%80%80%E8%A7%A3%E6%B1%BA%E7%AD%96/\">wordpressでiframeタグが使えない　－　解決方法 | トミリュウ・コム</a></p>\n<p>これで、SlideShare がうまく表示されるはずです。</p>\n",
+  "dir": "static/content/archives",
+  "base": "2012-02-27-2638.json",
+  "ext": ".json",
+  "sourceBase": "2012-02-27-2638.md",
+  "sourceExt": ".md"
+}

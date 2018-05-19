@@ -1,0 +1,16 @@
+{
+  "categories": [
+    "Web Service"
+  ],
+  "date": "2015-09-06T01:02:52.000Z",
+  "draft": false,
+  "slug": "chrome-hijacking-media-keys",
+  "title": "Google Play ミュージックを導入後、メディアキーで iTunes を操作できなくなった時の対処法",
+  "bodyContent": "Google Play ミュージックで、月額制のサブスクリプションサービスが始まったので、一ヶ月間視聴している最中なのですが、その拡張機能を入れたあたりから Mac のキーボード上のメディアキーで iTunes を操作することができなくなり、代わりに Google Play ミュージックが操作できるようになりました。\n\n普段使いしている iTunes がメディアキーで操作できなくなるのは避けたいので、元通りにする手順を残しておきます。\n\n1. 「環境設定（command + ,）」を開く\n1. 「拡張機能」タブに移動する\n1. ページ下部にある「キーボード ショートカット」を選択する\n1. 「Google Play ミュージック」の各オプションを「グローバル」から「Chrome 専用」にする\n\n![chrome-hijacking-media-keys](/images/2015/09/extensions.png)",
+  "bodyHtml": "<p>Google Play ミュージックで、月額制のサブスクリプションサービスが始まったので、一ヶ月間視聴している最中なのですが、その拡張機能を入れたあたりから Mac のキーボード上のメディアキーで iTunes を操作することができなくなり、代わりに Google Play ミュージックが操作できるようになりました。</p>\n<p>普段使いしている iTunes がメディアキーで操作できなくなるのは避けたいので、元通りにする手順を残しておきます。</p>\n<ol>\n<li>「環境設定（command + ,）」を開く</li>\n<li>「拡張機能」タブに移動する</li>\n<li>ページ下部にある「キーボード ショートカット」を選択する</li>\n<li>「Google Play ミュージック」の各オプションを「グローバル」から「Chrome 専用」にする</li>\n</ol>\n<p><img src=\"/images/2015/09/extensions.png\" alt=\"chrome-hijacking-media-keys\"></p>\n",
+  "dir": "static/content/archives",
+  "base": "2015-09-06-chrome-hijacking-media-keys.json",
+  "ext": ".json",
+  "sourceBase": "2015-09-06-chrome-hijacking-media-keys.md",
+  "sourceExt": ".md"
+}

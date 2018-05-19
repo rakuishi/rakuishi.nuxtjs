@@ -1,0 +1,16 @@
+{
+  "categories": [
+    "iOS"
+  ],
+  "date": "2011-11-04T23:35:38.000Z",
+  "draft": false,
+  "slug": 1150,
+  "title": "[iOS 5 beta] iOS 5.0.1 beta2 に OTA（Over The Air）でアップデートした",
+  "bodyContent": "朝起きるとiOS開発者向けに「iOS 5.0.1 beta2」が利用可能になったと案内が来ていました。\n\n![](/images/2011/11/1150_1.png)\n\n> You can also install the update over the air from devices that have iOS 5.0.1 beta installed.\n\n昨日「iOS 5.0.1 beta」が利用可能になったばかりなので、無線経由でソフトウェア・アップデートのテストという側面が大きいと思われます。\n\nここでは、OTA（Over the Air）でアップデートする手順を示します。\n\n開発者ではない方も、今後来るアップデートのために予習しておくといいかも知れません。\n\n## iOS 5 を Over The Air でアップデートする手順\n\nOTA（Over the Air）対応とのコトなのでケーブル接続せずにアップデートできます。\n\n設定アプリを起動します。\n\n![](/images/2011/11/1150_2.png)\n\n「一般」をタップします。\n\n![](/images/2011/11/1150_3.png)\n\n「ソフトウェア・アップデート」をタップします。\n\n![](/images/2011/11/1150_4.png)\n\n「ダウンロードしてインストール」をタップします。\n\n![](/images/2011/11/1150_5.png)\n\n利用条件を読んでから「同意する」をタップします。\n\n![](/images/2011/11/1150_6.png)\n\nだいたい5分ぐらいでダウンロードが終わりました。ポップアップで表示されるダイアログの「インストール」をタップします。\n\n![](/images/2011/11/1150_7.png)\n\n「インストール」タップ後、画面が暗くなり、電源がオフになりました。\n\n再起動と書いてあったので待っていたのですが、なかなか起動せず。スリープボタン長押しで起動しました。\n\n確認してみると、「5.0.1 (9A404)」にアップデートされていました。\n\n![](/images/2011/11/1150_8.png)\n\nPCを使わずiPhoneだけで最新iOSにできるので、とても便利ですね。",
+  "bodyHtml": "<p>朝起きるとiOS開発者向けに「iOS 5.0.1 beta2」が利用可能になったと案内が来ていました。</p>\n<p><img src=\"/images/2011/11/1150_1.png\" alt=\"\"></p>\n<blockquote>\n<p>You can also install the update over the air from devices that have iOS 5.0.1 beta installed.</p>\n</blockquote>\n<p>昨日「iOS 5.0.1 beta」が利用可能になったばかりなので、無線経由でソフトウェア・アップデートのテストという側面が大きいと思われます。</p>\n<p>ここでは、OTA（Over the Air）でアップデートする手順を示します。</p>\n<p>開発者ではない方も、今後来るアップデートのために予習しておくといいかも知れません。</p>\n<h2>iOS 5 を Over The Air でアップデートする手順</h2>\n<p>OTA（Over the Air）対応とのコトなのでケーブル接続せずにアップデートできます。</p>\n<p>設定アプリを起動します。</p>\n<p><img src=\"/images/2011/11/1150_2.png\" alt=\"\"></p>\n<p>「一般」をタップします。</p>\n<p><img src=\"/images/2011/11/1150_3.png\" alt=\"\"></p>\n<p>「ソフトウェア・アップデート」をタップします。</p>\n<p><img src=\"/images/2011/11/1150_4.png\" alt=\"\"></p>\n<p>「ダウンロードしてインストール」をタップします。</p>\n<p><img src=\"/images/2011/11/1150_5.png\" alt=\"\"></p>\n<p>利用条件を読んでから「同意する」をタップします。</p>\n<p><img src=\"/images/2011/11/1150_6.png\" alt=\"\"></p>\n<p>だいたい5分ぐらいでダウンロードが終わりました。ポップアップで表示されるダイアログの「インストール」をタップします。</p>\n<p><img src=\"/images/2011/11/1150_7.png\" alt=\"\"></p>\n<p>「インストール」タップ後、画面が暗くなり、電源がオフになりました。</p>\n<p>再起動と書いてあったので待っていたのですが、なかなか起動せず。スリープボタン長押しで起動しました。</p>\n<p>確認してみると、「5.0.1 (9A404)」にアップデートされていました。</p>\n<p><img src=\"/images/2011/11/1150_8.png\" alt=\"\"></p>\n<p>PCを使わずiPhoneだけで最新iOSにできるので、とても便利ですね。</p>\n",
+  "dir": "static/content/archives",
+  "base": "2011-11-05-1150.json",
+  "ext": ".json",
+  "sourceBase": "2011-11-05-1150.md",
+  "sourceExt": ".md"
+}

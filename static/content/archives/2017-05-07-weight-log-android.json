@@ -1,0 +1,16 @@
+{
+  "categories": [
+    "Development"
+  ],
+  "date": "2017-05-07T00:09:24.000Z",
+  "draft": false,
+  "slug": "weight-log-android",
+  "title": "Google Fit と連携できる体重管理アプリを作りました",
+  "bodyContent": "![](/images/2017/05/promotion.png)\n\nGW を利用して体重管理アプリを作った。今年の目標は「自分を好きになる」で自分のコンプレクスのいくつかはお金で解決できそうだということでまあ色々としている。その中のひとつが「平均体重まで太る」というのがあり、ジムに行って筋肉をつけている。今のところ 1 ヶ月に 1kg のペースで増えている。\n\n体重の増減を記録する時に、Google 純正 Fit アプリを使っていたんだけれど、体重の記録を間違えた時に削除できないし、編集ができないのが不親切だし、いまいちグラフが見にくかった。英語のフォーラムでそういう意見や裏技の紹介があって、みんな Google Fit での体重管理に課題を感じているんだろうなと思った。\n\nGoogle Fit は API が開放されているから、サードパーティ製のアプリが作れる。なので、ストア上にある Google Fit 連携アプリを片端から試して見たんだけれど、ログインが必要だったり、使い方がよく分からないものが多く、これだというアプリがなかった。そういうモチベーションが手伝って、Weight Tron という体重管理アプリを作った。広告ありの無料モデルのアプリになります。\n\n現在のところ機能はとてもシンプルになってます。\n\n- 体重の追加／編集／削除\n- 記録を見る期間の変更（30, 60, 90, 180 日）\n\n将来的には、目標体重の登録や、身長を入力しての BMI の計算、任意の期間を見る機能の追加などがあると思う。自分が使って不便だったり、要望が多ければ足していきます。\n\n[![](/images/2017/04/en_generic_rgb_wo_60.png)](https://play.google.com/store/apps/details?id=com.rakuishi.weight)\n\n- https://github.com/rakuishi/weight-log-android\n\n![](/images/2017/05/weight-log-ss.png)",
+  "bodyHtml": "<p><img src=\"/images/2017/05/promotion.png\" alt=\"\"></p>\n<p>GW を利用して体重管理アプリを作った。今年の目標は「自分を好きになる」で自分のコンプレクスのいくつかはお金で解決できそうだということでまあ色々としている。その中のひとつが「平均体重まで太る」というのがあり、ジムに行って筋肉をつけている。今のところ 1 ヶ月に 1kg のペースで増えている。</p>\n<p>体重の増減を記録する時に、Google 純正 Fit アプリを使っていたんだけれど、体重の記録を間違えた時に削除できないし、編集ができないのが不親切だし、いまいちグラフが見にくかった。英語のフォーラムでそういう意見や裏技の紹介があって、みんな Google Fit での体重管理に課題を感じているんだろうなと思った。</p>\n<p>Google Fit は API が開放されているから、サードパーティ製のアプリが作れる。なので、ストア上にある Google Fit 連携アプリを片端から試して見たんだけれど、ログインが必要だったり、使い方がよく分からないものが多く、これだというアプリがなかった。そういうモチベーションが手伝って、Weight Tron という体重管理アプリを作った。広告ありの無料モデルのアプリになります。</p>\n<p>現在のところ機能はとてもシンプルになってます。</p>\n<ul>\n<li>体重の追加／編集／削除</li>\n<li>記録を見る期間の変更（30, 60, 90, 180 日）</li>\n</ul>\n<p>将来的には、目標体重の登録や、身長を入力しての BMI の計算、任意の期間を見る機能の追加などがあると思う。自分が使って不便だったり、要望が多ければ足していきます。</p>\n<p><a href=\"https://play.google.com/store/apps/details?id=com.rakuishi.weight\"><img src=\"/images/2017/04/en_generic_rgb_wo_60.png\" alt=\"\"></a></p>\n<ul>\n<li>https://github.com/rakuishi/weight-log-android</li>\n</ul>\n<p><img src=\"/images/2017/05/weight-log-ss.png\" alt=\"\"></p>\n",
+  "dir": "static/content/archives",
+  "base": "2017-05-07-weight-log-android.json",
+  "ext": ".json",
+  "sourceBase": "2017-05-07-weight-log-android.md",
+  "sourceExt": ".md"
+}

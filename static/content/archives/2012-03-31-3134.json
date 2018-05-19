@@ -1,0 +1,16 @@
+{
+  "categories": [
+    "WordPress"
+  ],
+  "date": "2012-03-31T00:00:48.000Z",
+  "draft": false,
+  "slug": 3134,
+  "title": "[WordPress] 総記事数をブログに表示させてみた",
+  "bodyContent": "WordPress のダッシュボードの記事数が増えていくのを見るたびに嬉しくなります。ブログを書く気が湧いてくるので、ブログトップページにも総記事数を表示させてみました。\n\n## WordPress が用意している関数を使用\n\nブログテーマ .php ファイル内に、以下のコードを貼り付けるだけで、総記事数が表示されます。\n\n```\n<?php $numposts = $wpdb->get_var(\"SELECT count(*) FROM $wpdb->posts WHERE post_status = 'publish' AND post_type = 'post'\");\nif (0 < $numposts)\n     $numposts = number_format($numposts);\necho $numposts.' posts.';\n?>\n```\n\n## ブログトップページに設置してみた\n\n目立たないフッターに実装してみました。\n\n![](/images/2012/03/3134_1.png)\n\nこれで、毎日ブログを見て、にやにやするのが加速しそうです。\n\n## 参考\n\n* [WordPressをちょちょいと使いやすくする15のスニペット | コリス](http://coliss.com/articles/blog/wordpress/wordpress-15-snippets-for-developers.html)",
+  "bodyHtml": "<p>WordPress のダッシュボードの記事数が増えていくのを見るたびに嬉しくなります。ブログを書く気が湧いてくるので、ブログトップページにも総記事数を表示させてみました。</p>\n<h2>WordPress が用意している関数を使用</h2>\n<p>ブログテーマ .php ファイル内に、以下のコードを貼り付けるだけで、総記事数が表示されます。</p>\n<pre><code>&lt;?php $numposts = $wpdb-&gt;get_var(&quot;SELECT count(*) FROM $wpdb-&gt;posts WHERE post_status = 'publish' AND post_type = 'post'&quot;);\nif (0 &lt; $numposts)\n     $numposts = number_format($numposts);\necho $numposts.' posts.';\n?&gt;\n</code></pre>\n<h2>ブログトップページに設置してみた</h2>\n<p>目立たないフッターに実装してみました。</p>\n<p><img src=\"/images/2012/03/3134_1.png\" alt=\"\"></p>\n<p>これで、毎日ブログを見て、にやにやするのが加速しそうです。</p>\n<h2>参考</h2>\n<ul>\n<li><a href=\"http://coliss.com/articles/blog/wordpress/wordpress-15-snippets-for-developers.html\">WordPressをちょちょいと使いやすくする15のスニペット | コリス</a></li>\n</ul>\n",
+  "dir": "static/content/archives",
+  "base": "2012-03-31-3134.json",
+  "ext": ".json",
+  "sourceBase": "2012-03-31-3134.md",
+  "sourceExt": ".md"
+}

@@ -1,0 +1,16 @@
+{
+  "categories": [
+    "WordPress"
+  ],
+  "date": "2014-08-11T13:43:55.000Z",
+  "draft": false,
+  "slug": "wordpress-plugins",
+  "title": "WordPress Plugins",
+  "bodyContent": "## One Step Before Publishing\n\nOne Step Before Publishing is a WordPress plugin that display comfirmation dialog before publishing.\n\n* [WordPress › One Step Before Publishing « WordPress Plugins](http://wordpress.org/plugins/one-step-before-publishing/)\n* [rakuishi/OneStepBeforePublishing](https://github.com/rakuishi/OneStepBeforePublishing)\n* [記事公開前に確認アラートを表示する「One Step Before Publishing」が WordPress プラグインディレクトリに掲載されました](http://rakuishi.com/archives/6736)",
+  "bodyHtml": "<h2>One Step Before Publishing</h2>\n<p>One Step Before Publishing is a WordPress plugin that display comfirmation dialog before publishing.</p>\n<ul>\n<li><a href=\"http://wordpress.org/plugins/one-step-before-publishing/\">WordPress › One Step Before Publishing « WordPress Plugins</a></li>\n<li><a href=\"https://github.com/rakuishi/OneStepBeforePublishing\">rakuishi/OneStepBeforePublishing</a></li>\n<li><a href=\"http://rakuishi.com/archives/6736\">記事公開前に確認アラートを表示する「One Step Before Publishing」が WordPress プラグインディレクトリに掲載されました</a></li>\n</ul>\n",
+  "dir": "static/content/archives",
+  "base": "2014-08-22-wordpress-plugins.json",
+  "ext": ".json",
+  "sourceBase": "2014-08-22-wordpress-plugins.md",
+  "sourceExt": ".md"
+}

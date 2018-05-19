@@ -1,0 +1,16 @@
+{
+  "categories": [
+    "Mac"
+  ],
+  "date": "2012-06-08T11:51:50.000Z",
+  "draft": false,
+  "slug": 3984,
+  "title": "Evernote for Mac が 3.1.2 にアップデート！ノート内の画像回転が出来るように",
+  "bodyContent": "Evernote に日常の画像を投げているラクイシ（@rakuishi07）です。\n\n待ってました！\n\nEvernote for Mac が 3.1.2 にマイナーアップデートして、ずっと待ち望んでいたノート内での画像の回転が出来るようになりました！\n\n![](/images/2012/06/3984_1.png)\n\n## 早速、画像を回転してみた\n\n画像を含んだノートを開きます。\n\n![](/images/2012/06/3984_2.png)\n\nで、おもむろに画像の上で右クリックして、出てくるメニューから好きな回転方向を選択！\n\n![](/images/2012/06/3984_3.png)\n\n時計回りに回転した！\n\n![](/images/2012/06/3984_4.png)\n\nいいですね！\n\niPhone で撮影した画像を Evernote に送った時に、たまに画像の向きがおかしなことになってたので、いやー、これは相当便利です。\n\n公式ブログ：[Evernote for Mac アップデート: 画像回転、添付ファイル名変更など « Evernote日本語版ブログ](http://blog.evernote.com/jp/2012/06/08/8670)",
+  "bodyHtml": "<p>Evernote に日常の画像を投げているラクイシ（@rakuishi07）です。</p>\n<p>待ってました！</p>\n<p>Evernote for Mac が 3.1.2 にマイナーアップデートして、ずっと待ち望んでいたノート内での画像の回転が出来るようになりました！</p>\n<p><img src=\"/images/2012/06/3984_1.png\" alt=\"\"></p>\n<h2>早速、画像を回転してみた</h2>\n<p>画像を含んだノートを開きます。</p>\n<p><img src=\"/images/2012/06/3984_2.png\" alt=\"\"></p>\n<p>で、おもむろに画像の上で右クリックして、出てくるメニューから好きな回転方向を選択！</p>\n<p><img src=\"/images/2012/06/3984_3.png\" alt=\"\"></p>\n<p>時計回りに回転した！</p>\n<p><img src=\"/images/2012/06/3984_4.png\" alt=\"\"></p>\n<p>いいですね！</p>\n<p>iPhone で撮影した画像を Evernote に送った時に、たまに画像の向きがおかしなことになってたので、いやー、これは相当便利です。</p>\n<p>公式ブログ：<a href=\"http://blog.evernote.com/jp/2012/06/08/8670\">Evernote for Mac アップデート: 画像回転、添付ファイル名変更など « Evernote日本語版ブログ</a></p>\n",
+  "dir": "static/content/archives",
+  "base": "2012-06-08-3984.json",
+  "ext": ".json",
+  "sourceBase": "2012-06-08-3984.md",
+  "sourceExt": ".md"
+}

@@ -1,0 +1,16 @@
+{
+  "categories": [
+    "iOS"
+  ],
+  "date": "2013-01-06T11:14:31.000Z",
+  "draft": false,
+  "slug": 5380,
+  "title": "[iOS SDK] UITableView Grouped のセルの枠線に現れる影（シャドウ）を消す方法",
+  "bodyContent": "![](/images/2013/01/5380_1.png)\n\nUITableView（Grouped）を利用する際、標準では、上図左のセルのように、セルの枠線に影が付いています。\n\nこれは、UITableViewCellSeparatorStyle を下のように指定することで解決されます。指定後は、上図右のような見た目になります。（違いが分かりにくいですが）\n\n```\nself.tableView.separatorStyle = UITableViewCellSeparatorStyleSingleLine;\n```\n\n標準では、UITableViewCellSeparatorStyleSingleLineEtched が指定されているようですね。",
+  "bodyHtml": "<p><img src=\"/images/2013/01/5380_1.png\" alt=\"\"></p>\n<p>UITableView（Grouped）を利用する際、標準では、上図左のセルのように、セルの枠線に影が付いています。</p>\n<p>これは、UITableViewCellSeparatorStyle を下のように指定することで解決されます。指定後は、上図右のような見た目になります。（違いが分かりにくいですが）</p>\n<pre><code>self.tableView.separatorStyle = UITableViewCellSeparatorStyleSingleLine;\n</code></pre>\n<p>標準では、UITableViewCellSeparatorStyleSingleLineEtched が指定されているようですね。</p>\n",
+  "dir": "static/content/archives",
+  "base": "2013-01-06-5380.json",
+  "ext": ".json",
+  "sourceBase": "2013-01-06-5380.md",
+  "sourceExt": ".md"
+}

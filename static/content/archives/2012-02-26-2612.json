@@ -1,0 +1,16 @@
+{
+  "categories": [
+    "iOS"
+  ],
+  "date": "2012-02-26T00:42:58.000Z",
+  "draft": false,
+  "slug": 2612,
+  "title": "[iPhone] 写真以外のファイルをメールに添付して送信する方法",
+  "bodyContent": "メールに写真を添付する方法も紹介しています。→ [[iPhone] メールに写真を添付する方法 ](http://rakuishi.com/archives/3475/)\n\n出先で友人から ppt ファイルを渡してくれとメールがありました。\n\nファイルは、Dropbox にあるので iPhone からメール添付しようとしたのですが、Dropbox アプリにはメール添付する機能がありませんでした。\n\nそこで、多機能で有名な GoodReader だとメールに様々な形式のファイルを添付できましたので、その添付方法を紹介します。\n\n{{<app id=\"306277111\" title=\"GoodReader for iPhone 3.14.1（￥450）\" src=\"http://a5.mzstatic.com/us/r1000/074/Purple/34/da/60/mzl.ohbsfmho.100x100-75.png\">}}\n\n## 写真以外のファイルをメールに添付\n\nまずは、Dropbox にあるファイルを GoodReader 内に保存します。\n\nGoodReader は、Dropbox にアクセス出来るので、そこからダウンロードすれば、オッケーです。\n\nで、ファイルを選択して、左下の「Select action」から、「E-Mail File」を選択します。\n\n![](/images/2012/02/2612_1.jpg)\n\nすると、添付された状態でメール送信画面が立ち上がるので、後はお好きに送信してくださいまし。\n\n![](/images/2012/02/2612_2.jpg)",
+  "bodyHtml": "<p>メールに写真を添付する方法も紹介しています。→ <a href=\"http://rakuishi.com/archives/3475/\">[iPhone] メールに写真を添付する方法 </a></p>\n<p>出先で友人から ppt ファイルを渡してくれとメールがありました。</p>\n<p>ファイルは、Dropbox にあるので iPhone からメール添付しようとしたのですが、Dropbox アプリにはメール添付する機能がありませんでした。</p>\n<p>そこで、多機能で有名な GoodReader だとメールに様々な形式のファイルを添付できましたので、その添付方法を紹介します。</p>\n<p>{{&lt;app id=&quot;306277111&quot; title=&quot;GoodReader for iPhone 3.14.1（￥450）&quot; src=&quot;http://a5.mzstatic.com/us/r1000/074/Purple/34/da/60/mzl.ohbsfmho.100x100-75.png&quot;&gt;}}</p>\n<h2>写真以外のファイルをメールに添付</h2>\n<p>まずは、Dropbox にあるファイルを GoodReader 内に保存します。</p>\n<p>GoodReader は、Dropbox にアクセス出来るので、そこからダウンロードすれば、オッケーです。</p>\n<p>で、ファイルを選択して、左下の「Select action」から、「E-Mail File」を選択します。</p>\n<p><img src=\"/images/2012/02/2612_1.jpg\" alt=\"\"></p>\n<p>すると、添付された状態でメール送信画面が立ち上がるので、後はお好きに送信してくださいまし。</p>\n<p><img src=\"/images/2012/02/2612_2.jpg\" alt=\"\"></p>\n",
+  "dir": "static/content/archives",
+  "base": "2012-02-26-2612.json",
+  "ext": ".json",
+  "sourceBase": "2012-02-26-2612.md",
+  "sourceExt": ".md"
+}

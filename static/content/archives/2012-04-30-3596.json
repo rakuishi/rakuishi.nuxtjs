@@ -1,0 +1,16 @@
+{
+  "categories": [
+    "iOS"
+  ],
+  "date": "2012-04-30T00:36:34.000Z",
+  "draft": false,
+  "slug": 3596,
+  "title": "[iOS SDK] UITableView で、上下のスクロール方向を感知する",
+  "bodyContent": "UITableView でスクロール方向が上か下かで処理を分けたプログラムを書きましたので、メモします。\n\nUITableView と書きましたが、その親クラスである UIScrollView でも、スクロール方向を感知できます。\n\n## UITableView のスクロール方向を感知する\n\nスクロール開始位置を持たせる scrollBeginingPoint というのをグローバル変数として用意します。\n\n```\n@interface MasterViewController : UITableViewController {\n    CGPoint scrollBeginingPoint;\n}\n```\n\nそして、UIScrollViewDelegate のメソッドに以下のように記述します。\n\n```\n- (void)scrollViewWillBeginDragging:(UIScrollView *)scrollView {\n    scrollBeginingPoint = [scrollView contentOffset];\n}\n\n- (void)scrollViewDidScroll:(UIScrollView *)scrollView {\n    CGPoint currentPoint = [scrollView contentOffset];\n    if(scrollBeginingPoint.y > currentPoint.y)\n        NSLog(@\"上方向にスクロールさせています.\");\n}\n```\n\nscrollViewWillBeginDragging で、スクロール開始位置を保存。\n\nscrollViewDidScroll で、現在のスクロール位置とスクロール開始位置を比較して、処理を行わせます。",
+  "bodyHtml": "<p>UITableView でスクロール方向が上か下かで処理を分けたプログラムを書きましたので、メモします。</p>\n<p>UITableView と書きましたが、その親クラスである UIScrollView でも、スクロール方向を感知できます。</p>\n<h2>UITableView のスクロール方向を感知する</h2>\n<p>スクロール開始位置を持たせる scrollBeginingPoint というのをグローバル変数として用意します。</p>\n<pre><code>@interface MasterViewController : UITableViewController {\n    CGPoint scrollBeginingPoint;\n}\n</code></pre>\n<p>そして、UIScrollViewDelegate のメソッドに以下のように記述します。</p>\n<pre><code>- (void)scrollViewWillBeginDragging:(UIScrollView *)scrollView {\n    scrollBeginingPoint = [scrollView contentOffset];\n}\n\n- (void)scrollViewDidScroll:(UIScrollView *)scrollView {\n    CGPoint currentPoint = [scrollView contentOffset];\n    if(scrollBeginingPoint.y &gt; currentPoint.y)\n        NSLog(@&quot;上方向にスクロールさせています.&quot;);\n}\n</code></pre>\n<p>scrollViewWillBeginDragging で、スクロール開始位置を保存。</p>\n<p>scrollViewDidScroll で、現在のスクロール位置とスクロール開始位置を比較して、処理を行わせます。</p>\n",
+  "dir": "static/content/archives",
+  "base": "2012-04-30-3596.json",
+  "ext": ".json",
+  "sourceBase": "2012-04-30-3596.md",
+  "sourceExt": ".md"
+}

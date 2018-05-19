@@ -1,0 +1,16 @@
+{
+  "categories": [
+    "Web Service"
+  ],
+  "date": "2012-05-22T12:36:15.000Z",
+  "draft": false,
+  "slug": 3877,
+  "title": "海外における iOS アプリの URL アドレスを確認する方法",
+  "bodyContent": "どもっ。ラクイシ（@rakuishi07）です。\n\n先日、ある方がドイツ人の知り合いに僕のアプリを勧めてみたのですが、ドイツでは売ってなかったという話を Twitter で聞きました。\n\n結局は、iTunes Store で販売されていることが確認できて、一段落だったのですが、その時のやりとりで良いことを教えてもらったのでシェアします。\n\n## 海外におけるアプリのリンクを確認する\n\niTunes Store で調べたいアプリを開きます。そして、アプリアイコンの下矢印をクリックして、「リンクをコピー」を選択します。\n\n![](/images/2012/05/3877_1.png)\n\nそしたら、このようなリンクがクリップボードにコピーされます。\n\n<pre>http://itunes.apple.com/jp/app/quicka/id511606108?mt=8</code></pre>\n\nこの「jp」の部分を各国のドメイン名に変えることで、その国でのアプリが表示されます。\n\nドメイン名は、以下の Apple の国選択ページから知ることが出来ます。\n\n[Apple - Choose your country or region](http://www.apple.com/choose-your-country/)\n\n例えば、ドイツ（Deutschland）は \"de\" になるので、先程のアプリのリンクを「ja」→「de」に書き換えるだけです。\n\n[http://itunes.apple.com/de/app/quicka/id511606108?mt=8](http://itunes.apple.com/de/app/quicka/id511606108?mt=8)\n\nちなみに、アメリカはもっと簡単な URL アドレスになります。\n\n[http://itunes.apple.com/app/quicka/id511606108?mt=8](http://itunes.apple.com/app/quicka/id511606108?mt=8)\n\n面白いですね。\n\nこの記事は、@melonoriental さんとのやりとりで生まれました。感謝。",
+  "bodyHtml": "<p>どもっ。ラクイシ（@rakuishi07）です。</p>\n<p>先日、ある方がドイツ人の知り合いに僕のアプリを勧めてみたのですが、ドイツでは売ってなかったという話を Twitter で聞きました。</p>\n<p>結局は、iTunes Store で販売されていることが確認できて、一段落だったのですが、その時のやりとりで良いことを教えてもらったのでシェアします。</p>\n<h2>海外におけるアプリのリンクを確認する</h2>\n<p>iTunes Store で調べたいアプリを開きます。そして、アプリアイコンの下矢印をクリックして、「リンクをコピー」を選択します。</p>\n<p><img src=\"/images/2012/05/3877_1.png\" alt=\"\"></p>\n<p>そしたら、このようなリンクがクリップボードにコピーされます。</p>\n<p>&lt;pre&gt;http://itunes.apple.com/jp/app/quicka/id511606108?mt=8&lt;/code&gt;&lt;/pre&gt;</p>\n<p>この「jp」の部分を各国のドメイン名に変えることで、その国でのアプリが表示されます。</p>\n<p>ドメイン名は、以下の Apple の国選択ページから知ることが出来ます。</p>\n<p><a href=\"http://www.apple.com/choose-your-country/\">Apple - Choose your country or region</a></p>\n<p>例えば、ドイツ（Deutschland）は &quot;de&quot; になるので、先程のアプリのリンクを「ja」→「de」に書き換えるだけです。</p>\n<p><a href=\"http://itunes.apple.com/de/app/quicka/id511606108?mt=8\">http://itunes.apple.com/de/app/quicka/id511606108?mt=8</a></p>\n<p>ちなみに、アメリカはもっと簡単な URL アドレスになります。</p>\n<p><a href=\"http://itunes.apple.com/app/quicka/id511606108?mt=8\">http://itunes.apple.com/app/quicka/id511606108?mt=8</a></p>\n<p>面白いですね。</p>\n<p>この記事は、@melonoriental さんとのやりとりで生まれました。感謝。</p>\n",
+  "dir": "static/content/archives",
+  "base": "2012-05-22-3877.json",
+  "ext": ".json",
+  "sourceBase": "2012-05-22-3877.md",
+  "sourceExt": ".md"
+}

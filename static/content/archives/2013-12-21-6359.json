@@ -1,0 +1,16 @@
+{
+  "categories": [
+    "WordPress"
+  ],
+  "date": "2013-12-21T12:00:35.000Z",
+  "draft": false,
+  "slug": 6359,
+  "title": "[WordPress] 記事の抜粋表示の文字数・文末文字 [...] を変更する方法",
+  "bodyContent": "WordPress の記事の抜粋表示は、記事ループ中に the_excerpt 関数を使用します。次のコードで出力します。\n\n```\n<?php the_excerpt(); ?>\n```\n\nthe_excerpt 関数は、初期設定では、投稿の最初から 55 文字、文末に [...] が付く仕様になっています。これを変更するには、WordPress のフィルターフックを使用します。フィルターフックとは、ある関数の出力結果を変えたり、指定した数値を反映するために使用されます。\n\n## 抜粋の長さ・文末文字の変更\n\nフィルターフックするには、テーマのための関数である functions.php に記述します。以下を反映すれば、投稿の最初から 75 文字、文末に ... が付いた状態で出力されます。\n\n```\n<?php\n\n// 抜粋の長さを変更する\nfunction custom_excerpt_length($length) {\t\n\treturn 75;\n}\t\nadd_filter('excerpt_length', 'custom_excerpt_length');\n\n// 文末文字を変更する\nfunction custom_excerpt_more($more) {\n\treturn ' ... ';\n}\nadd_filter('excerpt_more', 'custom_excerpt_more');\n\n?>\n```\n\n今回のフィルターフックは、excerpt_length, excerpt_more という関数の返り値を自分の好きな値に変えるために使用されています。\n\n参考：[テンプレートタグ/the excerpt](http://wpdocs.sourceforge.jp/%E3%83%86%E3%83%B3%E3%83%97%E3%83%AC%E3%83%BC%E3%83%88%E3%82%BF%E3%82%B0/the_excerpt)",
+  "bodyHtml": "<p>WordPress の記事の抜粋表示は、記事ループ中に the_excerpt 関数を使用します。次のコードで出力します。</p>\n<pre><code>&lt;?php the_excerpt(); ?&gt;\n</code></pre>\n<p>the_excerpt 関数は、初期設定では、投稿の最初から 55 文字、文末に [...] が付く仕様になっています。これを変更するには、WordPress のフィルターフックを使用します。フィルターフックとは、ある関数の出力結果を変えたり、指定した数値を反映するために使用されます。</p>\n<h2>抜粋の長さ・文末文字の変更</h2>\n<p>フィルターフックするには、テーマのための関数である functions.php に記述します。以下を反映すれば、投稿の最初から 75 文字、文末に ... が付いた状態で出力されます。</p>\n<pre><code>&lt;?php\n\n// 抜粋の長さを変更する\nfunction custom_excerpt_length($length) {\t\n\treturn 75;\n}\t\nadd_filter('excerpt_length', 'custom_excerpt_length');\n\n// 文末文字を変更する\nfunction custom_excerpt_more($more) {\n\treturn ' ... ';\n}\nadd_filter('excerpt_more', 'custom_excerpt_more');\n\n?&gt;\n</code></pre>\n<p>今回のフィルターフックは、excerpt_length, excerpt_more という関数の返り値を自分の好きな値に変えるために使用されています。</p>\n<p>参考：<a href=\"http://wpdocs.sourceforge.jp/%E3%83%86%E3%83%B3%E3%83%97%E3%83%AC%E3%83%BC%E3%83%88%E3%82%BF%E3%82%B0/the_excerpt\">テンプレートタグ/the excerpt</a></p>\n",
+  "dir": "static/content/archives",
+  "base": "2013-12-21-6359.json",
+  "ext": ".json",
+  "sourceBase": "2013-12-21-6359.md",
+  "sourceExt": ".md"
+}

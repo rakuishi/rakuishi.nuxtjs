@@ -1,0 +1,16 @@
+{
+  "categories": [
+    "Mac"
+  ],
+  "date": "2011-08-26T13:14:57.000Z",
+  "draft": false,
+  "slug": 12,
+  "title": "Cyberduck が重くて湖の底に沈んでしまうときの解決策",
+  "bodyContent": "WordPressに引越して、FTPクライアントソフトのCyberduck（現行バージョン: 4.1） を使うことになった。DASH村の村長と瓜二つである。\n\n{{<app id=\"409222199\" title=\"Cyberduck 4.1.1（￥2,100）\" src=\"http://a3.mzstatic.com/us/r1000/100/Purple/fc/90/07/mzi.xvwkhodl.100x100-75.png\">}}\n\nしかし、湖にCyberduckを浮かべて眺めていたのも束の間。ディレクトリを移動していると、カーソルが虹色くるくる現象に落ちいり、彼は湖の底に沈んでいった。\n\n## どうすれば彼を湖の底から救い出せるか？\n\nネット上で彼を救い出す方法を探したところ、以下の2点が有効なようだった。特に僕の環境（Mac OS X 10.7.1, Cyberduck4.1）では、2番目が決定打となった。\n\n## 解決策 1. 転送ウィンドウの履歴を消去する\n\nCyberduckは、アップロードやダウンロードをした経過や結果が「転送」ウィンドウの履歴がどんどん溜まっていくそうだ。以下のファイルを削除すると、解決する可能性がある。\n\n```\n/Users/ユーザー名/Library/Application Support/Cyberduck/Queue.plist\n```\n\nちなみに、OS X Lionでは、ライブラリフォルダが隠されている。ライブラリフォルダにアクセスするには、以下のブログが参考になる。\n\n* [Mac Fan.jp：Lionのライブラリフォルダはどこにいった？](http://macfan.jp/guide/2011/07/26/lion_2.html)\n* [[N] Mac OS X、Finderで隠しファイルを表示する方法](http://netafull.net/macosx/014755.html)\n\n## 解決策 2. 「32ビットモードで開く」を変更する\n\nCyberduck.appを右クリック（ダブルタップ）して、「情報を見る」を選択する。「32ビットモードで開く」のチェックを解除する。僕の環境では、この解決策が一番効果があり、彼は再び湖をぷかぷかと漂っている。\n\n![](/images/2011/09/0012_1.jpg)\n\n* [「Cyberduck」の動作が突然遅くなったときの対処法。 – btmup Blog ［ボトムアップ ブログ］](http://blog.btmup.com/web-general/cyberduck.html?view=co_list)",
+  "bodyHtml": "<p>WordPressに引越して、FTPクライアントソフトのCyberduck（現行バージョン: 4.1） を使うことになった。DASH村の村長と瓜二つである。</p>\n<p>{{&lt;app id=&quot;409222199&quot; title=&quot;Cyberduck 4.1.1（￥2,100）&quot; src=&quot;http://a3.mzstatic.com/us/r1000/100/Purple/fc/90/07/mzi.xvwkhodl.100x100-75.png&quot;&gt;}}</p>\n<p>しかし、湖にCyberduckを浮かべて眺めていたのも束の間。ディレクトリを移動していると、カーソルが虹色くるくる現象に落ちいり、彼は湖の底に沈んでいった。</p>\n<h2>どうすれば彼を湖の底から救い出せるか？</h2>\n<p>ネット上で彼を救い出す方法を探したところ、以下の2点が有効なようだった。特に僕の環境（Mac OS X 10.7.1, Cyberduck4.1）では、2番目が決定打となった。</p>\n<h2>解決策 1. 転送ウィンドウの履歴を消去する</h2>\n<p>Cyberduckは、アップロードやダウンロードをした経過や結果が「転送」ウィンドウの履歴がどんどん溜まっていくそうだ。以下のファイルを削除すると、解決する可能性がある。</p>\n<pre><code>/Users/ユーザー名/Library/Application Support/Cyberduck/Queue.plist\n</code></pre>\n<p>ちなみに、OS X Lionでは、ライブラリフォルダが隠されている。ライブラリフォルダにアクセスするには、以下のブログが参考になる。</p>\n<ul>\n<li><a href=\"http://macfan.jp/guide/2011/07/26/lion_2.html\">Mac Fan.jp：Lionのライブラリフォルダはどこにいった？</a></li>\n<li><a href=\"http://netafull.net/macosx/014755.html\">[N] Mac OS X、Finderで隠しファイルを表示する方法</a></li>\n</ul>\n<h2>解決策 2. 「32ビットモードで開く」を変更する</h2>\n<p>Cyberduck.appを右クリック（ダブルタップ）して、「情報を見る」を選択する。「32ビットモードで開く」のチェックを解除する。僕の環境では、この解決策が一番効果があり、彼は再び湖をぷかぷかと漂っている。</p>\n<p><img src=\"/images/2011/09/0012_1.jpg\" alt=\"\"></p>\n<ul>\n<li><a href=\"http://blog.btmup.com/web-general/cyberduck.html?view=co_list\">「Cyberduck」の動作が突然遅くなったときの対処法。 – btmup Blog ［ボトムアップ ブログ］</a></li>\n</ul>\n",
+  "dir": "static/content/archives",
+  "base": "2011-08-26-0012.json",
+  "ext": ".json",
+  "sourceBase": "2011-08-26-0012.md",
+  "sourceExt": ".md"
+}

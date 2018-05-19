@@ -1,0 +1,16 @@
+{
+  "categories": [
+    "Mac"
+  ],
+  "date": "2011-10-13T00:22:04.000Z",
+  "draft": false,
+  "slug": 891,
+  "title": "iTunes 10.5beta から iOS 5 がダウンロード出来ないので iTunes 10.5 にダウングレードした",
+  "bodyContent": "![](/images/2011/10/0891_1.jpg)\n\n以前、iOS 5betaを導入する際に、iTunesを10.5betaにアップグレードした。が、FastEverがまだiOS 5に対応していなかっために、iOS 4にダウングレードした。\n\n参考記事 : [[Evernote] FastEver, PostEverを使う人が iOS 5 をインストールする前に気を付けておきたいコト](http://rakuishi.com/archives/812/)\n\nしかし、今朝になってiTunes 10.5betaからでは、iOS 5をダウンロードすることができないことが判明した。\n\n## iTunes 10.5beta から iOS 5 がダウンロード出来なかった\n\niTunes 10.5beta で「Device」→「Version」→「Update」をクリック。\n\n「A new iPhone software version(5.0) is available, but requires iTunes 10.5. Would you like to download iTunes 10.5 now?」と表示される。\n\n「あれ、同じ10.5でもベータ版は駄目なんだ」と思って操作を進めると、次のように表示された。で、肝心のiOS 5はダウンロード出来ていなかった。\n\n![](/images/2011/10/0891_2.jpg)\n\n要するに、ドジッ子に例えるとこんな感じだ。\n\n「iOS 5 にするには、最新のiTunes 10.5が必要だよ。ちょっと探してくるね。（数分後）。僕は最新のiTunes 10.5だった！更新する必要はないよ！え、iOS 5 何それ？」\n\nといった状態なのだ。\n\n## iTunes 10.5 にダウングレードすることで解決\n\napple.comからiTunes 10.5をダウンロードし、それを実行し、上書きインストールすれば、このよく分からない現象を解決することが出来る。\n\n[http://www.apple.com/itunes/](http://www.apple.com/itunes/)\n\n「iTunes10.5.dmg」ファイルを解凍、「Install iTunes.pkg」をクリック。後は、インストーラの指示に従うことで、ダウングレードが完了する（iTunesに入っていた楽曲・ビデオ・アプリなどが削除されることはないのでご安心を）。\n\n10.5にダウングレードした後、自動的にiOS 5のダウンロードが始まる。",
+  "bodyHtml": "<p><img src=\"/images/2011/10/0891_1.jpg\" alt=\"\"></p>\n<p>以前、iOS 5betaを導入する際に、iTunesを10.5betaにアップグレードした。が、FastEverがまだiOS 5に対応していなかっために、iOS 4にダウングレードした。</p>\n<p>参考記事 : <a href=\"http://rakuishi.com/archives/812/\">[Evernote] FastEver, PostEverを使う人が iOS 5 をインストールする前に気を付けておきたいコト</a></p>\n<p>しかし、今朝になってiTunes 10.5betaからでは、iOS 5をダウンロードすることができないことが判明した。</p>\n<h2>iTunes 10.5beta から iOS 5 がダウンロード出来なかった</h2>\n<p>iTunes 10.5beta で「Device」→「Version」→「Update」をクリック。</p>\n<p>「A new iPhone software version(5.0) is available, but requires iTunes 10.5. Would you like to download iTunes 10.5 now?」と表示される。</p>\n<p>「あれ、同じ10.5でもベータ版は駄目なんだ」と思って操作を進めると、次のように表示された。で、肝心のiOS 5はダウンロード出来ていなかった。</p>\n<p><img src=\"/images/2011/10/0891_2.jpg\" alt=\"\"></p>\n<p>要するに、ドジッ子に例えるとこんな感じだ。</p>\n<p>「iOS 5 にするには、最新のiTunes 10.5が必要だよ。ちょっと探してくるね。（数分後）。僕は最新のiTunes 10.5だった！更新する必要はないよ！え、iOS 5 何それ？」</p>\n<p>といった状態なのだ。</p>\n<h2>iTunes 10.5 にダウングレードすることで解決</h2>\n<p>apple.comからiTunes 10.5をダウンロードし、それを実行し、上書きインストールすれば、このよく分からない現象を解決することが出来る。</p>\n<p><a href=\"http://www.apple.com/itunes/\">http://www.apple.com/itunes/</a></p>\n<p>「iTunes10.5.dmg」ファイルを解凍、「Install iTunes.pkg」をクリック。後は、インストーラの指示に従うことで、ダウングレードが完了する（iTunesに入っていた楽曲・ビデオ・アプリなどが削除されることはないのでご安心を）。</p>\n<p>10.5にダウングレードした後、自動的にiOS 5のダウンロードが始まる。</p>\n",
+  "dir": "static/content/archives",
+  "base": "2011-10-13-0891.json",
+  "ext": ".json",
+  "sourceBase": "2011-10-13-0891.md",
+  "sourceExt": ".md"
+}

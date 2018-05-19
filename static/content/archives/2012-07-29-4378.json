@@ -1,0 +1,16 @@
+{
+  "categories": [
+    "PHP"
+  ],
+  "date": "2012-07-29T02:58:31.000Z",
+  "draft": false,
+  "slug": 4378,
+  "title": "さくらインターネットで PHP のエラーメッセージを表示する方法",
+  "bodyContent": "現在、PHP を勉強しています。\n\nPHP は、実際に自分のレンタルしている[さくらインターネット](http://www.sakura.ad.jp/)にあるサーバー上で動作を確認しています。\n\nその際、標準ではエラーメッセージが表示されていなかったので、それを表示するように変更しました。その方法をシェアします。\n\n## エラーメッセージを表示する方法\n\n以下のアドレスにジャンプします。\n\n[https://secure.sakura.ad.jp/rscontrol/rs/phpini](https://secure.sakura.ad.jp/rscontrol/rs/phpini)\n\n「php.ini 設定ファイル編集」というページに飛ぶと思うので、そこに表示されているエディタに次のテキストを打ち込みます。\n\n```\ndisplay_errors = On\n```\n\n終わったら「保存する」ボタンをクリックして、設定の完了です。\n\nこれでエラーメッセージが返ってくるようになりました。",
+  "bodyHtml": "<p>現在、PHP を勉強しています。</p>\n<p>PHP は、実際に自分のレンタルしている<a href=\"http://www.sakura.ad.jp/\">さくらインターネット</a>にあるサーバー上で動作を確認しています。</p>\n<p>その際、標準ではエラーメッセージが表示されていなかったので、それを表示するように変更しました。その方法をシェアします。</p>\n<h2>エラーメッセージを表示する方法</h2>\n<p>以下のアドレスにジャンプします。</p>\n<p><a href=\"https://secure.sakura.ad.jp/rscontrol/rs/phpini\">https://secure.sakura.ad.jp/rscontrol/rs/phpini</a></p>\n<p>「php.ini 設定ファイル編集」というページに飛ぶと思うので、そこに表示されているエディタに次のテキストを打ち込みます。</p>\n<pre><code>display_errors = On\n</code></pre>\n<p>終わったら「保存する」ボタンをクリックして、設定の完了です。</p>\n<p>これでエラーメッセージが返ってくるようになりました。</p>\n",
+  "dir": "static/content/archives",
+  "base": "2012-07-29-4378.json",
+  "ext": ".json",
+  "sourceBase": "2012-07-29-4378.md",
+  "sourceExt": ".md"
+}

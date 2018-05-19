@@ -1,0 +1,16 @@
+{
+  "categories": [
+    "Mac"
+  ],
+  "date": "2014-06-16T14:00:53.000Z",
+  "draft": false,
+  "slug": 6642,
+  "title": "[Mac] シンボリックリンクを作成する方法",
+  "bodyContent": "Mac の Terminal でシンボリックリンクを作成するには、以下のように書きます：\n\n```\n$ ln -s /Users/rakuishi/Dropbox/Projects/sample /Applications/MAMP/htdocs/sample\n```\n\n最初のパスが実ファイル・フォルダを指し、最後のパスはこれから作るシンボリックリンクのパスを指します。\n\nTerminal にファイルやフォルダを投げると絶対パスが取得できるので便利です。\n\n![](/images/2014/06/6642_1.jpg)",
+  "bodyHtml": "<p>Mac の Terminal でシンボリックリンクを作成するには、以下のように書きます：</p>\n<pre><code>$ ln -s /Users/rakuishi/Dropbox/Projects/sample /Applications/MAMP/htdocs/sample\n</code></pre>\n<p>最初のパスが実ファイル・フォルダを指し、最後のパスはこれから作るシンボリックリンクのパスを指します。</p>\n<p>Terminal にファイルやフォルダを投げると絶対パスが取得できるので便利です。</p>\n<p><img src=\"/images/2014/06/6642_1.jpg\" alt=\"\"></p>\n",
+  "dir": "static/content/archives",
+  "base": "2014-06-16-6642.json",
+  "ext": ".json",
+  "sourceBase": "2014-06-16-6642.md",
+  "sourceExt": ".md"
+}

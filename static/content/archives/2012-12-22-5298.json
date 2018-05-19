@@ -1,0 +1,16 @@
+{
+  "categories": [
+    "iOS"
+  ],
+  "date": "2012-12-22T03:51:18.000Z",
+  "draft": false,
+  "slug": 5298,
+  "title": "[iOS SDK] UITableViewCell のフォントサイズの最大値と最小値を設定する",
+  "bodyContent": "![](/images/2012/12/5298_1.png)\n\nTableViewCell に表示している文字のフォントサイズの最大値と最小値を決めて、その範囲内でいい感じに文字列を表示させたい場合があります。\n\n15.f ~ 10.f で文字列を表示させる例です。\n\n```\ncell.textLabel.font = [UIFont boldSystemFontOfSize:15.f];\ncell.textLabel.minimumFontSize = 10.f;\ncell.textLabel.adjustsFontSizeToFitWidth = YES;\n```\n\nただし、minimumFontSize が iOS 6.0 以降 deprecated なので、以下のように書き換える必要があります。\n\n```\ncell.textLabel.font = [UIFont boldSystemFontOfSize:15.f];\ncell.textLabel.minimumScaleFactor = 10.f/15.f;\ncell.textLabel.adjustsFontSizeToFitWidth = YES;\n```\n\nminimumScaleFactor は、0.0 ~ 1.0 の範囲内で、フォントサイズを可変させます。先の 10.f と同じにするには、10.f/15.f を設定します。",
+  "bodyHtml": "<p><img src=\"/images/2012/12/5298_1.png\" alt=\"\"></p>\n<p>TableViewCell に表示している文字のフォントサイズの最大値と最小値を決めて、その範囲内でいい感じに文字列を表示させたい場合があります。</p>\n<p>15.f ~ 10.f で文字列を表示させる例です。</p>\n<pre><code>cell.textLabel.font = [UIFont boldSystemFontOfSize:15.f];\ncell.textLabel.minimumFontSize = 10.f;\ncell.textLabel.adjustsFontSizeToFitWidth = YES;\n</code></pre>\n<p>ただし、minimumFontSize が iOS 6.0 以降 deprecated なので、以下のように書き換える必要があります。</p>\n<pre><code>cell.textLabel.font = [UIFont boldSystemFontOfSize:15.f];\ncell.textLabel.minimumScaleFactor = 10.f/15.f;\ncell.textLabel.adjustsFontSizeToFitWidth = YES;\n</code></pre>\n<p>minimumScaleFactor は、0.0 ~ 1.0 の範囲内で、フォントサイズを可変させます。先の 10.f と同じにするには、10.f/15.f を設定します。</p>\n",
+  "dir": "static/content/archives",
+  "base": "2012-12-22-5298.json",
+  "ext": ".json",
+  "sourceBase": "2012-12-22-5298.md",
+  "sourceExt": ".md"
+}

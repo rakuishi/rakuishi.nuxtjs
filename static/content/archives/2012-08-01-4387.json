@@ -1,0 +1,16 @@
+{
+  "categories": [
+    "Web Service"
+  ],
+  "date": "2012-08-01T11:55:15.000Z",
+  "draft": false,
+  "slug": 4387,
+  "title": "あの邪魔な Google Chrome のダウンロードバーを表示しないように設定する",
+  "bodyContent": "Google Chrome が個人的に一番使いやすいブラウザなので愛用しています。\n\nしかし、唯一気に入らないのがダウンロードした時に、下に現れるダウンロードバーの存在です。\n\n![](/images/2012/02/4387_1.png)\n\n[AppleScript でダウンロードバーを消してくれるプログラムを書きました](http://rakuishi.com/archives/2530/)が、こんなことしなくても、簡単に表示しないように設定できました。\n\nその方法を紹介します。\n\n## ダウンロードバーを表示しないように設定する\n\n1. Google Chrome のアドレスバーに「 chrome://flags/」と入力します。\n\n![](/images/2012/08/4387_2.png)\n\n2. 表示されたページにある「新しいダウンロード UI」というのを有効にします。\n\n![](/images/2012/08/4387_3.png)\n\n3. すると下の方に「今すぐ再起動」というボタンが表示されるので、これをクリックすれば設定は終了です。\n\n![](/images/2012/08/4387_4.png)\n\nこの簡単3ステップでダウロードバーを消す煩わしさから解放されます。\n\n邪魔だなあと思っていた方は、試してみて下さい！\n\n関連：[Google Chromeを愛用しているただ一つの理由](http://rakuishi.com/archives/1769/)",
+  "bodyHtml": "<p>Google Chrome が個人的に一番使いやすいブラウザなので愛用しています。</p>\n<p>しかし、唯一気に入らないのがダウンロードした時に、下に現れるダウンロードバーの存在です。</p>\n<p><img src=\"/images/2012/02/4387_1.png\" alt=\"\"></p>\n<p><a href=\"http://rakuishi.com/archives/2530/\">AppleScript でダウンロードバーを消してくれるプログラムを書きました</a>が、こんなことしなくても、簡単に表示しないように設定できました。</p>\n<p>その方法を紹介します。</p>\n<h2>ダウンロードバーを表示しないように設定する</h2>\n<ol>\n<li>Google Chrome のアドレスバーに「 chrome://flags/」と入力します。</li>\n</ol>\n<p><img src=\"/images/2012/08/4387_2.png\" alt=\"\"></p>\n<ol start=\"2\">\n<li>表示されたページにある「新しいダウンロード UI」というのを有効にします。</li>\n</ol>\n<p><img src=\"/images/2012/08/4387_3.png\" alt=\"\"></p>\n<ol start=\"3\">\n<li>すると下の方に「今すぐ再起動」というボタンが表示されるので、これをクリックすれば設定は終了です。</li>\n</ol>\n<p><img src=\"/images/2012/08/4387_4.png\" alt=\"\"></p>\n<p>この簡単3ステップでダウロードバーを消す煩わしさから解放されます。</p>\n<p>邪魔だなあと思っていた方は、試してみて下さい！</p>\n<p>関連：<a href=\"http://rakuishi.com/archives/1769/\">Google Chromeを愛用しているただ一つの理由</a></p>\n",
+  "dir": "static/content/archives",
+  "base": "2012-08-01-4387.json",
+  "ext": ".json",
+  "sourceBase": "2012-08-01-4387.md",
+  "sourceExt": ".md"
+}

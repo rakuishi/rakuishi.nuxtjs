@@ -1,0 +1,16 @@
+{
+  "categories": [
+    "Android"
+  ],
+  "date": "2013-06-09T00:44:36.000Z",
+  "draft": false,
+  "slug": 5745,
+  "title": "Android Studio で Android 端末に実機転送する",
+  "bodyContent": "Android 向けの総合開発環境が5月15日に発表されました。これまで Android を勉強しようと思っていたので（Java に触れてみたいと思っていたので）、いいタイミングなので勉強していきます。\n\nこの記事では、Android Studio を最初にインストールした後に、実機転送に手間取ったのでその手順を説明していきます。Android Studio のダウンロードは、以下から出来ます。\n\n[Getting Started with Android Studio](http://developer.android.com/sdk/installing/studio.html)\n\nまた、動作に使用したのは、GALAXY S 3（4.0.4）で、環境は Mac になります。\n\n## Android 側での設定\n\nAndroid は初期設定では、実機に転送することができません。設定から有効にする必要があります。\n\n[設定] → [開発者向けオプション] → [USBデバッグ]（有効にするには一度 USB 接続を外す必要がある）\n\n## Android Studio でのビルド方法\n\n[Run] します。ちなみにショートカットは、control + R ですね。Choose Device の画面になるので、使用する端末を選びます。選ぶと実機転送されるようになります。\n\n![](/images/2013/06/5745_1.png)\n\nここで Run するたびに、毎回、端末を選ぶのは面倒なので、設定を変更します。[Run] → [Edit Configurations…] でウィンドウが表示されます。\n\nこの [Android Application] → [プロジェクト名] → [General] タブ → [Target Device] を Show chooser dialog から USB device を選択します。これで常に、USB に接続されている Android デバイスでビルドされるようになります。\n\n![](/images/2013/06/5745_2.png)\n\n{{<amazon id=\"4797366133\" title=\"やさしいAndroidプログラミング (やさしいシリーズ)\" src=\"https://images-na.ssl-images-amazon.com/images/I/41DPV5D6M2L._SL160_.jpg\">}}",
+  "bodyHtml": "<p>Android 向けの総合開発環境が5月15日に発表されました。これまで Android を勉強しようと思っていたので（Java に触れてみたいと思っていたので）、いいタイミングなので勉強していきます。</p>\n<p>この記事では、Android Studio を最初にインストールした後に、実機転送に手間取ったのでその手順を説明していきます。Android Studio のダウンロードは、以下から出来ます。</p>\n<p><a href=\"http://developer.android.com/sdk/installing/studio.html\">Getting Started with Android Studio</a></p>\n<p>また、動作に使用したのは、GALAXY S 3（4.0.4）で、環境は Mac になります。</p>\n<h2>Android 側での設定</h2>\n<p>Android は初期設定では、実機に転送することができません。設定から有効にする必要があります。</p>\n<p>[設定] → [開発者向けオプション] → [USBデバッグ]（有効にするには一度 USB 接続を外す必要がある）</p>\n<h2>Android Studio でのビルド方法</h2>\n<p>[Run] します。ちなみにショートカットは、control + R ですね。Choose Device の画面になるので、使用する端末を選びます。選ぶと実機転送されるようになります。</p>\n<p><img src=\"/images/2013/06/5745_1.png\" alt=\"\"></p>\n<p>ここで Run するたびに、毎回、端末を選ぶのは面倒なので、設定を変更します。[Run] → [Edit Configurations…] でウィンドウが表示されます。</p>\n<p>この [Android Application] → [プロジェクト名] → [General] タブ → [Target Device] を Show chooser dialog から USB device を選択します。これで常に、USB に接続されている Android デバイスでビルドされるようになります。</p>\n<p><img src=\"/images/2013/06/5745_2.png\" alt=\"\"></p>\n<p>{{&lt;amazon id=&quot;4797366133&quot; title=&quot;やさしいAndroidプログラミング (やさしいシリーズ)&quot; src=&quot;https://images-na.ssl-images-amazon.com/images/I/41DPV5D6M2L.<em>SL160</em>.jpg&quot;&gt;}}</p>\n",
+  "dir": "static/content/archives",
+  "base": "2013-06-09-5745.json",
+  "ext": ".json",
+  "sourceBase": "2013-06-09-5745.md",
+  "sourceExt": ".md"
+}

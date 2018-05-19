@@ -1,0 +1,16 @@
+{
+  "categories": [
+    "iOS"
+  ],
+  "date": "2012-10-23T13:10:19.000Z",
+  "draft": false,
+  "slug": 4579,
+  "title": "[iOS6] カテゴリによるクラスの拡張で UINavigationController の回転方向を決定する",
+  "bodyContent": "iOS6 になって、UINavigationController や UITabBarController の下にある UIViewController で、画面回転を制御するコード（shouldAutorotate, supportedInterfaceOrientations）を書いても、思い通りに動いてくれません。\n\nこの際、UINavigationController などの回転方向を決定するには、カテゴリでクラスの拡張をすると思い通りに動作します。\n\nTabBarController とかでも上手く動作すると思います。\n\n**UINavigationController+Portrait.h**\n\n```\n#import <UIKit/UIKit.h>\n\n@interface UINavigationController (Portrait)\n\n@end\n```\n\n**UINavigationController+Portrait.m**\n\n```\n#import \"UINavigationController+Portrait.h\"\n\n@implementation UINavigationController (Portrait)\n\n- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation\n{\n    return (interfaceOrientation == UIInterfaceOrientationPortrait);\n}\n\n- (BOOL)shouldAutorotate\n{\n    return NO;\n}\n\n- (NSUInteger)supportedInterfaceOrientations\n{\n    return UIInterfaceOrientationMaskPortrait;\n}\n\n@end\n```",
+  "bodyHtml": "<p>iOS6 になって、UINavigationController や UITabBarController の下にある UIViewController で、画面回転を制御するコード（shouldAutorotate, supportedInterfaceOrientations）を書いても、思い通りに動いてくれません。</p>\n<p>この際、UINavigationController などの回転方向を決定するには、カテゴリでクラスの拡張をすると思い通りに動作します。</p>\n<p>TabBarController とかでも上手く動作すると思います。</p>\n<p><strong>UINavigationController+Portrait.h</strong></p>\n<pre><code>#import &lt;UIKit/UIKit.h&gt;\n\n@interface UINavigationController (Portrait)\n\n@end\n</code></pre>\n<p><strong>UINavigationController+Portrait.m</strong></p>\n<pre><code>#import &quot;UINavigationController+Portrait.h&quot;\n\n@implementation UINavigationController (Portrait)\n\n- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation\n{\n    return (interfaceOrientation == UIInterfaceOrientationPortrait);\n}\n\n- (BOOL)shouldAutorotate\n{\n    return NO;\n}\n\n- (NSUInteger)supportedInterfaceOrientations\n{\n    return UIInterfaceOrientationMaskPortrait;\n}\n\n@end\n</code></pre>\n",
+  "dir": "static/content/archives",
+  "base": "2012-10-23-4579.json",
+  "ext": ".json",
+  "sourceBase": "2012-10-23-4579.md",
+  "sourceExt": ".md"
+}

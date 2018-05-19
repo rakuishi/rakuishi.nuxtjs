@@ -1,0 +1,16 @@
+{
+  "categories": [
+    "Mac"
+  ],
+  "date": "2012-03-28T13:05:19.000Z",
+  "draft": false,
+  "slug": 3099,
+  "title": "[Alfred Powerpack] iTunes Mini Player で、曲名が表示されない時はライブラリを再読み込みする",
+  "bodyContent": "一日平均、ランチャーアプリ Alfred を70回起動しているラクイシ（@rakuishi07）です。\n\n有料の Powerpack を導入して、ホットキーによるアプリケーションの機能を解放して以来、Alfre がないと Mac を操作できない体になっています。\n\nさて、Powerpack な Alfred では、iTunes Mini Player というキーボードだけで聞きたい曲にアクセスできるという素敵機能があります。\n\n![](/images/2012/03/3099_1.png)\n\nしかし、困ったことに追加した曲が表示されないのです。Alfred を終了しても、Mac を再起動しても、Mini Player に表示されないのです。\n\n10分ぐらい悩んだので、シェアします。\n\n{{<app id=\"405843582\" title=\"Alfred 1.0（無料）\" src=\"http://a3.mzstatic.com/us/r1000/097/Purple/e1/d8/82/mzi.njcalvnn.100x100-75.png\">}}\n\n※ Alfred で Powerpack を使う場合は、AppStore からではなく、Alfred 公式サイトからダウンロードした Alfred でないといけないみたいです。\n\n公式サイト » [Alfred App](http://www.alfredapp.com/)\n\n## ライブラリを再読み込みすると表示される\n\nAlfred 内部に曲のインデックス情報を持っているらしくて、ライブラリを再読み込みさせる必要があります。\n\nライブラリ再読み込みボタンは、目立たなさすぎるこの右端のボタンです。ここをクリックするか、更新（command + R）で、ライブラリを再読み込みさせます。\n\n![](/images/2012/03/3099_2.png)\n\nこんな感じで、iTunes のライブラリのインデックス情報を取得してます。\n\n![](/images/2012/03/3099_3.png)\n\nこれで追加した曲が表示されるようになりました。\n\nさらに、Alfred ラブな僕になりました。\n\n## 参考\n\n* [Alfred の Powerpack でつかえる機能の使い方と設定 | Macとかの雑記帳](http://tukaikta.blog135.fc2.com/blog-entry-163.html)",
+  "bodyHtml": "<p>一日平均、ランチャーアプリ Alfred を70回起動しているラクイシ（@rakuishi07）です。</p>\n<p>有料の Powerpack を導入して、ホットキーによるアプリケーションの機能を解放して以来、Alfre がないと Mac を操作できない体になっています。</p>\n<p>さて、Powerpack な Alfred では、iTunes Mini Player というキーボードだけで聞きたい曲にアクセスできるという素敵機能があります。</p>\n<p><img src=\"/images/2012/03/3099_1.png\" alt=\"\"></p>\n<p>しかし、困ったことに追加した曲が表示されないのです。Alfred を終了しても、Mac を再起動しても、Mini Player に表示されないのです。</p>\n<p>10分ぐらい悩んだので、シェアします。</p>\n<p>{{&lt;app id=&quot;405843582&quot; title=&quot;Alfred 1.0（無料）&quot; src=&quot;http://a3.mzstatic.com/us/r1000/097/Purple/e1/d8/82/mzi.njcalvnn.100x100-75.png&quot;&gt;}}</p>\n<p>※ Alfred で Powerpack を使う場合は、AppStore からではなく、Alfred 公式サイトからダウンロードした Alfred でないといけないみたいです。</p>\n<p>公式サイト » <a href=\"http://www.alfredapp.com/\">Alfred App</a></p>\n<h2>ライブラリを再読み込みすると表示される</h2>\n<p>Alfred 内部に曲のインデックス情報を持っているらしくて、ライブラリを再読み込みさせる必要があります。</p>\n<p>ライブラリ再読み込みボタンは、目立たなさすぎるこの右端のボタンです。ここをクリックするか、更新（command + R）で、ライブラリを再読み込みさせます。</p>\n<p><img src=\"/images/2012/03/3099_2.png\" alt=\"\"></p>\n<p>こんな感じで、iTunes のライブラリのインデックス情報を取得してます。</p>\n<p><img src=\"/images/2012/03/3099_3.png\" alt=\"\"></p>\n<p>これで追加した曲が表示されるようになりました。</p>\n<p>さらに、Alfred ラブな僕になりました。</p>\n<h2>参考</h2>\n<ul>\n<li><a href=\"http://tukaikta.blog135.fc2.com/blog-entry-163.html\">Alfred の Powerpack でつかえる機能の使い方と設定 | Macとかの雑記帳</a></li>\n</ul>\n",
+  "dir": "static/content/archives",
+  "base": "2012-03-28-3099.json",
+  "ext": ".json",
+  "sourceBase": "2012-03-28-3099.md",
+  "sourceExt": ".md"
+}

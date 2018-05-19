@@ -1,0 +1,16 @@
+{
+  "categories": [
+    "Blog"
+  ],
+  "date": "2014-06-28T10:38:12.000Z",
+  "draft": false,
+  "slug": 6692,
+  "title": "PSVita の「メモリーカード必須」とは",
+  "bodyContent": "![](/images/2014/06/6692_1.jpg)\n\nほとんどの PSVita ソフトは、パッケージ下部に「メモリーカード必須」と書かれています。ですが、PSVita のモデルによっては内蔵メモリーカードが搭載されているため、容量さえ足りていれば、外部メモリーカードを別途購入する必要はありません。\n\nPSVita のモデルと内蔵メモリーカードの搭載/非搭載の関係は、以下となります。\n\n* PCH-1000 シリーズ（内蔵メモリーカード非搭載）\n* PCH-2000 シリーズ（内蔵メモリーカード 1GB 搭載）\n\nPCH-1000 シリーズは、外部メモリーカードが必要ですが、PCH-2000 シリーズは、内蔵メモリーカードの容量範囲内であれば外部メモリーカードは必要ではなく、「メモリーカード必須」と書かれているゲームをすぐに遊ぶことができます。\n\n自分の持っている PSVita がどのモデルなのか分からない場合は、PSVita 背面から確認できます。\n\n![](/images/2014/06/6692_2.png)\n\n## 参考\n\n[PS Vitaのゲームをプレイするにはメモリーカード（別売）は必須ですか？ | PlayStation.com](https://support.jp.playstation.com/app/answers/detail/a_id/12244/~/ps-vita%E3%81%AE%E3%82%B2%E3%83%BC%E3%83%A0%E3%82%92%E3%83%97%E3%83%AC%E3%82%A4%E3%81%99%E3%82%8B%E3%81%AB%E3%81%AF%E3%83%A1%E3%83%A2%E3%83%AA%E3%83%BC%E3%82%AB%E3%83%BC%E3%83%89%EF%BC%88%E5%88%A5%E5%A3%B2%EF%BC%89%E3%81%AF%E5%BF%85%E9%A0%88%E3%81%A7%E3%81%99%E3%81%8B%EF%BC%9F)\n\n{{<amazon id=\"B00F27JE1C\" title=\"PlayStation Vita Wi-Fiモデル ライムグリーン/ホワイト (PCH-2000ZA13)\" src=\"https://images-na.ssl-images-amazon.com/images/I/41wY8gSglgL._SL160_.jpg\">}}\n\n{{<amazon id=\"B00IZT5Y6S\" title=\"ROBOTICS;NOTES ELITE (通常版)\" src=\"https://images-na.ssl-images-amazon.com/images/I/51YsZR6IEdL._SL160_.jpg\">}}",
+  "bodyHtml": "<p><img src=\"/images/2014/06/6692_1.jpg\" alt=\"\"></p>\n<p>ほとんどの PSVita ソフトは、パッケージ下部に「メモリーカード必須」と書かれています。ですが、PSVita のモデルによっては内蔵メモリーカードが搭載されているため、容量さえ足りていれば、外部メモリーカードを別途購入する必要はありません。</p>\n<p>PSVita のモデルと内蔵メモリーカードの搭載/非搭載の関係は、以下となります。</p>\n<ul>\n<li>PCH-1000 シリーズ（内蔵メモリーカード非搭載）</li>\n<li>PCH-2000 シリーズ（内蔵メモリーカード 1GB 搭載）</li>\n</ul>\n<p>PCH-1000 シリーズは、外部メモリーカードが必要ですが、PCH-2000 シリーズは、内蔵メモリーカードの容量範囲内であれば外部メモリーカードは必要ではなく、「メモリーカード必須」と書かれているゲームをすぐに遊ぶことができます。</p>\n<p>自分の持っている PSVita がどのモデルなのか分からない場合は、PSVita 背面から確認できます。</p>\n<p><img src=\"/images/2014/06/6692_2.png\" alt=\"\"></p>\n<h2>参考</h2>\n<p><a href=\"https://support.jp.playstation.com/app/answers/detail/a_id/12244/~/ps-vita%E3%81%AE%E3%82%B2%E3%83%BC%E3%83%A0%E3%82%92%E3%83%97%E3%83%AC%E3%82%A4%E3%81%99%E3%82%8B%E3%81%AB%E3%81%AF%E3%83%A1%E3%83%A2%E3%83%AA%E3%83%BC%E3%82%AB%E3%83%BC%E3%83%89%EF%BC%88%E5%88%A5%E5%A3%B2%EF%BC%89%E3%81%AF%E5%BF%85%E9%A0%88%E3%81%A7%E3%81%99%E3%81%8B%EF%BC%9F\">PS Vitaのゲームをプレイするにはメモリーカード（別売）は必須ですか？ | PlayStation.com</a></p>\n<p>{{&lt;amazon id=&quot;B00F27JE1C&quot; title=&quot;PlayStation Vita Wi-Fiモデル ライムグリーン/ホワイト (PCH-2000ZA13)&quot; src=&quot;https://images-na.ssl-images-amazon.com/images/I/41wY8gSglgL.<em>SL160</em>.jpg&quot;&gt;}}</p>\n<p>{{&lt;amazon id=&quot;B00IZT5Y6S&quot; title=&quot;ROBOTICS;NOTES ELITE (通常版)&quot; src=&quot;https://images-na.ssl-images-amazon.com/images/I/51YsZR6IEdL.<em>SL160</em>.jpg&quot;&gt;}}</p>\n",
+  "dir": "static/content/archives",
+  "base": "2014-06-28-6692.json",
+  "ext": ".json",
+  "sourceBase": "2014-06-28-6692.md",
+  "sourceExt": ".md"
+}

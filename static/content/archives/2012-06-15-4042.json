@@ -1,0 +1,16 @@
+{
+  "categories": [
+    "Mac"
+  ],
+  "date": "2012-06-14T22:43:00.000Z",
+  "draft": false,
+  "slug": 4042,
+  "title": "Finder がアクティブでなくても Alfred で任意のフォルダにホットキーで移動する方法",
+  "bodyContent": "どもっ、ヘビー Alfred ユーザーのラクイシ（@rakuishi07）です。\n\nMac の Finder には、任意のフォルダにアクセス出来るホットキーが存在します（例えば、command + shift + D で、デスクトップ）。\n\n便利なのですが Finder を下図のようにアクティブにしておかないとこのホットキーを使用することが出来ない欠点があって、Finder に切り替えるのが泣けるほど面倒なシーンが多々あります。\n\n![](/images/2012/06/4042_1.png)\n\n面倒くさいけど、ホットキーで移動したいよね！\n\nということで、Alfred のホットキー機能に、フォルダを登録してみました。\n\n※ ホットキー機能を使うには、有料の[パワーパック](http://www.alfredapp.com/powerpack/)を購入する必要があります。\n\n{{<app id=\"405843582\" title=\"Alfred 1.2（無料）\" src=\"http://a1.mzstatic.com/us/r1000/069/Purple/v4/b4/7b/51/b47b5118-5ba5-a359-0bc6-e71494225963/appicon.100x100-75.png\">}}\n\n## ホットキーにフォルダを登録する手順\n\nAlfred の設定から Hotkeys に移動します。\n\n![](/images/2012/06/4042_2.png)\n\n左下のプラスボタンから、Apps and Files → Application or File を選択します。\n\n![](/images/2012/06/4042_3.png)\n\nそれで、こんな感じに好きなフォルダを登録すれば OK です。ここでは、command + shift + D でデスクトップに移動にしてみました（ホットキーが競合する可能性がありますので、そこはお好みで変えてください）。\n\n![](/images/2012/06/4042_4.png)\n\nこれで、Finder がアクティブなアプリじゃなくても、任意のフォルダにアクセスすることができます。\n\nAlfred の Powerpack を買っている人は、是非、試してみて下さい。",
+  "bodyHtml": "<p>どもっ、ヘビー Alfred ユーザーのラクイシ（@rakuishi07）です。</p>\n<p>Mac の Finder には、任意のフォルダにアクセス出来るホットキーが存在します（例えば、command + shift + D で、デスクトップ）。</p>\n<p>便利なのですが Finder を下図のようにアクティブにしておかないとこのホットキーを使用することが出来ない欠点があって、Finder に切り替えるのが泣けるほど面倒なシーンが多々あります。</p>\n<p><img src=\"/images/2012/06/4042_1.png\" alt=\"\"></p>\n<p>面倒くさいけど、ホットキーで移動したいよね！</p>\n<p>ということで、Alfred のホットキー機能に、フォルダを登録してみました。</p>\n<p>※ ホットキー機能を使うには、有料の<a href=\"http://www.alfredapp.com/powerpack/\">パワーパック</a>を購入する必要があります。</p>\n<p>{{&lt;app id=&quot;405843582&quot; title=&quot;Alfred 1.2（無料）&quot; src=&quot;http://a1.mzstatic.com/us/r1000/069/Purple/v4/b4/7b/51/b47b5118-5ba5-a359-0bc6-e71494225963/appicon.100x100-75.png&quot;&gt;}}</p>\n<h2>ホットキーにフォルダを登録する手順</h2>\n<p>Alfred の設定から Hotkeys に移動します。</p>\n<p><img src=\"/images/2012/06/4042_2.png\" alt=\"\"></p>\n<p>左下のプラスボタンから、Apps and Files → Application or File を選択します。</p>\n<p><img src=\"/images/2012/06/4042_3.png\" alt=\"\"></p>\n<p>それで、こんな感じに好きなフォルダを登録すれば OK です。ここでは、command + shift + D でデスクトップに移動にしてみました（ホットキーが競合する可能性がありますので、そこはお好みで変えてください）。</p>\n<p><img src=\"/images/2012/06/4042_4.png\" alt=\"\"></p>\n<p>これで、Finder がアクティブなアプリじゃなくても、任意のフォルダにアクセスすることができます。</p>\n<p>Alfred の Powerpack を買っている人は、是非、試してみて下さい。</p>\n",
+  "dir": "static/content/archives",
+  "base": "2012-06-15-4042.json",
+  "ext": ".json",
+  "sourceBase": "2012-06-15-4042.md",
+  "sourceExt": ".md"
+}

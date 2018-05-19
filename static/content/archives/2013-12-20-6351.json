@@ -1,0 +1,16 @@
+{
+  "categories": [
+    "PHP"
+  ],
+  "date": "2013-12-20T11:50:37.000Z",
+  "draft": false,
+  "slug": 6351,
+  "title": "MAMP で動かしている PHP ファイルが更新されない",
+  "bodyContent": "WordPress を勉強するために、MAMP 2.2 でローカル環境を作成しています。ですが、PHP ファイルの内容を変更後、ブラウザの更新をしても内容が古いままで、困ってしまいました。\n\n原因は、OPCache という PHP 5.5 から導入された PHP の高速化、CPU 負荷を軽減するための拡張モジュールが原因のようです。こちらのキャッシュ間隔を短くすれば解決します。\n\n## OPCache のキャッシュ間隔を短くする\n\n以下にある、php.ini ファイルを開きます。php のバージョンは、ご自身の環境に合わせて適宜変更します。\n\n<pre>/Applications/MAMP/bin/php/php5.5.3/conf/php.ini</code></pre>\n\nこの1090行目付近にある以下の項目を 60 → 1 にします。\n\n```\nopcache.revalidate_freq=60\n↓\nopcache.revalidate_freq=1\n```\n\n編集後、MAMP の「サーバを停止」→「サーバを起動」すれば、PHP ファイルの内容を変更後、即反映されるようになります。\n\n参考：[PHPソースの変更が反映されないときはOPcacheを疑え by @armorik83 on @Qiita](http://qiita.com/armorik83/items/bccb98a3e34e957894f2)",
+  "bodyHtml": "<p>WordPress を勉強するために、MAMP 2.2 でローカル環境を作成しています。ですが、PHP ファイルの内容を変更後、ブラウザの更新をしても内容が古いままで、困ってしまいました。</p>\n<p>原因は、OPCache という PHP 5.5 から導入された PHP の高速化、CPU 負荷を軽減するための拡張モジュールが原因のようです。こちらのキャッシュ間隔を短くすれば解決します。</p>\n<h2>OPCache のキャッシュ間隔を短くする</h2>\n<p>以下にある、php.ini ファイルを開きます。php のバージョンは、ご自身の環境に合わせて適宜変更します。</p>\n<p>&lt;pre&gt;/Applications/MAMP/bin/php/php5.5.3/conf/php.ini&lt;/code&gt;&lt;/pre&gt;</p>\n<p>この1090行目付近にある以下の項目を 60 → 1 にします。</p>\n<pre><code>opcache.revalidate_freq=60\n↓\nopcache.revalidate_freq=1\n</code></pre>\n<p>編集後、MAMP の「サーバを停止」→「サーバを起動」すれば、PHP ファイルの内容を変更後、即反映されるようになります。</p>\n<p>参考：<a href=\"http://qiita.com/armorik83/items/bccb98a3e34e957894f2\">PHPソースの変更が反映されないときはOPcacheを疑え by @armorik83 on @Qiita</a></p>\n",
+  "dir": "static/content/archives",
+  "base": "2013-12-20-6351.json",
+  "ext": ".json",
+  "sourceBase": "2013-12-20-6351.md",
+  "sourceExt": ".md"
+}

@@ -1,0 +1,16 @@
+{
+  "categories": [
+    "WordPress"
+  ],
+  "date": "2013-08-26T15:04:02.000Z",
+  "draft": false,
+  "slug": 6094,
+  "title": "[WordPress] 画像を記事に挿入する際に <a> タグを削除する",
+  "bodyContent": "WordPress の標準の画像挿入（メディアを追加）では、&lt;img&gt; タグは、&lt;a&gt; タグで囲われる仕様になっています。\n\n個人的にこの仕様が気に食わないので、[MarsEdit](https://itunes.apple.com/jp/app/marsedit-blog-editor-for-wordpress/id402376225?mt=12&uo=4&at=11l3RT) というエディタアプリで画像の囲われ方をカスタムし投稿していたのですが、投稿画面の挿入の指定がカスタムできるみたいなので &lt;a&gt; タグを削除するようにしてみました。\n\n## 画像を記事に挿入する際に、&lt;a&gt; タグを削除する\n\nWordPress の「メディアを追加」で吐き出されるコードは以下になります。こちらから &lt;a&gt; タグを削除するのが目標です。\n\n```\n<a href=\"http://rakuishi.com/wp-content/uploads/2013/08/wordpress.png\"><img src=\"/images/2013/08/wordpress.png\" alt=\"wordpress\" width=\"200\" height=\"200\" class=\"align-center size-full wp-image-6064\" /></a>\n```\n\nimage_send_to_editor という関数が画像の挿入時に呼ばれるみたいなので、この関数にフィルターフックします。テーマファイルの functions.php に、以下の内容を記述します。\n\n```\nfunction remove_a_tag_image_send_to_editor($html, $id, $caption, $title, $align, $url, $size) {\n  return strip_tags($html, '<img>');\n}\nadd_filter('image_send_to_editor', 'remove_a_tag_image_send_to_editor', 10, 7);\n```\n\nstrip_tags 関数は、指定したタグ以外を削除する関数です。これで &lt;a&gt; タグを取り除くことができます。「メディアを追加」すると以下のように &lt;img&gt; タグだけのコードが出力されます。\n\n```\n<img src=\"/images/2013/08/wordpress.png\" alt=\"wordpress\" width=\"200\" height=\"200\" class=\"align-center size-full wp-image-6064\" />\n```\n\nimage_send_to_editor にフィルターフックすることで、指定のクラスを追加したりもできそうですね。",
+  "bodyHtml": "<p>WordPress の標準の画像挿入（メディアを追加）では、&lt;img&gt; タグは、&lt;a&gt; タグで囲われる仕様になっています。</p>\n<p>個人的にこの仕様が気に食わないので、<a href=\"https://itunes.apple.com/jp/app/marsedit-blog-editor-for-wordpress/id402376225?mt=12&amp;uo=4&amp;at=11l3RT\">MarsEdit</a> というエディタアプリで画像の囲われ方をカスタムし投稿していたのですが、投稿画面の挿入の指定がカスタムできるみたいなので &lt;a&gt; タグを削除するようにしてみました。</p>\n<h2>画像を記事に挿入する際に、&lt;a&gt; タグを削除する</h2>\n<p>WordPress の「メディアを追加」で吐き出されるコードは以下になります。こちらから &lt;a&gt; タグを削除するのが目標です。</p>\n<pre><code>&lt;a href=&quot;http://rakuishi.com/wp-content/uploads/2013/08/wordpress.png&quot;&gt;&lt;img src=&quot;/images/2013/08/wordpress.png&quot; alt=&quot;wordpress&quot; width=&quot;200&quot; height=&quot;200&quot; class=&quot;align-center size-full wp-image-6064&quot; /&gt;&lt;/a&gt;\n</code></pre>\n<p>image_send_to_editor という関数が画像の挿入時に呼ばれるみたいなので、この関数にフィルターフックします。テーマファイルの functions.php に、以下の内容を記述します。</p>\n<pre><code>function remove_a_tag_image_send_to_editor($html, $id, $caption, $title, $align, $url, $size) {\n  return strip_tags($html, '&lt;img&gt;');\n}\nadd_filter('image_send_to_editor', 'remove_a_tag_image_send_to_editor', 10, 7);\n</code></pre>\n<p>strip_tags 関数は、指定したタグ以外を削除する関数です。これで &lt;a&gt; タグを取り除くことができます。「メディアを追加」すると以下のように &lt;img&gt; タグだけのコードが出力されます。</p>\n<pre><code>&lt;img src=&quot;/images/2013/08/wordpress.png&quot; alt=&quot;wordpress&quot; width=&quot;200&quot; height=&quot;200&quot; class=&quot;align-center size-full wp-image-6064&quot; /&gt;\n</code></pre>\n<p>image_send_to_editor にフィルターフックすることで、指定のクラスを追加したりもできそうですね。</p>\n",
+  "dir": "static/content/archives",
+  "base": "2013-08-27-6094.json",
+  "ext": ".json",
+  "sourceBase": "2013-08-27-6094.md",
+  "sourceExt": ".md"
+}

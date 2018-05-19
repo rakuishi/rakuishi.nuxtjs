@@ -1,0 +1,16 @@
+{
+  "categories": [
+    "iOS"
+  ],
+  "date": "2012-06-26T06:40:00.000Z",
+  "draft": false,
+  "slug": 4158,
+  "title": "[iPhone] 新しくなった foursquare 5.0 で友達を追加する方法",
+  "bodyContent": "基本的にオフ会で forsquare を起動する、ラクイシ（@rakuishi07）です。\n\n位置情報を記録できる foursquare が最近、メジャーバージョンアップしてシンプルになりました。\n\n先日のオフ会で友達を追加しようと思ったのですが、追加する方法が以前と変わっていて戸惑ってしまったので、新しくなった foursquare で友達を追加する方法を紹介します。\n\n参考：iPhone から foursquare のチェックイン履歴をカレンダーに追加してにやにやしませんか？\n\n{{<app id=\"306934924\" title=\"foursquare 5.0（無料）\" src=\"http://a2.mzstatic.com/us/r1000/062/Purple/v4/a3/57/3a/a3573a7a-f954-cd0c-bc9a-4298fbfa552a/mza_5426978432034359667.100x100-75.png\">}}\n\n## 友達を追加する方法\n\n1. foursquare を起動して、左下のプロフィールページ（自分の名前が書いてるところ）を開きます。\n\n2. そして「〜人の友達」と表示されているところをタップします。\n\n![](/images/2012/06/4158_1.png)\n\n3. 移動した先で友達タブを選んで、4. 右上の追加ボタンをタップします。\n\n![](/images/2012/06/4158_2.png)\n\n後は、連絡先や Twitter, Facebook から追加できます。\n\n![](/images/2012/06/4158_3.png)\n\n友達を増やして楽しみましょう！\n\nちなみに、僕は一度会ったことのある人からのリクエストを許可しています（そうでないのも混ざってるけど）。",
+  "bodyHtml": "<p>基本的にオフ会で forsquare を起動する、ラクイシ（@rakuishi07）です。</p>\n<p>位置情報を記録できる foursquare が最近、メジャーバージョンアップしてシンプルになりました。</p>\n<p>先日のオフ会で友達を追加しようと思ったのですが、追加する方法が以前と変わっていて戸惑ってしまったので、新しくなった foursquare で友達を追加する方法を紹介します。</p>\n<p>参考：iPhone から foursquare のチェックイン履歴をカレンダーに追加してにやにやしませんか？</p>\n<p>{{&lt;app id=&quot;306934924&quot; title=&quot;foursquare 5.0（無料）&quot; src=&quot;http://a2.mzstatic.com/us/r1000/062/Purple/v4/a3/57/3a/a3573a7a-f954-cd0c-bc9a-4298fbfa552a/mza_5426978432034359667.100x100-75.png&quot;&gt;}}</p>\n<h2>友達を追加する方法</h2>\n<ol>\n<li>\n<p>foursquare を起動して、左下のプロフィールページ（自分の名前が書いてるところ）を開きます。</p>\n</li>\n<li>\n<p>そして「〜人の友達」と表示されているところをタップします。</p>\n</li>\n</ol>\n<p><img src=\"/images/2012/06/4158_1.png\" alt=\"\"></p>\n<ol start=\"3\">\n<li>移動した先で友達タブを選んで、4. 右上の追加ボタンをタップします。</li>\n</ol>\n<p><img src=\"/images/2012/06/4158_2.png\" alt=\"\"></p>\n<p>後は、連絡先や Twitter, Facebook から追加できます。</p>\n<p><img src=\"/images/2012/06/4158_3.png\" alt=\"\"></p>\n<p>友達を増やして楽しみましょう！</p>\n<p>ちなみに、僕は一度会ったことのある人からのリクエストを許可しています（そうでないのも混ざってるけど）。</p>\n",
+  "dir": "static/content/archives",
+  "base": "2012-06-26-4158.json",
+  "ext": ".json",
+  "sourceBase": "2012-06-26-4158.md",
+  "sourceExt": ".md"
+}

@@ -1,0 +1,16 @@
+{
+  "categories": [
+    "JavaScript"
+  ],
+  "date": "2015-01-24T09:16:24.000Z",
+  "draft": false,
+  "slug": "highlightjs",
+  "title": "シンタックスハイライトに highlight.js を使うことにしました",
+  "bodyContent": "ブラウザで実行されるクライアントサイドのシンタックスハイライト（ソースコードを意味ごとに色付けしてくれる）に、[google-code-prettify](https://code.google.com/p/google-code-prettify/) を使用していたのですが、[highlight.js](https://highlightjs.org/) に乗り換えました。\n\n## 経緯\n\nprettify は、ハイライトするコード部分を `<pre class=\"prettyprint\"> ~ </pre>` で囲う必要がありました。\n\nですが、先日から記事をマークダウンで記述するようになり、コード部分が、`<code><pre> ~ </pre></code>` に変換されるため、クラスを指定する prettify が使えなくなりました。\n\n## highlight.js 導入\n\nブログに JavaScript と、CSS を読み込ませるだけです。ハイライトする部分は、`<code><pre> ~ </pre></code>` 形式で囲まれている必要があります。\n\n[Getting highlight.js](https://highlightjs.org/download/) からダウンロードすることもできますし、CDN で配信されているので、自分のブログにコードを貼り付けるだけで OK です。\n\nスタイルシートをヘッダーに貼り付けます。デモページから好きなテーマを探せます。→ [highlight.js demo](https://highlightjs.org/static/demo/)\n\n\t<link rel=\"stylesheet\" href=\"//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/default.min.css\">\n\nJavaScript をフッター部分に貼り付けます。これをヘッダー部分に貼った場合、ブロッキング JavaScript になるので、フッター部分である `</body>` の直前に記述するのが良いです。\n\n\t<script src=\"//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js\"></script>\n\t<script>hljs.initHighlightingOnLoad();</script>\n\n以上の手順で、記事中のソースコード記述部分が、シンタックスハイライトされます。手軽にブログ記事を華やかにできるので、オススメです。",
+  "bodyHtml": "<p>ブラウザで実行されるクライアントサイドのシンタックスハイライト（ソースコードを意味ごとに色付けしてくれる）に、<a href=\"https://code.google.com/p/google-code-prettify/\">google-code-prettify</a> を使用していたのですが、<a href=\"https://highlightjs.org/\">highlight.js</a> に乗り換えました。</p>\n<h2>経緯</h2>\n<p>prettify は、ハイライトするコード部分を <code>&lt;pre class=&quot;prettyprint&quot;&gt; ~ &lt;/pre&gt;</code> で囲う必要がありました。</p>\n<p>ですが、先日から記事をマークダウンで記述するようになり、コード部分が、<code>&lt;code&gt;&lt;pre&gt; ~ &lt;/pre&gt;&lt;/code&gt;</code> に変換されるため、クラスを指定する prettify が使えなくなりました。</p>\n<h2>highlight.js 導入</h2>\n<p>ブログに JavaScript と、CSS を読み込ませるだけです。ハイライトする部分は、<code>&lt;code&gt;&lt;pre&gt; ~ &lt;/pre&gt;&lt;/code&gt;</code> 形式で囲まれている必要があります。</p>\n<p><a href=\"https://highlightjs.org/download/\">Getting highlight.js</a> からダウンロードすることもできますし、CDN で配信されているので、自分のブログにコードを貼り付けるだけで OK です。</p>\n<p>スタイルシートをヘッダーに貼り付けます。デモページから好きなテーマを探せます。→ <a href=\"https://highlightjs.org/static/demo/\">highlight.js demo</a></p>\n<pre><code>&lt;link rel=&quot;stylesheet&quot; href=&quot;//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/default.min.css&quot;&gt;\n</code></pre>\n<p>JavaScript をフッター部分に貼り付けます。これをヘッダー部分に貼った場合、ブロッキング JavaScript になるので、フッター部分である <code>&lt;/body&gt;</code> の直前に記述するのが良いです。</p>\n<pre><code>&lt;script src=&quot;//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js&quot;&gt;&lt;/script&gt;\n&lt;script&gt;hljs.initHighlightingOnLoad();&lt;/script&gt;\n</code></pre>\n<p>以上の手順で、記事中のソースコード記述部分が、シンタックスハイライトされます。手軽にブログ記事を華やかにできるので、オススメです。</p>\n",
+  "dir": "static/content/archives",
+  "base": "2015-01-24-highlightjs.json",
+  "ext": ".json",
+  "sourceBase": "2015-01-24-highlightjs.md",
+  "sourceExt": ".md"
+}

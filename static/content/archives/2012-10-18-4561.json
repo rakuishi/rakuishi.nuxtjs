@@ -1,0 +1,16 @@
+{
+  "categories": [
+    "iOS"
+  ],
+  "date": "2012-10-18T13:30:01.000Z",
+  "draft": false,
+  "slug": 4561,
+  "title": "[iOS SDK] iPhone5（4-inch retina Display）のデバイスかどうかで、条件分岐をする方法",
+  "bodyContent": "iPhone5 と書きましたが、iPod Toudh 第5世代でも OK です。\n\n```\nif ([UIScreen mainScreen].scale == 2.f && [UIScreen mainScreen].bounds.size.height == 568.f) {\n    // ...\n}\n```\n\nRetina 画面 ＆ 画面縦幅 568px である 4-inch retina Display に対して、処理するようにしています。",
+  "bodyHtml": "<p>iPhone5 と書きましたが、iPod Toudh 第5世代でも OK です。</p>\n<pre><code>if ([UIScreen mainScreen].scale == 2.f &amp;&amp; [UIScreen mainScreen].bounds.size.height == 568.f) {\n    // ...\n}\n</code></pre>\n<p>Retina 画面 ＆ 画面縦幅 568px である 4-inch retina Display に対して、処理するようにしています。</p>\n",
+  "dir": "static/content/archives",
+  "base": "2012-10-18-4561.json",
+  "ext": ".json",
+  "sourceBase": "2012-10-18-4561.md",
+  "sourceExt": ".md"
+}

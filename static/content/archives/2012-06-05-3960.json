@@ -1,0 +1,16 @@
+{
+  "categories": [
+    "iOS"
+  ],
+  "date": "2012-06-05T13:33:17.000Z",
+  "draft": false,
+  "slug": 3960,
+  "title": "[iOS SDK] fetchedResultsController をアプリ起動後にリセットする方法",
+  "bodyContent": "例えば、CoreData で表示しているデータに対して、アプリ起動後に、フィルタをかけて、それを反映したい場合があります。\n\n参考：[[iOS SDK][CoreData] 表示するデータの並び順・セクション名・フィルタを設定する方法](http://rakuishi.com/archives/3922/)\n\nその際には、データを表示しているテーブルビューを reloadData するだけでは反映ないので、一度、fetchedResultsController をリセット（再起動）すると反映されます。\n\n## fetchedResultsController をリセットする方法\n\nアプリ内で表示するデータにフィルタをかけた際に、以下の処理を呼び出して、fetchedResultsController をリセットすると表示するデータに反映されます。\n\n```\nself.fetchedResultsController.delegate = nil;\nself.fetchedResultsController = nil;\n    \nNSError *error = nil;\nif (![self.fetchedResultsController performFetch:&error]) {\n    NSLog(@\"Unresolved error %@, %@\", error, [error userInfo]);\n    abort();\n}\n\n[self.tableView reloadData];\n```\n\ndelegate と Controller を nil にすれば OK みたいです。",
+  "bodyHtml": "<p>例えば、CoreData で表示しているデータに対して、アプリ起動後に、フィルタをかけて、それを反映したい場合があります。</p>\n<p>参考：<a href=\"http://rakuishi.com/archives/3922/\">[iOS SDK][CoreData] 表示するデータの並び順・セクション名・フィルタを設定する方法</a></p>\n<p>その際には、データを表示しているテーブルビューを reloadData するだけでは反映ないので、一度、fetchedResultsController をリセット（再起動）すると反映されます。</p>\n<h2>fetchedResultsController をリセットする方法</h2>\n<p>アプリ内で表示するデータにフィルタをかけた際に、以下の処理を呼び出して、fetchedResultsController をリセットすると表示するデータに反映されます。</p>\n<pre><code>self.fetchedResultsController.delegate = nil;\nself.fetchedResultsController = nil;\n    \nNSError *error = nil;\nif (![self.fetchedResultsController performFetch:&amp;error]) {\n    NSLog(@&quot;Unresolved error %@, %@&quot;, error, [error userInfo]);\n    abort();\n}\n\n[self.tableView reloadData];\n</code></pre>\n<p>delegate と Controller を nil にすれば OK みたいです。</p>\n",
+  "dir": "static/content/archives",
+  "base": "2012-06-05-3960.json",
+  "ext": ".json",
+  "sourceBase": "2012-06-05-3960.md",
+  "sourceExt": ".md"
+}

@@ -1,0 +1,16 @@
+{
+  "categories": [
+    "Evernote"
+  ],
+  "date": "2012-08-11T11:41:42.000Z",
+  "draft": false,
+  "slug": 4435,
+  "title": "[Evernote] ノートの変更履歴を確認する方法",
+  "bodyContent": "ここ最近、Evernote を Web から利用するシーンが多い。\n\nEvernote の Web は、Mac アプリ Alfred を介して検索することができる。Evernote の Mac アプリを直接触ってもいいのだけれど、PC のスペック的に動作が重く、Web で行うことになる。&rarr; [検索で Mac が加速するランチャーアプリ Alfred で使用している URL スキームをまとめてみた](http://rakuishi.com/archives/3840/)\n\nそのように Web から利用し始めて気付いたのですが、Evernote のノートの変更履歴を確認する方法って知ってますか？\n\n今日は、その確認する方法を紹介します。\n\n## Evernote のノート履歴を確認する方法\n\n[Evernote Web](https://www.evernote.com/Home.action) にアクセスして、履歴を表示したいノートを選択します。\n\n![](/images/2012/08/4435_1.png)\n\nそれで右端の「詳細を表示」を押します！これが意外と気付かないです。\n\n![](/images/2012/08/4435_2.png)\n\n詳細がオープンするので「ノートの履歴を表示」するを選択します！\n\n![](/images/2012/08/4435_3.png)\n\nするとノートの履歴が表示されます。\n\n![](/images/2012/08/4435_4.png)\n\nノート履歴の保存方法は、一日に数回、Evernote は最後にチェックがあった時点から変更があったノートのコピーを保存しているそうです。\n\nノートの履歴を選択してみます。\n\n![](/images/2012/08/4435_5.png)\n\nこんな感じでノート履歴が表示されます。エクスポートを押すと .enex 形式で出力されます。\n\n![](/images/2012/08/4435_6.png)\n\n .enex 形式で出力されたファイルは、Windows / Mac アプリの Evernote で読み込むことが出来ます。同じ Evernote の Web 内で完結できない（？）のが少し残念です（内容をその場でコピーすることができますが）。\n\n「間違って内容を書き換えて消えてしまった！」という場合に思い出して見て下さい。",
+  "bodyHtml": "<p>ここ最近、Evernote を Web から利用するシーンが多い。</p>\n<p>Evernote の Web は、Mac アプリ Alfred を介して検索することができる。Evernote の Mac アプリを直接触ってもいいのだけれど、PC のスペック的に動作が重く、Web で行うことになる。→ <a href=\"http://rakuishi.com/archives/3840/\">検索で Mac が加速するランチャーアプリ Alfred で使用している URL スキームをまとめてみた</a></p>\n<p>そのように Web から利用し始めて気付いたのですが、Evernote のノートの変更履歴を確認する方法って知ってますか？</p>\n<p>今日は、その確認する方法を紹介します。</p>\n<h2>Evernote のノート履歴を確認する方法</h2>\n<p><a href=\"https://www.evernote.com/Home.action\">Evernote Web</a> にアクセスして、履歴を表示したいノートを選択します。</p>\n<p><img src=\"/images/2012/08/4435_1.png\" alt=\"\"></p>\n<p>それで右端の「詳細を表示」を押します！これが意外と気付かないです。</p>\n<p><img src=\"/images/2012/08/4435_2.png\" alt=\"\"></p>\n<p>詳細がオープンするので「ノートの履歴を表示」するを選択します！</p>\n<p><img src=\"/images/2012/08/4435_3.png\" alt=\"\"></p>\n<p>するとノートの履歴が表示されます。</p>\n<p><img src=\"/images/2012/08/4435_4.png\" alt=\"\"></p>\n<p>ノート履歴の保存方法は、一日に数回、Evernote は最後にチェックがあった時点から変更があったノートのコピーを保存しているそうです。</p>\n<p>ノートの履歴を選択してみます。</p>\n<p><img src=\"/images/2012/08/4435_5.png\" alt=\"\"></p>\n<p>こんな感じでノート履歴が表示されます。エクスポートを押すと .enex 形式で出力されます。</p>\n<p><img src=\"/images/2012/08/4435_6.png\" alt=\"\"></p>\n<p>.enex 形式で出力されたファイルは、Windows / Mac アプリの Evernote で読み込むことが出来ます。同じ Evernote の Web 内で完結できない（？）のが少し残念です（内容をその場でコピーすることができますが）。</p>\n<p>「間違って内容を書き換えて消えてしまった！」という場合に思い出して見て下さい。</p>\n",
+  "dir": "static/content/archives",
+  "base": "2012-08-11-4435.json",
+  "ext": ".json",
+  "sourceBase": "2012-08-11-4435.md",
+  "sourceExt": ".md"
+}

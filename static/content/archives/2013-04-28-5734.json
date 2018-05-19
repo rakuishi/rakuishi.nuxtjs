@@ -1,0 +1,16 @@
+{
+  "categories": [
+    "iOS"
+  ],
+  "date": "2013-04-28T00:55:32.000Z",
+  "draft": false,
+  "slug": 5734,
+  "title": "「PCH file built from a different branch」とエラーが出て、ビルドできない場合の対処法",
+  "bodyContent": "Xcode を 4.6.2 にアップデートした後に、今までビルド出来ていたプロジェクトが出来なくなりました。次のようなエラーでした。\n\n```\nerror: PCH file built from a different branch ((clang-425.0.27)) than the compiler ((clang-425.0.28))\n```\n\n対処法として、プロジェクトを一度 Clean（command + shift + K）をした後にビルドしたら、無事に出来ました。Xcode のバージョンアップに因るものみたいですね。",
+  "bodyHtml": "<p>Xcode を 4.6.2 にアップデートした後に、今までビルド出来ていたプロジェクトが出来なくなりました。次のようなエラーでした。</p>\n<pre><code>error: PCH file built from a different branch ((clang-425.0.27)) than the compiler ((clang-425.0.28))\n</code></pre>\n<p>対処法として、プロジェクトを一度 Clean（command + shift + K）をした後にビルドしたら、無事に出来ました。Xcode のバージョンアップに因るものみたいですね。</p>\n",
+  "dir": "static/content/archives",
+  "base": "2013-04-28-5734.json",
+  "ext": ".json",
+  "sourceBase": "2013-04-28-5734.md",
+  "sourceExt": ".md"
+}

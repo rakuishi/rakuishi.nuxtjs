@@ -1,0 +1,16 @@
+{
+  "categories": [
+    "Mac"
+  ],
+  "date": "2012-04-21T06:23:35.000Z",
+  "draft": false,
+  "slug": 3424,
+  "title": "Xcode 4.3 以降の iOSシミュレータの場所",
+  "bodyContent": "![](/images/2012/04/3424_1.png)\n\nXcode は、以前、デベロッパフォルダに格納されていました。\n\nしかし、Xcode 4.3 からアプリケーションフォルダに格納されるように仕様変更されました。\n\nそれにともなって、Developper Tool（Instrument, Application Loader）などが Xcode アプリの中に格納されることになりました。\n\nという経緯で、デベロッパフォルダにあった iOS シミュレータが行方不明になりました。\n\n## Xcode 4.3 以降の iOSシミュレータの場所\n\niOS シミュレータは、Xcode アプリの中にあります。\n\nXcode.app を右クリックして、「パッケージの内容を表示」を選びます。\n\n![](/images/2012/04/3424_2.png)\n\nで、以下の長ったらしい場所に iOSシミュレータが眠っています。\n\nContents/Developer/Platforms/iPhoneSimulator.platform/Developer/Applications/iOSシミュレータ.app\n\nこれで、iOSシミュレータで iPhone 用モバイルテーマを表示させたりできますね。",
+  "bodyHtml": "<p><img src=\"/images/2012/04/3424_1.png\" alt=\"\"></p>\n<p>Xcode は、以前、デベロッパフォルダに格納されていました。</p>\n<p>しかし、Xcode 4.3 からアプリケーションフォルダに格納されるように仕様変更されました。</p>\n<p>それにともなって、Developper Tool（Instrument, Application Loader）などが Xcode アプリの中に格納されることになりました。</p>\n<p>という経緯で、デベロッパフォルダにあった iOS シミュレータが行方不明になりました。</p>\n<h2>Xcode 4.3 以降の iOSシミュレータの場所</h2>\n<p>iOS シミュレータは、Xcode アプリの中にあります。</p>\n<p>Xcode.app を右クリックして、「パッケージの内容を表示」を選びます。</p>\n<p><img src=\"/images/2012/04/3424_2.png\" alt=\"\"></p>\n<p>で、以下の長ったらしい場所に iOSシミュレータが眠っています。</p>\n<p>Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Applications/iOSシミュレータ.app</p>\n<p>これで、iOSシミュレータで iPhone 用モバイルテーマを表示させたりできますね。</p>\n",
+  "dir": "static/content/archives",
+  "base": "2012-04-21-3424.json",
+  "ext": ".json",
+  "sourceBase": "2012-04-21-3424.md",
+  "sourceExt": ".md"
+}

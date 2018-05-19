@@ -1,0 +1,16 @@
+{
+  "categories": [
+    "iOS"
+  ],
+  "date": "2013-07-27T07:19:54.000Z",
+  "draft": false,
+  "slug": 5806,
+  "title": "[iOS SDK] テキストファイルからデータを読み込む",
+  "bodyContent": "プロジェクトに含めたテキストファイルの内容を読み込む方法を紹介します。\n\n## テキストファイルの内容を読み込む\n\nsample.txt というテキストファイルを用意しました。エンコーディングには、UTF-8 を使用しています。こちらをプロジェクトファイルに含めます。\n\nそして、sample.txt のデータを読み込む時には、次のようなコードを記述します。\n\n```\nNSString *filePath = [[NSBundle mainBundle] pathForResource:@\"sample\" ofType:@\"txt\"];\nNSError *error;\nNSString *text = [[NSString alloc] initWithContentsOfFile:filePath encoding:NSUTF8StringEncoding error:&error];\nNSLog(@\"%@\", text);\n```\n\nNSBundle はアプリケーションのリソース（画像、テキストファイルなど）を管理するクラスです。この NSBundle の pathForResource: メソッドにファイル名と拡張子名を渡すことで、そのファイルの位置を教えてくれます。\n\n後は、NSString の initWithContentsOfFile: メソッドで、そのパスから、中身を取得すれば OK です。",
+  "bodyHtml": "<p>プロジェクトに含めたテキストファイルの内容を読み込む方法を紹介します。</p>\n<h2>テキストファイルの内容を読み込む</h2>\n<p>sample.txt というテキストファイルを用意しました。エンコーディングには、UTF-8 を使用しています。こちらをプロジェクトファイルに含めます。</p>\n<p>そして、sample.txt のデータを読み込む時には、次のようなコードを記述します。</p>\n<pre><code>NSString *filePath = [[NSBundle mainBundle] pathForResource:@&quot;sample&quot; ofType:@&quot;txt&quot;];\nNSError *error;\nNSString *text = [[NSString alloc] initWithContentsOfFile:filePath encoding:NSUTF8StringEncoding error:&amp;error];\nNSLog(@&quot;%@&quot;, text);\n</code></pre>\n<p>NSBundle はアプリケーションのリソース（画像、テキストファイルなど）を管理するクラスです。この NSBundle の pathForResource: メソッドにファイル名と拡張子名を渡すことで、そのファイルの位置を教えてくれます。</p>\n<p>後は、NSString の initWithContentsOfFile: メソッドで、そのパスから、中身を取得すれば OK です。</p>\n",
+  "dir": "static/content/archives",
+  "base": "2013-07-27-5806.json",
+  "ext": ".json",
+  "sourceBase": "2013-07-27-5806.md",
+  "sourceExt": ".md"
+}

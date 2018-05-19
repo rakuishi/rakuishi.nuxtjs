@@ -1,0 +1,16 @@
+{
+  "categories": [
+    "WordPress"
+  ],
+  "date": "2013-08-25T14:58:39.000Z",
+  "draft": false,
+  "slug": 6070,
+  "title": "[WordPress] 投稿画面のエディタのフォントサイズを変更する",
+  "bodyContent": "この WordPress への記事の投稿には、[MarsEdit](https://itunes.apple.com/jp/app/marsedit-blog-editor-for-wordpress/id402376225?mt=12&uo=4&at=11l3RT) というブログエディタを使用しているのですが、WordPress のカスタマイズのコツを掴んでからは、管理画面の投稿も同じように便利な環境を作れないかと試行錯誤しています。\n\n今回は、WordPress の投稿画面のフォントサイズを大きくしてみます。\n\n![](/images/2013/08/textarea-font-size-1.png)\n\n## 投稿画面のエディタのフォントサイズを変更する\n\n現在、使用しているテーマファイルにある functions.php に以下の内容を記述します。\n\n```\nfunction editor_style_admin_head() {\n  echo '<link rel=\"stylesheet\" type=\"text/css\" href=\"' . get_bloginfo('template_directory') . '/editor-style.css\" />';\n}\nadd_action('admin_head', 'editor_style_admin_head');\n```\n\nadmin_head にアクションを追加します。管理画面（admin）のヘッダ（head）に、新しくスタイルシートを追加します。\n\nちなみに、add_editor_style でも同じことができるみたいですが、僕の環境では動作しませんでした（泣）。\n\nテーマファイルに新しくスタイルシートを追加します。名前は先ほど宣言した editor-style.css です。エディタ部分である textarea に対し、フォントサイズの指定と色の指定を行います。個人的に #000 は、目に優しくない気がするので、#444 程度を指定します。\n\n```\ntextarea.wp-editor-area {\n\tfont-size: 14px;\n\tcolor: #444;\n}\n```\n\n以上の設定を行うと以下のように、投稿画面のエディタのフォントサイズが変更されます。",
+  "bodyHtml": "<p>この WordPress への記事の投稿には、<a href=\"https://itunes.apple.com/jp/app/marsedit-blog-editor-for-wordpress/id402376225?mt=12&amp;uo=4&amp;at=11l3RT\">MarsEdit</a> というブログエディタを使用しているのですが、WordPress のカスタマイズのコツを掴んでからは、管理画面の投稿も同じように便利な環境を作れないかと試行錯誤しています。</p>\n<p>今回は、WordPress の投稿画面のフォントサイズを大きくしてみます。</p>\n<p><img src=\"/images/2013/08/textarea-font-size-1.png\" alt=\"\"></p>\n<h2>投稿画面のエディタのフォントサイズを変更する</h2>\n<p>現在、使用しているテーマファイルにある functions.php に以下の内容を記述します。</p>\n<pre><code>function editor_style_admin_head() {\n  echo '&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;' . get_bloginfo('template_directory') . '/editor-style.css&quot; /&gt;';\n}\nadd_action('admin_head', 'editor_style_admin_head');\n</code></pre>\n<p>admin_head にアクションを追加します。管理画面（admin）のヘッダ（head）に、新しくスタイルシートを追加します。</p>\n<p>ちなみに、add_editor_style でも同じことができるみたいですが、僕の環境では動作しませんでした（泣）。</p>\n<p>テーマファイルに新しくスタイルシートを追加します。名前は先ほど宣言した editor-style.css です。エディタ部分である textarea に対し、フォントサイズの指定と色の指定を行います。個人的に #000 は、目に優しくない気がするので、#444 程度を指定します。</p>\n<pre><code>textarea.wp-editor-area {\n\tfont-size: 14px;\n\tcolor: #444;\n}\n</code></pre>\n<p>以上の設定を行うと以下のように、投稿画面のエディタのフォントサイズが変更されます。</p>\n",
+  "dir": "static/content/archives",
+  "base": "2013-08-25-6070.json",
+  "ext": ".json",
+  "sourceBase": "2013-08-25-6070.md",
+  "sourceExt": ".md"
+}

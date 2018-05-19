@@ -1,0 +1,16 @@
+{
+  "categories": [
+    "iOS"
+  ],
+  "date": "2012-05-14T07:00:40.000Z",
+  "draft": false,
+  "slug": 3789,
+  "title": "「iPhone を探す」機能は、実は Mac も探せるので、 MacBook ユーザも設定を確認しておくべき！",
+  "bodyContent": "Apple 製品を4台所有していますラクイシ（@rakuishi07）です。\n\n久しぶりに、「iPhone を探す」アプリを iPhone に入れてみたのですが、このアプリ、実は iPhone だけじゃなくて、iPad も Mac も探せるんですね！\n\nすげえ！すげえ！と感動してしまったので紹介します。\n\n{{<app id=\"376101648\" title=\"iPhoneを探す 1.4（無料）\" src=\"http://a1.mzstatic.com/us/r1000/117/Purple/09/cb/6e/mzl.nfxlrxqt.100x100-75.png\">}}\n\n## 探すにはまず設定が必要です\n\n探すには、iPhone, iPad, Mac で設定が必要です。さくっと説明します。\n\n## iOS（iPhone, iPad）\n\n「設定」→「iCloud」から「iPhone を探す」をオンにする。\n\n![](/images/2012/05/3789_1.png)\n\n## Mac\n\n「システム環境設定」→「iCloud」から「Mac を探す」をオンにする。\n\n![](/images/2012/05/3789_2.png)\n\nこれで、iOS と Mac が探せるようになります。では、探してみましょう！\n\n## 探してみる\n\n▼ 「iPhone を探す」を起動して、Apple ID とパスワードを入力すると以下の画面になります。\n\n設定したすべての iOS, Mac が表示されています。なんか感動。\n\n![](/images/2012/05/3789_3.png)\n\n▼ 詳細見るとこんな感じで、現在位置が表示されます。\n\n細かい住所はお見せできませんが、Wi-Fi 環境下だとかなり高精度。半径10m も離れてなかった。\n\n![](/images/2012/05/3789_4.png)\n\n▼ 後、表示されているデバイスをロックしたり、メッセージを送信したりできます。\n\n![](/images/2012/05/3789_5.png)\n\n試しにメッセージを送ってみましょう。\n\nメッセージを入力して、「送信」！\n\n![](/images/2012/05/3789_6.png)\n\n▼ 数秒後に、MBA にポップアップが表示されました。\n\nなんかすげえ！\n\n![](/images/2012/05/3789_7.png)\n\n他にもロックを試してみましたが、期待通りロックされます！\n\n## ちなみに\n\nこの機能は、iCloud 上からでもデバイス位置を特定できます。\n\n[https://www.icloud.com/#find](https://www.icloud.com/#find)\n\nもしもの時に備えて全部の機種で有効にしておきたいです。というか、必須ですね！",
+  "bodyHtml": "<p>Apple 製品を4台所有していますラクイシ（@rakuishi07）です。</p>\n<p>久しぶりに、「iPhone を探す」アプリを iPhone に入れてみたのですが、このアプリ、実は iPhone だけじゃなくて、iPad も Mac も探せるんですね！</p>\n<p>すげえ！すげえ！と感動してしまったので紹介します。</p>\n<p>{{&lt;app id=&quot;376101648&quot; title=&quot;iPhoneを探す 1.4（無料）&quot; src=&quot;http://a1.mzstatic.com/us/r1000/117/Purple/09/cb/6e/mzl.nfxlrxqt.100x100-75.png&quot;&gt;}}</p>\n<h2>探すにはまず設定が必要です</h2>\n<p>探すには、iPhone, iPad, Mac で設定が必要です。さくっと説明します。</p>\n<h2>iOS（iPhone, iPad）</h2>\n<p>「設定」→「iCloud」から「iPhone を探す」をオンにする。</p>\n<p><img src=\"/images/2012/05/3789_1.png\" alt=\"\"></p>\n<h2>Mac</h2>\n<p>「システム環境設定」→「iCloud」から「Mac を探す」をオンにする。</p>\n<p><img src=\"/images/2012/05/3789_2.png\" alt=\"\"></p>\n<p>これで、iOS と Mac が探せるようになります。では、探してみましょう！</p>\n<h2>探してみる</h2>\n<p>▼ 「iPhone を探す」を起動して、Apple ID とパスワードを入力すると以下の画面になります。</p>\n<p>設定したすべての iOS, Mac が表示されています。なんか感動。</p>\n<p><img src=\"/images/2012/05/3789_3.png\" alt=\"\"></p>\n<p>▼ 詳細見るとこんな感じで、現在位置が表示されます。</p>\n<p>細かい住所はお見せできませんが、Wi-Fi 環境下だとかなり高精度。半径10m も離れてなかった。</p>\n<p><img src=\"/images/2012/05/3789_4.png\" alt=\"\"></p>\n<p>▼ 後、表示されているデバイスをロックしたり、メッセージを送信したりできます。</p>\n<p><img src=\"/images/2012/05/3789_5.png\" alt=\"\"></p>\n<p>試しにメッセージを送ってみましょう。</p>\n<p>メッセージを入力して、「送信」！</p>\n<p><img src=\"/images/2012/05/3789_6.png\" alt=\"\"></p>\n<p>▼ 数秒後に、MBA にポップアップが表示されました。</p>\n<p>なんかすげえ！</p>\n<p><img src=\"/images/2012/05/3789_7.png\" alt=\"\"></p>\n<p>他にもロックを試してみましたが、期待通りロックされます！</p>\n<h2>ちなみに</h2>\n<p>この機能は、iCloud 上からでもデバイス位置を特定できます。</p>\n<p><a href=\"https://www.icloud.com/#find\">https://www.icloud.com/#find</a></p>\n<p>もしもの時に備えて全部の機種で有効にしておきたいです。というか、必須ですね！</p>\n",
+  "dir": "static/content/archives",
+  "base": "2012-05-14-3789.json",
+  "ext": ".json",
+  "sourceBase": "2012-05-14-3789.md",
+  "sourceExt": ".md"
+}

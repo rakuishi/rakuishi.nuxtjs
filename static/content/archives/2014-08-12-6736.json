@@ -1,0 +1,16 @@
+{
+  "categories": [
+    "WordPress"
+  ],
+  "date": "2014-08-12T13:21:25.000Z",
+  "draft": false,
+  "slug": 6736,
+  "title": "記事公開前に確認アラートを表示する「One Step Before Publishing」が WordPress プラグインディレクトリに掲載されました",
+  "bodyContent": "以前、[間違って記事を公開しないように、「公開」ボタンを押した後に確認アラートを入れる](http://rakuishi.com/archives/6161)コードをテーマファイルの functions.php に記述する方法を紹介しましたが、こちらを正式なプラグインにしました。\n\n[WordPress › One Step Before Publishing « WordPress Plugins](http://wordpress.org/plugins/one-step-before-publishing/)\n\n## 記事公開前に確認アラートを表示します\n\n下書き状態の記事を公開にする前に、ワンステップ追加してくれるプラグインです。WordPress で書きかけの記事を間違って公開することを防いでくれます。\n\n![](/images/2014/08/6736_1.png)\n\n## プラグインを使うには\n\nWordPress 管理画面のプラグイン一覧から検索してインストール出来ます。「rakuishi」か「One Step Before Publishing」で表示されます。\n\n![](/images/2014/08/6736_2.png)\n\nもしくは、以下から zip ファイルをダウンロードして /wp-content/plugins/ に展開すれば OK です。\n\n[WordPress › One Step Before Publishing « WordPress Plugins](http://wordpress.org/plugins/one-step-before-publishing/)\n\n## 公式プラグインディレクトリに掲載されるにあたって\n\n公式プラグイン化するにあたって、以前の記事から以下の対応をしました。\n\n* WordPress 日本語版でしか動作しなかった問題を修正\n* 多言語対応（英語 &middot; 日本語）\n* プラグインを提出するにあたって必要な readme.txt を用意\n\nGitHub にもコードを上げています。\n\n* [rakuishi/OneStepBeforePublishing](https://github.com/rakuishi/one-step-before-publishing)\n\n個人的な話になりますが、これで App Store &middot; Google Play &middot; WordPress Plugin Directory に、自分の書いたアプリ &middot; プラグインが掲載されました。やったね！",
+  "bodyHtml": "<p>以前、<a href=\"http://rakuishi.com/archives/6161\">間違って記事を公開しないように、「公開」ボタンを押した後に確認アラートを入れる</a>コードをテーマファイルの functions.php に記述する方法を紹介しましたが、こちらを正式なプラグインにしました。</p>\n<p><a href=\"http://wordpress.org/plugins/one-step-before-publishing/\">WordPress › One Step Before Publishing « WordPress Plugins</a></p>\n<h2>記事公開前に確認アラートを表示します</h2>\n<p>下書き状態の記事を公開にする前に、ワンステップ追加してくれるプラグインです。WordPress で書きかけの記事を間違って公開することを防いでくれます。</p>\n<p><img src=\"/images/2014/08/6736_1.png\" alt=\"\"></p>\n<h2>プラグインを使うには</h2>\n<p>WordPress 管理画面のプラグイン一覧から検索してインストール出来ます。「rakuishi」か「One Step Before Publishing」で表示されます。</p>\n<p><img src=\"/images/2014/08/6736_2.png\" alt=\"\"></p>\n<p>もしくは、以下から zip ファイルをダウンロードして /wp-content/plugins/ に展開すれば OK です。</p>\n<p><a href=\"http://wordpress.org/plugins/one-step-before-publishing/\">WordPress › One Step Before Publishing « WordPress Plugins</a></p>\n<h2>公式プラグインディレクトリに掲載されるにあたって</h2>\n<p>公式プラグイン化するにあたって、以前の記事から以下の対応をしました。</p>\n<ul>\n<li>WordPress 日本語版でしか動作しなかった問題を修正</li>\n<li>多言語対応（英語 · 日本語）</li>\n<li>プラグインを提出するにあたって必要な readme.txt を用意</li>\n</ul>\n<p>GitHub にもコードを上げています。</p>\n<ul>\n<li><a href=\"https://github.com/rakuishi/one-step-before-publishing\">rakuishi/OneStepBeforePublishing</a></li>\n</ul>\n<p>個人的な話になりますが、これで App Store · Google Play · WordPress Plugin Directory に、自分の書いたアプリ · プラグインが掲載されました。やったね！</p>\n",
+  "dir": "static/content/archives",
+  "base": "2014-08-12-6736.json",
+  "ext": ".json",
+  "sourceBase": "2014-08-12-6736.md",
+  "sourceExt": ".md"
+}

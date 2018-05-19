@@ -1,0 +1,16 @@
+{
+  "categories": [
+    "Blog"
+  ],
+  "date": "2011-08-25T02:24:31.000Z",
+  "draft": false,
+  "slug": 1,
+  "title": "Hello world!",
+  "bodyContent": "Hello World!\n\n誕生日に買ってもらった iMac (21.5-inch, Late 2009)を起動した瞬間から、Apple に惚れこんでいるラクイシ（Twitter: @rakuishi07）といいます。愛知県のとある大学で微生物の研究をしている大学四年生です。\n\n以前は、Blogger（rakuishi.blogspot.com）という無料ブログサービスにてブログを書いていましたが、WordPress を触りたい、独自ドメインを取りたいという二つの理由が重なり、この度、rakuishi.com を開設しました。\n\nよろしくお願いします。",
+  "bodyHtml": "<p>Hello World!</p>\n<p>誕生日に買ってもらった iMac (21.5-inch, Late 2009)を起動した瞬間から、Apple に惚れこんでいるラクイシ（Twitter: @rakuishi07）といいます。愛知県のとある大学で微生物の研究をしている大学四年生です。</p>\n<p>以前は、Blogger（rakuishi.blogspot.com）という無料ブログサービスにてブログを書いていましたが、WordPress を触りたい、独自ドメインを取りたいという二つの理由が重なり、この度、rakuishi.com を開設しました。</p>\n<p>よろしくお願いします。</p>\n",
+  "dir": "static/content/archives",
+  "base": "2011-08-25-0001.json",
+  "ext": ".json",
+  "sourceBase": "2011-08-25-0001.md",
+  "sourceExt": ".md"
+}
