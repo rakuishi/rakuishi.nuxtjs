@@ -1,10 +1,11 @@
 <template>
-  <main>
-    <ul>
-      <li v-for="post in posts" :key="post.slug">
-        <nuxt-link :to="`/archives/${post.slug}`">{{ post.title }}</nuxt-link>
-      </li>
-    </ul>
+  <main role="main">
+    <article
+      v-for="post in posts" :key="post.slug"
+      itemscope itemtype="http://schema.org/Blog">
+      <h2 class="entry-title" itemprop="headline"><nuxt-link :to="`/archives/${post.slug}`">{{ post.title }}</nuxt-link></h2>
+      <span class="entry-meta"><time itemprop="datePublished" :datetime="post.date">{{ post.date }}</time></span>
+    </article>
   </main>
 </template>
 
@@ -22,7 +23,8 @@ export default {
       posts.push(post);
     });
     return {
-      posts: posts.reverse()
+      // TODO: Use pagination
+      posts: posts.reverse().splice(0, 25)
     };
   }
 };
