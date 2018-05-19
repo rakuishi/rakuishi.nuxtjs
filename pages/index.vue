@@ -2,7 +2,7 @@
   <main>
     <ul>
       <li v-for="post in posts" :key="post.slug">
-        {{ post.title }}
+        <nuxt-link :to="`/archives/${post.slug}`">{{ post.title }}</nuxt-link>
       </li>
     </ul>
   </main>
@@ -17,7 +17,9 @@ export default {
       const slug = sourceFile
         .replace(/^content\/archives\//, "")
         .replace(/\.md$/, "");
-      posts.push(index.fileMap[`static/content/archives/${slug}.json`]);
+      let post = index.fileMap[`static/content/archives/${slug}.json`];
+      post.slug = post.base.replace(/\.json$/, "");
+      posts.push(post);
     });
     return {
       posts: posts.reverse()
