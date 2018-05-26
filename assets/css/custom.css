@@ -75,6 +75,10 @@ main {
   margin: 2rem 0;
 }
 
+.footer-link a:not(:last-child) {
+  margin-right: 8px;
+}
+
 .hr {
   height: 1px;
   margin: 2rem 0;
