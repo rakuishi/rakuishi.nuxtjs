@@ -1,5 +1,7 @@
 # rakuishi.nuxtjs
 
+![](.github/hero.png)
+
 > Nuxt.js project
 
 ## Build Setup
